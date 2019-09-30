@@ -168,4 +168,4 @@ Thanks a lot for your help!
  
 I won't be held responsible if you mess up your game or saved game after using one of these fixes. You do it at your own risk!
  
-You're not allowed to put this document in raw form anywhere, out of respect (it took me almost 2 years to compile it). Just share the PasteBin link or redirect users to one of the threads below.
+You're not allowed to put this document in raw form anywhere, out of respect (it took me a year to compile it). Just share the GitHub link.
