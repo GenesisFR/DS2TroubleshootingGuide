@@ -2,17 +2,17 @@
 
 Shortcuts used throughout this document:
  
-BW = Broken World
-DS2 = Dungeon Siege 2
-GPU = Graphics Processing Unit (graphics card)
-MP = Multiplayer
-SP = Singleplayer
-<config-file> = "<path-to-docs>\DungeonSiege2.ini"
-<config-file-BW> = "<path-to-docs-LOA>\DungeonSiege2BrokenWorld.ini"
-<gpu-model> = actual name of your GPU (ex: "NVIDIA GeForce GTX 1070")
-<path-to-docs> = "%USERPROFILE%\Documents\My Games\Dungeon Siege 2"
-<path-to-docs-BW> = "%USERPROFILE%\Documents\My Games\Dungeon Siege 2 Broken World"
-<path-to-game> = your installation directory (ex: "%PROGRAMFILES(X86)%\Steam\steamapps\common\Dungeon Siege 2")
+BW = Broken World  
+DS2 = Dungeon Siege 2  
+GPU = Graphics Processing Unit (graphics card)  
+MP = Multiplayer  
+SP = Singleplayer  
+\<config-file\> = "\<path-to-docs\>\DungeonSiege2.ini"  
+\<config-file-BW\> = "\<path-to-docs-LOA\>\DungeonSiege2BrokenWorld.ini"  
+\<gpu-model\> = actual name of your GPU (ex: "NVIDIA GeForce GTX 1070")  
+\<path-to-docs\> = "%USERPROFILE%\Documents\My Games\Dungeon Siege 2"  
+\<path-to-docs-BW\> = "%USERPROFILE%\Documents\My Games\Dungeon Siege 2 Broken World"  
+\<path-to-game\> = your installation directory (ex: "%PROGRAMFILES(X86)%\Steam\steamapps\common\Dungeon Siege 2")
 
 Please note that while this document is based on the Steam version (combined with Killah's fix), I did my best to accommodate retail users and those not using BW. Some steps may be different and a few issues may not happen on the retail version.
 
@@ -27,7 +27,7 @@ Please note that while this document is based on the Steam version (combined wit
 == Change the FOV ==
 
 1. Download this archive: http://www.wsgf.org/f/u/contrib/dr/255/hacks/DS2%20Files.zip
-2. Place the correct file for your resolution in "<path-to-game>\Resources".
+2. Place the correct file for your resolution in "\<path-to-game\>\Resources".
 
 == Enable BW + Extras ==
 
@@ -35,7 +35,7 @@ Follow the instructions from Killah's guide: https://steamcommunity.com/sharedfi
 
 == Increase shadow resolution ==
  
-Open "<path-to-game>\system_detail.gas" and change the 4 occurrences of "shadow_tex_size = xxx" to something like 512/1024.
+Open "\<path-to-game\>\system_detail.gas" and change the 4 occurrences of "shadow_tex_size = xxx" to something like 512/1024.
 
 == Play online ==
 
@@ -92,7 +92,7 @@ For DS2BW (Killah's fix), use this executable: https://www.mediafire.com/file/9i
 
 It can be caused by literally anything. Here are a few common fixes I've gathered since I started playing this game:
  
-- Run "<path-to-game>\DSVideoConfig.exe" and switch your driver to "<gpu-model> - Hardware" (or its TnL equivalent).
+- Run "\<path-to-game\>\DSVideoConfig.exe" and switch your driver to "\<gpu-model\> - Hardware" (or its TnL equivalent).
 - Run the game as administrator.
 - Run the game in compatibility mode (try all of them).
 - Run the game from the executable instead of Steam.
@@ -117,16 +117,16 @@ If you see an error like "Impossible to start DungeonSiege2.exe (Broken World)!"
 
 == Elys DS2 Succubus Manager doesn't find BW ==
 
-If you see an error like "Dungeon Siege 2 Broken World installation directory was not found in the Windows registry!", download the Reg patcher from Killah's fix (see above) and run it from <path-to-game> (select option 2).
+If you see an error like "Dungeon Siege 2 Broken World installation directory was not found in the Windows registry!", download the Reg patcher from Killah's fix (see above) and run it from \<path-to-game\> (select option 2).
 
 == Install the Dungeon Siege 2 Tool Kit on the Steam version ==
 
-1. Download the Reg patcher from Killah's fix (see above) and run it from <path-to-game> (select option 1).
-2. If you're not using Killah's fix, place this file in <path-to-game> before running the installer: https://www.mediafire.com/file/90262526a2w34xu/SETUPENU.DLL
+1. Download the Reg patcher from Killah's fix (see above) and run it from \<path-to-game\> (select option 1).
+2. If you're not using Killah's fix, place this file in \<path-to-game\> before running the installer: https://www.mediafire.com/file/90262526a2w34xu/SETUPENU.DLL
 
 == Make DungeonSiege2Mod work on the Steam version ==
 
-Download the Reg patcher from Killah's fix (see above) and run it from <path-to-game> to make DungeonSiege2Mod find your game.
+Download the Reg patcher from Killah's fix (see above) and run it from \<path-to-game\> to make DungeonSiege2Mod find your game.
  
 DungeonSiege2Mod uses SmarteSecure DRM disc check so you'll need to have disc 1 of DS2 in your disc drive or it'll refuse to run.
 
@@ -136,9 +136,9 @@ Just mount the ISO with Windows 10 File Explorer or with a third party software 
 
 If you have a "Couldn't register file.tmp" popup followed by a SmarteSecure popup, it means the location you're trying to run it from has permission issues. Run DS2Mod as admin or move it elsewhere.
 
-You may also have a few "ATLCOMHelper Exception" popups. You can safely ignore those and DungeonSiege2Mod will run. To get rid of them, either use the DungeonSiege2Mod shortcut in the toolkit installation directory or place DungeonSiege2Mod in <path-to-game> and run it from there.
+You may also have a few "ATLCOMHelper Exception" popups. You can safely ignore those and DungeonSiege2Mod will run. To get rid of them, either use the DungeonSiege2Mod shortcut in the toolkit installation directory or place DungeonSiege2Mod in \<path-to-game\> and run it from there.
 
-Note: DungeonSiege2Mod isn't compatible with BW so move all files starting with 'x' in "<path-to-game>\Resources" somewhere else.
+Note: DungeonSiege2Mod isn't compatible with BW so move all files starting with 'x' in "\<path-to-game\>\Resources" somewhere else.
 
 ===== Links =====
 
