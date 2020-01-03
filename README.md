@@ -105,6 +105,22 @@ It can be caused by literally anything. Here are a few common fixes I've gathere
 
 See https://pcgamingwiki.com/wiki/Dungeon_Siege_II#No_mouse_cursor.
 
+== Save failed ==
+
+When trying to save the game, you may get a message saying "Save failed" and no save is created under \<path-to-docs\>.
+
+- Your antivirus/antimalware/ransomware protection is at fault. Add the game as an exception or disable it.
+- You have a username with special (non-latin) characters. Change your username so it only uses latin characters.
+- Run the game as admin.
+
+Note: it happens in a few other games too.
+
+Source: https://steamcommunity.com/app/39200/discussions/0/2619339453457265287
+
+== Saved games are not listed ==
+
+Saved games created while using different mods won't be displayed and therefore cannot be loaded. Run the game through Elys DS2 Succubus Manager to load them.
+
 ===== Modding =====
 
 == DS2TankViewer doesn't work ==
