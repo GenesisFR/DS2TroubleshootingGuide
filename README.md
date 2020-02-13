@@ -129,7 +129,7 @@ If the official DS2TankViewer doesn't start, you can try the unofficial TankView
 
 == Elys DS2 Succubus Manager cannot run DS2/BW ==
 
-If you see an error like "Impossible to start DungeonSiege2.exe (Broken World)!", run Succubus as admin.
+If you see an error like "Impossible to start DungeonSiege2.exe (Broken World)!", run Succubus as admin or in compatibility mode (try all of them).
 
 == Elys DS2 Succubus Manager doesn't find BW ==
 
