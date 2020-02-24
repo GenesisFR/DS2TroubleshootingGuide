@@ -37,6 +37,18 @@ Follow the instructions from Killah's guide: https://steamcommunity.com/sharedfi
  
 Open "\<path-to-game\>\system_detail.gas" and change the 4 occurrences of "shadow_tex_size = xxx" to something like 512/1024.
 
+== Increase UI size ==
+
+If you play the game at higher resolutions (like 1080p), the UI won't scale and will become tiny. There is a workaround that involves rendering the game at a specific resolution and the UI at a lower resolution (effectively making it bigger):
+
+1. Download the latest version of dgVoodoo2: http://dege.freeweb.hu/dgVoodoo2/dgVoodoo2.html
+2. Open the downloaded archive and extract dgVoodoo.conf, dgVoodooCpl.exe and "MS\x86\D3D9.dll" to \<path-to-game\>.
+3. Run dgVoodooCpl.exe, go to the DirectX tab and select "GeForce FX 5700 Ultra" from the Videocard drop down list (this will get rid of a warning at launch).
+4. From the same tab, select your native resolution from the Resolution drop down list and hit OK.
+5. Set the game at the resolution you want the UI to be scaled to (typically 720p or lower).
+
+Note: disable third-party overlays (like MSI Afterburner) if your game crashes at launch or slows down when moving the mouse.
+
 == Play online ==
 
 If you want to play online, there are 2 solutions that I can confirm are working: GameRanger and ZeroTier. Other virtual LAN softwares may work, but I haven't tried them (I never got Hamachi to let you see games though).
@@ -165,6 +177,7 @@ Note: DungeonSiege2Mod isn't compatible with BW so move all files starting with 
  
 This document wouldn't have been possible without the following people:
  
+- Antrad2020 (https://antonior-software.blogspot.com)
 - doa_92 (https://steamcommunity.com/id/doa_92)
 - Eibhleann#3066 (Discord)
 - Killah (https://steamcommunity.com/profiles/76561198156984417)
