@@ -117,6 +117,30 @@ It can be caused by literally anything. Here are a few common fixes I've gathere
 
 See https://pcgamingwiki.com/wiki/Dungeon_Siege_II#No_mouse_cursor.
 
+== Name is already in use ==
+
+This error occurs when hosting a LAN game because the game is using the wrong network adapter. You have to make it use another network adapter (preferably your virtual LAN network adapter) in one of these ways.
+
+Method 1:
+
+1. Go to "Control Panel -> Network and Sharing Centre -> Change adapter settings".
+2. Double-click on your virtual LAN network adapter (ex: ZeroTier).
+3. Make sure "Internet Protocol Version 6 (TCP IPv6)" is unchecked.
+4. Double-click on "Internet Protocol Version 4 (TCP IPv4)" (make sure it's checked).
+5. Click on Advanced.
+6. Uncheck "Automatic metric" and set it to 1.
+
+If it didn't work, revert your changes and try with your main network adapter.
+
+Method 2:
+
+1. Go to "Control Panel -> Network and Sharing Centre -> Change adapter settings".
+2. Disable your virtual LAN network adapter OR disable your main network adapter.
+3. Go back to your game and click on the "Local Network" button again.
+4. Reenable the network adapter you disabled in step 2.
+
+Note: only one network adapter must have its MTU set to 1 at any given time!
+
 == Save failed ==
 
 When trying to save the game, you may get a message saying "Save failed" and no save is created under \<path-to-docs\>.
