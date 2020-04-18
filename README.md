@@ -113,6 +113,13 @@ It can be caused by literally anything. Here are a few common fixes I've gathere
 - Some mods can conflict with each other. Find and remove conflicting mods.
 - Some mods don't work on BW. Find and remove incompatible mods, then look for similar mods compatible with BW.
 
+== LAN games are not visible ==
+
+1. Go to Control Panel -> Programs and Features -> Turn Windows features on or off -> Legacy Components -> Enable DirectPlay.
+2. Go to Control Panel -> Network and Sharing Centre -> Advanced sharing settings -> Turn on network discovery.
+
+Note: this is for physical LAN games (not VPN).
+
 == Mouse cursor is missing ==
 
 See https://pcgamingwiki.com/wiki/Dungeon_Siege_II#No_mouse_cursor.
@@ -123,7 +130,7 @@ This error occurs when hosting a LAN game because the game is using the wrong ne
 
 Method 1:
 
-1. Go to "Control Panel -> Network and Sharing Centre -> Change adapter settings".
+1. Go to Control Panel -> Network and Sharing Centre -> Change adapter settings.
 2. Double-click on your virtual LAN network adapter (ex: ZeroTier).
 3. Make sure "Internet Protocol Version 6 (TCP IPv6)" is unchecked.
 4. Double-click on "Internet Protocol Version 4 (TCP IPv4)" (make sure it's checked).
@@ -134,7 +141,7 @@ If it didn't work, revert your changes and try with your main network adapter.
 
 Method 2:
 
-1. Go to "Control Panel -> Network and Sharing Centre -> Change adapter settings".
+1. Go to Control Panel -> Network and Sharing Centre -> Change adapter settings.
 2. Disable your virtual LAN network adapter OR disable your main network adapter.
 3. Go back to your game and click on the "Local Network" button again.
 4. Reenable the network adapter you disabled in step 2.
@@ -208,7 +215,8 @@ This document wouldn't have been possible without the following people:
 - sadowson#5553 (Discord)
 - Whibbleton#5836 (Discord)
 - Wiesshund#1964 (Discord)
- 
+- Zeotile#9063 (Discord)
+
 And the following resources:
  
 - https://pcgamingwiki.com/wiki/Dungeon_Siege_II
