@@ -12,7 +12,7 @@ SP = Singleplayer
 \<gpu-model\> = actual name of your GPU (ex: "NVIDIA GeForce GTX 1070")  
 \<path-to-docs\> = "%USERPROFILE%\Documents\My Games\Dungeon Siege 2"  
 \<path-to-docs-BW\> = "%USERPROFILE%\Documents\My Games\Dungeon Siege 2 Broken World"  
-\<path-to-game\> = your installation directory (ex: "%PROGRAMFILES(X86)%\Steam\steamapps\common\Dungeon Siege 2")
+\<path-to-game\> = the game directory (ex: "%PROGRAMFILES(X86)%\Steam\steamapps\common\Dungeon Siege 2")
 
 Please note that while this document is based on the Steam version (combined with Killah's fix), I did my best to accommodate retail users and those not using BW. Some steps may be different and a few issues may not happen on the retail version.
 
@@ -67,9 +67,9 @@ Please note that these steps are for Windows 10. They may be slightly different 
 
 1. Create an account on https://www.zerotier.com and sign in.
 2. Download and install ZeroTier.
-3. Right click ZeroTier in the notification area of your taskbar.
-    3a. (If hosting) Select "Create+Join a network".
-    3b. (If joining) Select "Join Network...", input the network ID given to you by the user hosting, then skip to Step 13.
+3. Right click ZeroTier in the notification area of your taskbar.  
+    3a. (If hosting) Select "Create and Join Network".  
+    3b. (If joining) Select "Join Network...", input the network ID given to you by the user hosting (displayed under "Show Networks..."), then skip to Step 13.
 4. Right-click ZeroTier in the bottom right again
 5. Select "ZeroTier Central".
 6. Go to the Networks tab.
