@@ -65,11 +65,11 @@ Text version:
 
 Please note that these steps are for Windows 10. They may be slightly different on Windows 8.1 or lower.
 
-1. Create an account on https://www.zerotier.com and sign in.
-2. Download and install ZeroTier.
+1. Create an account on https://my.zerotier.com and sign in.
+2. Download, install and run ZeroTier.
 3. Right click ZeroTier in the notification area of your taskbar.  
-    3a. (If hosting) Select "Create and Join Network".  
-    3b. (If joining) Select "Join Network...", input the network ID given to you by the user hosting (displayed under "Show Networks..."), then skip to Step 13.
+    3a. (If hosting) Select "Create and Join Network" and hit Yes in the Windows network prompt.  
+    3b. (If joining) Select "Join Network...", input the network ID given to you by the user hosting (displayed under "Basics -> Network ID" in Step 7), then skip to Step 13.
 4. Right-click ZeroTier in the bottom right again
 5. Select "ZeroTier Central".
 6. Go to the Networks tab.
