@@ -114,6 +114,7 @@ It can be caused by literally anything. Here are a few common fixes I've gathere
 - Your latest saved game is corrupted, replace it with a backup.
 - Some mods can conflict with each other. Find and remove conflicting mods.
 - Some mods don't work on BW. Find and remove incompatible mods, then look for similar mods compatible with BW.
+- Make the game recognize your GPU: https://steamcommunity.com/sharedfiles/filedetails/?id=780053070
 
 == LAN games are not visible ==
 
