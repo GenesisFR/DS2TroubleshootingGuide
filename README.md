@@ -1,7 +1,7 @@
 # DS2TroubleshootingGuide
 
 Shortcuts used throughout this document:
- 
+
 BW = Broken World  
 DS2 = Dungeon Siege 2  
 GPU = Graphics Processing Unit (graphics card)  
@@ -213,7 +213,7 @@ This document wouldn't have been possible without the following people:
 - Antrad2020 (https://antonior-software.blogspot.com)
 - doa_92 (https://steamcommunity.com/id/doa_92)
 - Eibhleann#3066 (Discord)
-- Killah (https://steamcommunity.com/profiles/76561198156984417)
+- Killah
 - sadowson#5553 (Discord)
 - Whibbleton#5836 (Discord)
 - Wiesshund#1964 (Discord)
