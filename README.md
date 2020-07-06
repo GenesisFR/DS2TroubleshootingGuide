@@ -167,6 +167,14 @@ Source: https://steamcommunity.com/app/39200/discussions/0/2619339453457265287
 
 Saved games created while using different mods won't be displayed and therefore cannot be loaded. Run the game through Elys DS2 Succubus Manager to load them.
 
+== Video initialization failure ==
+
+The game is using a resolution that is not natively supported by your GPU. Several solutions are available:
+
+- Add a custom resolution (https://appuals.com/how-to-create-custom-resolutions-on-windows-7-8-or-10).
+- Use one of the standard resolutions (ex: 1024x768, 1280x720, 1920x1080).
+- Run the game in windowed mode.
+
 ===== Modding =====
 
 == DS2TankViewer doesn't work ==
