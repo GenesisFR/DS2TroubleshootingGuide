@@ -47,7 +47,7 @@ If you play the game at higher resolutions (like 1080p), the UI won't scale and 
 4. From the same tab, select your native resolution from the Resolution drop down list and hit OK.
 5. Set the game at the resolution you want the UI to be scaled to (typically 720p or lower).
 
-Note: disable third-party overlays (like MSI Afterburner) if your game crashes at launch or slows down when moving the mouse.
+Note: disable third-party overlays and frame limiters if your game crashes at launch or slows down when moving the mouse.
 
 == Play online ==
 
