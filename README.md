@@ -190,6 +190,13 @@ If you see an error like "Impossible to start DungeonSiege2.exe (Broken World)!"
 
 If you see an error like "Dungeon Siege 2 Broken World installation directory was not found in the Windows registry!", download the Reg patcher from Killah's fix (see above) and run it from \<path-to-game\> (select option 2).
 
+== Elys DS2 Succubus Manager doesn't load ==
+
+If you don't see the new races (nymph, succubus, vampire, daemon, drow) added by the modlet as well as the Succubus loading screen when starting/loading a game, it means Succubus somehow didn't load.
+
+- In Elys, make sure "Load Succubus Modlet" is checked.
+- Uninstall and reinstall Elys.
+
 == Install the Dungeon Siege 2 Tool Kit on the Steam version ==
 
 1. Download the Reg patcher from Killah's fix (see above) and run it from \<path-to-game\> (select option 1).
@@ -224,6 +231,7 @@ This document wouldn't have been possible without the following people:
 - doa_92 (https://steamcommunity.com/id/doa_92)
 - Eibhleann#3066 (Discord)
 - Killah
+- RandallTVandal#9569 (Discord)
 - sadowson#5553 (Discord)
 - Whibbleton#5836 (Discord)
 - Wiesshund#1964 (Discord)
