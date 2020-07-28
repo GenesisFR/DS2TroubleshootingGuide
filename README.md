@@ -192,7 +192,7 @@ If you see an error like "Dungeon Siege 2 Broken World installation directory wa
 
 == Elys DS2 Succubus Manager doesn't load ==
 
-If you don't see the new races (nymph, succubus, vampire, daemon, drow) added by the modlet as well as the Succubus loading screen when starting/loading a game, it means Succubus somehow didn't load.
+If you don't see the new races (nymph, succubus, vampire, daemon, drow) added by the modlet as well as the Elys loading screen when starting/loading a game, it means it somehow didn't load.
 
 - In Elys, make sure "Load Succubus Modlet" is checked.
 - Uninstall and reinstall Elys.
@@ -217,6 +217,10 @@ If you have a "Couldn't register file.tmp" popup followed by a SmarteSecure popu
 You may also have a few "ATLCOMHelper Exception" popups. You can safely ignore those and DungeonSiege2Mod will run. To get rid of them, either use the DungeonSiege2Mod shortcut in the toolkit installation directory or place DungeonSiege2Mod in \<path-to-game\> and run it from there.
 
 Note: DungeonSiege2Mod isn't compatible with BW so move all files starting with 'x' in "\<path-to-game\>\Resources" somewhere else.
+
+== Tank Creator doesn't work ==
+
+If nothing happens when clicking on the Create button in Tank Creator, make sure it's added to the exclusion list of your antivirus.
 
 ===== Links =====
 
