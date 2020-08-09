@@ -1,4 +1,37 @@
-# DS2TroubleshootingGuide
+# Dungeon Siege 2 Troubleshooting Guide
+
+## Table of Contents
+
+* [1.0 Glossary](#glossary)
+* [2.0 Guides](#guides)
+   * [1.1 Add the game on GameRanger](#add-the-game-on-gameranger)
+   * [1.2 Change the FOV](#change-the-fov)
+   * [1.3 Enable BW + Extras](#enable-bw--extras)
+   * [1.4 Increase shadow resolution](#increase-shadow-resolution)
+   * [1.5 Increase UI size](#increase-ui-size)
+   * [1.6 Play online](#play-online)
+* [3.0 Issues fixed](#issues-fixed)
+   * [1.1 Camera spinning too fast](#camera-spinning-too-fast)
+   * [1.2 Crash/exception](#crashexception)
+   * [1.3 LAN games are not visible](#lan-games-are-not-visible)
+   * [1.4 Mouse cursor is missing](#mouse-cursor-is-missing)
+   * [1.5 Name is already in use](#name-is-already-in-use)
+   * [1.6 Save failed](#save-failed)
+   * [1.7 Saved games are not listed](#saved-games-are-not-listed)
+   * [1.8 Video initialization failure](#video-initialization-failure)
+* [4.0 Modding](#modding)
+   * [1.1 DS2TankViewer doesn't work](#ds2tankviewer-doesnt-work)
+   * [1.2 Elys DS2 Succubus Manager cannot run DS2/BW](#elys-ds2-succubus-manager-cannot-run-ds2bw)
+   * [1.3 Elys DS2 Succubus Manager doesn't find BW](#elys-ds2-succubus-manager-doesnt-find-bw)
+   * [1.4 Elys DS2 Succubus Manager doesn't load](#elys-ds2-succubus-manager-doesnt-load)
+   * [1.5 Install the DS2 Tool Kit on the Steam version](#install-the-ds2-tool-kit-on-the-steam-version)
+   * [1.6 Make DungeonSiege2Mod work on the Steam version](#make-dungeonsiege2mod-work-on-the-steam-version)
+   * [1.7 Tank Creator doesn't work](#tank-creator-doesnt-work)
+* [5.0 Walkthroughs](#walkthroughs)
+* [6.0 Credits](#credits)
+* [7.0 Disclaimer](#disclaimer)
+
+# Glossary
 
 Shortcuts used throughout this document:
 
@@ -16,28 +49,28 @@ SP = Singleplayer
 
 Please note that while this document is based on the Steam version (combined with Killah's fix), I did my best to accommodate retail users and those not using BW. Some steps may be different and a few issues may not happen on the retail version.
 
-===== Guides =====
+# Guides =====
 
-== Add the game on GameRanger ==
+## Add the game on GameRanger
 
 1. Download and run https://amd989.github.io/Symlinker (it's just a front-end for the mklink command).
 2. In Symlinker, make a directory junction to your game directory in Program Files: https://cdn.discordapp.com/attachments/354176540960882689/538078046176149504/unknown.png
 3. In GameRanger, hit "Edit -> Options -> Games -> Dungeon Siege 2 -> Browse" then select "DungeonSiege2.exe" from Program Files: https://cdn.discordapp.com/attachments/354176540960882689/538081835608178700/unknown.png
 
-== Change the FOV ==
+## Change the FOV
 
 1. Download this archive: http://www.wsgf.org/f/u/contrib/dr/255/hacks/DS2%20Files.zip
 2. Place the correct file for your resolution in "\<path-to-game\>\Resources".
 
-== Enable BW + Extras ==
+## Enable BW + Extras
 
 Follow the instructions from Killah's guide: https://steamcommunity.com/sharedfiles/filedetails/?id=1165078098
 
-== Increase shadow resolution ==
+## Increase shadow resolution
  
 Open "\<path-to-game\>\system_detail.gas" and change the 4 occurrences of "shadow_tex_size = xxx" to something like 512/1024.
 
-== Increase UI size ==
+## Increase UI size
 
 If you play the game at higher resolutions (like 1080p), the UI won't scale and will become tiny. There is a workaround that involves rendering the game at a specific resolution and the UI at a lower resolution (effectively making it bigger):
 
@@ -49,11 +82,11 @@ If you play the game at higher resolutions (like 1080p), the UI won't scale and 
 
 Note: disable third-party overlays and frame limiters if your game crashes at launch or slows down when moving the mouse.
 
-== Play online ==
+## Play online
 
 If you want to play online, there are 2 solutions that I can confirm are working: GameRanger and ZeroTier. Other virtual LAN softwares may work, but I haven't tried them (I never got Hamachi to let you see games though).
 
-GameRanger is fairly easy to set up, just check the "Add the game on GameRanger" section and the rest will be pretty self-explanatory (you may need to port-forward UDP 16000). However, since the game is not run from Steam but from GameRanger, your hours won't be tracked. You also won't be able to use Elys DS2 Succubus Manager as GameRanger runs the original executable.
+GameRanger is fairly easy to set up, just check [Add the game on GameRanger](#add-the-game-on-gameranger) and the rest will be pretty self-explanatory (you may need to port-forward UDP 16000). However, since the game is not run from Steam but from GameRanger, your hours won't be tracked. You also won't be able to use Elys DS2 Succubus Manager as GameRanger runs the original executable.
 
 That's where ZeroTier comes into play. It's harder to set up but seems to work better and will allow you to use Elys DS2 Succubus Manager. Please follow the steps below to configure it.
 
@@ -93,16 +126,16 @@ Please note that these steps are for Windows 10. They may be slightly different 
 
 Note: if the ZeroTier adapter isn't listed at step 14, go to "C:\ProgramData\ZeroTier\One\tap-windows\x64", right-click "zttap300.inf" and hit Install.
 
-===== Issues fixed =====
+# Issues fixed
 
-== Camera spinning too fast ==
+## Camera spinning too fast
 
 This only happens when using middle-click while running the game in windowed mode through an executable that was hex-edited to show the mouse cursor while playing fullscreen.
 
 For DS2, use the original/Steam executable.
 For DS2BW (Killah's fix), use this executable: https://www.mediafire.com/file/9ivessmxpqapi9n/DungeonSiege2BW_windowed.exe
 
-== Crash/exception ==
+## Crash/exception
 
 It can be caused by literally anything. Here are a few common fixes I've gathered since I started playing this game:
  
@@ -116,18 +149,18 @@ It can be caused by literally anything. Here are a few common fixes I've gathere
 - Some mods don't work on BW. Find and remove incompatible mods, then look for similar mods compatible with BW.
 - Make the game recognize your GPU: https://steamcommunity.com/sharedfiles/filedetails/?id=780053070
 
-== LAN games are not visible ==
+## LAN games are not visible
 
 1. Go to Control Panel -> Programs and Features -> Turn Windows features on or off -> Legacy Components -> Enable DirectPlay.
 2. Go to Control Panel -> Network and Sharing Centre -> Advanced sharing settings -> Turn on network discovery.
 
 Note: this is for physical LAN games (not VPN).
 
-== Mouse cursor is missing ==
+## Mouse cursor is missing
 
 See https://pcgamingwiki.com/wiki/Dungeon_Siege_II#No_mouse_cursor.
 
-== Name is already in use ==
+## Name is already in use
 
 This error occurs when hosting a LAN game because the game is using the wrong network adapter. You have to make it use another network adapter (preferably your virtual LAN network adapter) in one of these ways.
 
@@ -151,7 +184,7 @@ Method 2:
 
 Note: only one network adapter must have its MTU set to 1 at any given time!
 
-== Save failed ==
+## Save failed
 
 When trying to save the game, you may get a message saying "Save failed" and no save is created under \<path-to-docs\>.
 
@@ -163,46 +196,46 @@ Note: it happens in a few other games too.
 
 Source: https://steamcommunity.com/app/39200/discussions/0/2619339453457265287
 
-== Saved games are not listed ==
+## Saved games are not listed
 
 Saved games created while using different mods won't be displayed and therefore cannot be loaded. Run the game through Elys DS2 Succubus Manager to load them.
 
-== Video initialization failure ==
+## Video initialization failure
 
 The game is using a resolution that is not natively supported by your GPU. The error may also happen when alt-tabbing. Several solutions are available:
 
 - Add a custom resolution (https://appuals.com/how-to-create-custom-resolutions-on-windows-7-8-or-10).
 - Use one of the standard resolutions (ex: 1024x768, 1280x720, 1920x1080).
 - Run the game in windowed mode.
-- Use dgVoodoo (check the "Increase UI size" section for installation instructions).
+- Use dgVoodoo (check [Increase UI size](#increase-ui-size) for installation instructions).
 
-===== Modding =====
+# Modding
 
-== DS2TankViewer doesn't work ==
+## DS2TankViewer doesn't work
 
 If the official DS2TankViewer doesn't start, you can try the unofficial TankViewer2 instead: https://www.siegetheday.org/?q=node/2951
 
-== Elys DS2 Succubus Manager cannot run DS2/BW ==
+## Elys DS2 Succubus Manager cannot run DS2/BW
 
 If you see an error like "Impossible to start DungeonSiege2.exe (Broken World)!", it may be because you're running the game as admin or in compatibility mode. Run Succubus as admin or in compatibility mode instead (try all of them).
 
-== Elys DS2 Succubus Manager doesn't find BW ==
+## Elys DS2 Succubus Manager doesn't find BW
 
 If you see an error like "Dungeon Siege 2 Broken World installation directory was not found in the Windows registry!", download the Reg patcher from Killah's fix (see above) and run it from \<path-to-game\> (select option 2).
 
-== Elys DS2 Succubus Manager doesn't load ==
+## Elys DS2 Succubus Manager doesn't load
 
 If you don't see the new races (nymph, succubus, vampire, daemon, drow) added by the modlet as well as the Elys loading screen when starting/loading a game, it means it somehow didn't load.
 
 - In Elys, make sure "Load Succubus Modlet" is checked.
 - Uninstall and reinstall Elys.
 
-== Install the Dungeon Siege 2 Tool Kit on the Steam version ==
+## Install the DS2 Tool Kit on the Steam version
 
 1. Download the Reg patcher from Killah's fix (see above) and run it from \<path-to-game\> (select option 1).
 2. If you're not using Killah's fix, place this file in \<path-to-game\> before running the installer: https://www.mediafire.com/file/90262526a2w34xu/SETUPENU.DLL
 
-== Make DungeonSiege2Mod work on the Steam version ==
+## Make DungeonSiege2Mod work on the Steam version
 
 Download the Reg patcher from Killah's fix (see above) and run it from \<path-to-game\> to make DungeonSiege2Mod find your game.
  
@@ -218,16 +251,16 @@ You may also have a few "ATLCOMHelper Exception" popups. You can safely ignore t
 
 Note: DungeonSiege2Mod isn't compatible with BW so move all files starting with 'x' in "\<path-to-game\>\Resources" somewhere else.
 
-== Tank Creator doesn't work ==
+## Tank Creator doesn't work
 
 If nothing happens when clicking on the Create button in Tank Creator, make sure it's added to the exclusion list of your antivirus.
 
-===== Links =====
+# Links
 
 - http://ds2.bplaced.net/sysdat/ ("system_detail.gas" configurator)
 - https://www.siegetheday.org/?q=node/1290 (Elys DS2 Succubus Manager v10)
 
-===== Credits =====
+# Credits
  
 This document wouldn't have been possible without the following people:
  
@@ -249,7 +282,7 @@ And the following resources:
  
 Thanks a lot for your help!
  
-===== Disclaimer =====
+# Disclaimer
  
 I won't be held responsible if you mess up your game or saved game after using one of these fixes. You do it at your own risk!
  
