@@ -27,7 +27,7 @@
    * [1.5 Install the DS2 Tool Kit on the Steam version](#install-the-ds2-tool-kit-on-the-steam-version)
    * [1.6 Make DungeonSiege2Mod work on the Steam version](#make-dungeonsiege2mod-work-on-the-steam-version)
    * [1.7 Tank Creator doesn't work](#tank-creator-doesnt-work)
-* [5.0 Walkthroughs](#walkthroughs)
+* [5.0 Links](#links)
 * [6.0 Credits](#credits)
 * [7.0 Disclaimer](#disclaimer)
 
@@ -49,7 +49,7 @@ SP = Singleplayer
 
 Please note that while this document is based on the Steam version (combined with Killah's fix), I did my best to accommodate retail users and those not using BW. Some steps may be different and a few issues may not happen on the retail version.
 
-# Guides =====
+# Guides
 
 ## Add the game on GameRanger
 
