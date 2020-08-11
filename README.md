@@ -47,7 +47,7 @@ SP = Singleplayer
 \<path-to-docs-BW\> = "%USERPROFILE%\Documents\My Games\Dungeon Siege 2 Broken World"  
 \<path-to-game\> = the game directory (ex: "%PROGRAMFILES(X86)%\Steam\steamapps\common\Dungeon Siege 2")
 
-Please note that while this document is based on the Steam version (combined with Killah's fix), I did my best to accommodate retail users and those not using BW. Some steps may be different and a few issues may not happen on the retail version.
+Please note that while this document is based on the Steam version (combined with [Killah's fix](#enable-bw--extras)), I did my best to accommodate retail users and those not using BW. Some steps may be different and a few issues may not happen on the retail version.
 
 # Guides
 
@@ -132,8 +132,8 @@ Note: if the ZeroTier adapter isn't listed at step 14, go to "C:\ProgramData\Zer
 
 This only happens when using middle-click while running the game in windowed mode through an executable that was hex-edited to show the mouse cursor while playing fullscreen.
 
-For DS2, use the original/Steam executable.
-For DS2BW (Killah's fix), use this executable: https://www.mediafire.com/file/9ivessmxpqapi9n/DungeonSiege2BW_windowed.exe
+- For DS2, use the original/Steam executable.
+- For DS2BW ([Killah's fix](#enable-bw--extras)), use this executable: https://www.mediafire.com/file/9ivessmxpqapi9n/DungeonSiege2BW_windowed.exe
 
 ## Crash/exception
 
@@ -221,7 +221,7 @@ If you see an error like "Impossible to start DungeonSiege2.exe (Broken World)!"
 
 ## Elys DS2 Succubus Manager doesn't find BW
 
-If you see an error like "Dungeon Siege 2 Broken World installation directory was not found in the Windows registry!", download the Reg patcher from Killah's fix (see above) and run it from \<path-to-game\> (select option 2).
+If you see an error like "Dungeon Siege 2 Broken World installation directory was not found in the Windows registry!", download the reg patch from [Killah's fix](#enable-bw--extras) and run it from \<path-to-game\> (select option 2).
 
 ## Elys DS2 Succubus Manager doesn't load
 
@@ -232,12 +232,12 @@ If you don't see the new races (nymph, succubus, vampire, daemon, drow) added by
 
 ## Install the DS2 Tool Kit on the Steam version
 
-1. Download the Reg patcher from Killah's fix (see above) and run it from \<path-to-game\> (select option 1).
+1. Download the reg patch from [Killah's fix](#enable-bw--extras) and run it from \<path-to-game\> (select option 1).
 2. If you're not using Killah's fix, place this file in \<path-to-game\> before running the installer: https://www.mediafire.com/file/90262526a2w34xu/SETUPENU.DLL
 
 ## Make DungeonSiege2Mod work on the Steam version
 
-Download the Reg patcher from Killah's fix (see above) and run it from \<path-to-game\> to make DungeonSiege2Mod find your game.
+Download the reg patch from [Killah's fix](#enable-bw--extras) and run it from \<path-to-game\> to make DungeonSiege2Mod find your game.
  
 DungeonSiege2Mod uses SmarteSecure DRM disc check so you'll need to have disc 1 of DS2 in your disc drive or it'll refuse to run.
 
