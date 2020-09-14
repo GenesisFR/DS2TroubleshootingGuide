@@ -269,8 +269,8 @@ If nothing happens when clicking on the Create button in Tank Creator, make sure
  
 This document wouldn't have been possible without the following people:
  
-- Antrad2020 (https://antonior-software.blogspot.com)
-- doa_92 (https://steamcommunity.com/id/doa_92)
+- [Antrad2020](https://antonior-software.blogspot.com)
+- [doa_92](https://steamcommunity.com/id/doa_92)
 - Eibhleann#3066 (Discord)
 - Killah
 - RandallTVandal#9569 (Discord)
@@ -291,4 +291,4 @@ Thanks a lot for your help!
  
 I won't be held responsible if you mess up your game or saved game after using one of these fixes. You do it at your own risk!
  
-You're not allowed to put this document in raw form anywhere, out of respect (it took me a year to compile it). Just share the GitHub link.
+You're not allowed to put this document in raw form anywhere, out of respect (it took me 2 years to compile it). Just share the GitHub link.
