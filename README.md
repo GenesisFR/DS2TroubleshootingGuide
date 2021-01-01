@@ -120,7 +120,7 @@ Please note that these steps are for Windows 10. They may be slightly different 
 13. In Windows, go to "Control Panel -> Network and Sharing Center".
 14. Double-click on the adapter named "ZeroTier One" followed by the network ID (it's a 16-characters alphanumeric string).
 15. Click on Configure.
-16. Go the Advanced tab, set "Non-Admin Access" to Allowed and click OK.
+16. Go to the Advanced tab, set "Non-Admin Access" to Allowed and click on OK.
 17. Make sure "Internet Protocol Version 6 (TCP IPv6)" is unchecked.
 18. Double-click on "Internet Protocol Version 4 (TCP IPv4)".
 19. Make sure both "Obtain an IP address automatically" and "Obtain DNS server address automatically" are selected.
