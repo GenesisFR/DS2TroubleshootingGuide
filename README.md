@@ -18,7 +18,8 @@
    * [1.5 Name is already in use](#name-is-already-in-use)
    * [1.6 Save failed](#save-failed)
    * [1.7 Saved games are not listed](#saved-games-are-not-listed)
-   * [1.8 Video initialization failure](#video-initialization-failure)
+   * [1.8 Stutters when moving the mouse](#stutters-when-moving-the-mouse)
+   * [1.9 Video initialization failure](#video-initialization-failure)
 * [4.0 Modding](#modding)
    * [1.1 DS2TankViewer doesn't work](#ds2tankviewer-doesnt-work)
    * [1.2 Elys DS2 Succubus Manager cannot run DS2/BW](#elys-ds2-succubus-manager-cannot-run-ds2bw)
@@ -204,6 +205,10 @@ Source: https://steamcommunity.com/app/39200/discussions/0/2619339453457265287
 ## Saved games are not listed
 
 Saved games created while using different mods won't be displayed and therefore cannot be loaded. Run the game through Elys DS2 Succubus Manager to load them.
+
+## Stutters when moving the mouse
+
+Revert or update your GPU drivers.
 
 ## Video initialization failure
 
