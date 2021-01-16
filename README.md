@@ -13,13 +13,14 @@
 * [3.0 Issues fixed](#issues-fixed)
    * [1.1 Camera spinning too fast](#camera-spinning-too-fast)
    * [1.2 Crash/exception](#crashexception)
-   * [1.3 LAN games are not visible](#lan-games-are-not-visible)
-   * [1.4 Mouse cursor is missing](#mouse-cursor-is-missing)
-   * [1.5 Name is already in use](#name-is-already-in-use)
-   * [1.6 Save failed](#save-failed)
-   * [1.7 Saved games are not listed](#saved-games-are-not-listed)
-   * [1.8 Stutters when moving the mouse](#stutters-when-moving-the-mouse)
-   * [1.9 Video initialization failure](#video-initialization-failure)
+   * [1.3 Join button doesn't work](#join-button-doesnt-work)
+   * [1.4 LAN games are not visible](#lan-games-are-not-visible)
+   * [1.5 Mouse cursor is missing](#mouse-cursor-is-missing)
+   * [1.6 Name is already in use](#name-is-already-in-use)
+   * [1.7 Save failed](#save-failed)
+   * [1.8 Saved games are not listed](#saved-games-are-not-listed)
+   * [1.9 Stutters when moving the mouse](#stutters-when-moving-the-mouse)
+   * [1.10 Video initialization failure](#video-initialization-failure)
 * [4.0 Modding](#modding)
    * [1.1 DS2TankViewer doesn't work](#ds2tankviewer-doesnt-work)
    * [1.2 Elys DS2 Succubus Manager cannot run DS2/BW](#elys-ds2-succubus-manager-cannot-run-ds2bw)
@@ -155,6 +156,10 @@ It can be caused by literally anything. Here are a few common fixes I've gathere
 - Some mods don't work on BW. Find and remove incompatible mods, then look for similar mods compatible with BW.
 - Make the game recognize your GPU: https://steamcommunity.com/sharedfiles/filedetails/?id=780053070
 
+## Join button doesn't work
+
+In the MP lobby, if nothing happens when clicking the Join button, make sure everyone has the same mods and executable (DS2 doesn't display a warning like in [DS1](https://github.com/GenesisFR/DS1TroubleshootingGuide#incompatible-version)).
+
 ## LAN games are not visible
 
 1. Go to Control Panel -> Programs and Features -> Turn Windows features on or off -> Legacy Components -> Enable DirectPlay.
@@ -279,6 +284,7 @@ This document wouldn't have been possible without the following people:
 - Eibhleann#3066 (Discord)
 - Killah
 - RandallTVandal#9569 (Discord)
+- shockingboring#0041 (Discord)
 - sadowson#5553 (Discord)
 - Whibbleton#5836 (Discord)
 - Wiesshund#1964 (Discord)
