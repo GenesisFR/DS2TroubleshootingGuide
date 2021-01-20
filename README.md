@@ -15,12 +15,13 @@
    * [1.2 Crash/exception](#crashexception)
    * [1.3 Join button doesn't work](#join-button-doesnt-work)
    * [1.4 LAN games are not visible](#lan-games-are-not-visible)
-   * [1.5 Mouse cursor is missing](#mouse-cursor-is-missing)
-   * [1.6 Name is already in use](#name-is-already-in-use)
-   * [1.7 Save failed](#save-failed)
-   * [1.8 Saved games are not listed](#saved-games-are-not-listed)
-   * [1.9 Stutters when moving the mouse](#stutters-when-moving-the-mouse)
-   * [1.10 Video initialization failure](#video-initialization-failure)
+   * [1.5 Missing/corrupted DLLs](#missingcorrupted-dlls)
+   * [1.6 Mouse cursor is missing](#mouse-cursor-is-missing)
+   * [1.7 Name is already in use](#name-is-already-in-use)
+   * [1.8 Save failed](#save-failed)
+   * [1.9 Saved games are not listed](#saved-games-are-not-listed)
+   * [1.10 Stutters when moving the mouse](#stutters-when-moving-the-mouse)
+   * [1.11 Video initialization failure](#video-initialization-failure)
 * [4.0 Modding](#modding)
    * [1.1 DS2TankViewer doesn't work](#ds2tankviewer-doesnt-work)
    * [1.2 Elys DS2 Succubus Manager cannot run DS2/BW](#elys-ds2-succubus-manager-cannot-run-ds2bw)
@@ -167,6 +168,15 @@ In the MP lobby, if nothing happens when clicking the Join button, make sure eve
 
 Note: this is for physical LAN games (not VPN).
 
+## Missing/corrupted DLLs
+
+If you see an error about a missing/corrupted DLL, copy the following DLLs from "\<path-to-game\>\system\" to "\<path-to-game\>\":
+
+- binkw32.dll
+- mss32.dll
+
+Somehow the game can't find them on some systems. This makes sure it does.
+
 ## Mouse cursor is missing
 
 See https://pcgamingwiki.com/wiki/Dungeon_Siege_II#No_mouse_cursor.
@@ -282,6 +292,7 @@ This document wouldn't have been possible without the following people:
 - [Antrad2020](https://antonior-software.blogspot.com)
 - [doa_92](https://steamcommunity.com/id/doa_92)
 - Eibhleann#3066 (Discord)
+- [loadedpinky137](https://steamcommunity.com/id/Now_Loading247)
 - Killah
 - RandallTVandal#9569 (Discord)
 - shockingboring#0041 (Discord)
