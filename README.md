@@ -179,7 +179,8 @@ Somehow the game can't find them on some systems. This makes sure it does.
 
 ## Mouse cursor is missing
 
-See https://pcgamingwiki.com/wiki/Dungeon_Siege_II#No_mouse_cursor.
+For DS2, see https://pcgamingwiki.com/wiki/Dungeon_Siege_II#No_mouse_cursor.  
+For BW, use [Killah's fix](#enable-bw--extras).
 
 ## Name is already in use
 
