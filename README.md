@@ -223,7 +223,7 @@ Saved games created while using different mods won't be displayed and therefore 
 
 ## Stutters when moving the mouse
 
-Revert or update your GPU drivers.
+This is caused by the NVIDIA drivers for Cyberpunk (460.79). The problem is still not fixed as of 461.40 so the only workaround is to use older drivers.
 
 ## Video initialization failure
 
