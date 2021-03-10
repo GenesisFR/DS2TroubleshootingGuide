@@ -56,7 +56,7 @@ Please note that while this document is based on the Steam version (combined wit
 
 ## Add the game on GameRanger
 
-1. Download and run https://amd989.github.io/Symlinker (click on "Download Standalone Executable"). It's a front-end for the mklink command.
+1. Download and run [Symlinker](https://amd989.github.io/Symlinker) (click on "Download Standalone Executable"). It's a front-end for the mklink command.
 2. In Symlinker, make a directory junction to your game directory in Program Files:
 
    ![](https://cdn.discordapp.com/attachments/354176540960882689/752654319890989176/unknown.png)
@@ -67,12 +67,12 @@ Please note that while this document is based on the Steam version (combined wit
 
 ## Change the FOV
 
-1. Download this archive: http://www.wsgf.org/f/u/contrib/dr/255/hacks/DS2%20Files.zip
+1. Download this [archive](http://www.wsgf.org/f/u/contrib/dr/255/hacks/DS2%20Files.zip).
 2. Place the correct file for your resolution in "\<path-to-game\>\Resources".
 
 ## Enable BW + Extras
 
-Follow the instructions from Killah's guide: https://steamcommunity.com/sharedfiles/filedetails/?id=1165078098
+Follow the instructions from [Killah's guide](https://steamcommunity.com/sharedfiles/filedetails/?id=1165078098).
 
 ## Increase shadow resolution
  
@@ -82,7 +82,7 @@ Open "\<path-to-game\>\system_detail.gas" and change the 4 occurrences of "shado
 
 If you play the game at higher resolutions (like 1080p), the UI won't scale and will become tiny. There is a workaround that involves rendering the game at a specific resolution and the UI at a lower resolution (effectively making it bigger):
 
-1. Download the latest version of dgVoodoo2: http://dege.freeweb.hu/dgVoodoo2/dgVoodoo2
+1. Download the latest version of [dgVoodoo2](http://dege.freeweb.hu/dgVoodoo2/dgVoodoo2).
 2. Open the downloaded archive and extract dgVoodoo.conf, dgVoodooCpl.exe and "MS\x86\D3D9.dll" to \<path-to-game\>.
 3. Run dgVoodooCpl.exe, go to the DirectX tab and select "GeForce FX 5700 Ultra" from the Videocard drop down list (this will get rid of a warning at launch).
 4. From the same tab, select your native resolution from the Resolution drop down list and hit OK.
@@ -141,7 +141,7 @@ Note: if the ZeroTier adapter isn't listed at step 14, go to "C:\ProgramData\Zer
 This only happens when using middle-click while running the game in windowed mode through an executable that was hex-edited to show the mouse cursor while playing fullscreen.
 
 - For DS2, use the original/Steam executable.
-- For DS2BW ([Killah's fix](#enable-bw--extras)), use this executable: https://www.mediafire.com/file/9ivessmxpqapi9n/DungeonSiege2BW_windowed.exe
+- For DS2BW ([Killah's fix](#enable-bw--extras)), use this [executable](https://www.mediafire.com/file/9ivessmxpqapi9n/DungeonSiege2BW_windowed.exe).
 
 ## Crash/exception
 
@@ -155,7 +155,7 @@ It can be caused by literally anything. Here are a few common fixes I've gathere
 - Your latest saved game is corrupted, replace it with a backup.
 - Some mods can conflict with each other. Find and remove conflicting mods.
 - Some mods don't work on BW. Find and remove incompatible mods, then look for similar mods compatible with BW.
-- Make the game recognize your GPU: https://steamcommunity.com/sharedfiles/filedetails/?id=780053070
+- Make the game recognize your GPU with this [guide](https://steamcommunity.com/sharedfiles/filedetails/?id=780053070).
 
 ## Join button doesn't work
 
@@ -179,7 +179,7 @@ Somehow the game can't find them on some systems. This makes sure it does.
 
 ## Mouse cursor is missing
 
-For DS2, see https://pcgamingwiki.com/wiki/Dungeon_Siege_II#No_mouse_cursor.  
+For DS2, see [PCGamingWiki](https://pcgamingwiki.com/wiki/Dungeon_Siege_II#No_mouse_cursor).  
 For BW, use [Killah's fix](#enable-bw--extras).
 
 ## Name is already in use
@@ -230,7 +230,7 @@ This is caused by the NVIDIA drivers for Cyberpunk (460.79). The problem is stil
 
 The game is using a resolution that is not natively supported by your GPU. The error may also happen when alt-tabbing. Several solutions are available:
 
-- Add a custom resolution (https://appuals.com/how-to-create-custom-resolutions-on-windows-7-8-or-10).
+- Add a [custom resolution](https://appuals.com/how-to-create-custom-resolutions-on-windows-7-8-or-10).
 - Use one of the standard resolutions (ex: 1024x768, 1280x720, 1920x1080).
 - Run the game in windowed mode.
 - Use dgVoodoo (check [Increase UI size](#increase-ui-size) for installation instructions).
@@ -239,7 +239,7 @@ The game is using a resolution that is not natively supported by your GPU. The e
 
 ## DS2TankViewer doesn't work
 
-If the official DS2TankViewer doesn't start, you can try the unofficial TankViewer2 instead: https://www.siegetheday.org/?q=node/2951
+If the official DS2TankViewer doesn't start, you can try the [unofficial TankViewer2](https://www.siegetheday.org/?q=node/2951) instead.
 
 ## Elys Succubus Manager cannot run DS2/BW
 
@@ -259,7 +259,7 @@ If you don't see the new races (nymph, succubus, vampire, daemon, drow) added by
 ## Install the DS2 Tool Kit on the Steam version
 
 1. Download the [reg patch](https://github.com/GenesisFR/DungeonSiegeRegPatches) and run it from \<path-to-game\> (select option 1).
-2. If you're not using Killah's fix, you must also place this file in \<path-to-game\> before running the installer: https://www.mediafire.com/file/90262526a2w34xu/SETUPENU.DLL
+2. If you're not using Killah's fix, you must also place this [file](https://www.mediafire.com/file/90262526a2w34xu/SETUPENU.DLL) in \<path-to-game\> before running the installer.
 
 ## Make DungeonSiege2Mod work on the Steam version
 
@@ -267,7 +267,7 @@ Download the [reg patch](https://github.com/GenesisFR/DungeonSiegeRegPatches) an
  
 DungeonSiege2Mod uses SmarteSecure DRM disc check so you'll need to have disc 1 of DS2 in your disc drive or it'll refuse to run.
 
-If you don't want to go this route, I created a mini image that will satisfy the disc check: https://www.mediafire.com/file/zuib6l7xjjx6nvc/DS2_1+mini+image.iso
+If you don't want to go this route, I created a [mini image](https://www.mediafire.com/file/zuib6l7xjjx6nvc/DS2_1+mini+image.iso) that will satisfy the disc check.
 
 Just mount the ISO with Windows 10 File Explorer or with a third party software (like WinCDEmu) before running DungeonSiege2Mod.
 
