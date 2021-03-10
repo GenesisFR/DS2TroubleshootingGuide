@@ -24,9 +24,9 @@
    * [1.11 Video initialization failure](#video-initialization-failure)
 * [4.0 Modding](#modding)
    * [1.1 DS2TankViewer doesn't work](#ds2tankviewer-doesnt-work)
-   * [1.2 Elys DS2 Succubus Manager cannot run DS2/BW](#elys-ds2-succubus-manager-cannot-run-ds2bw)
-   * [1.3 Elys DS2 Succubus Manager doesn't find BW](#elys-ds2-succubus-manager-doesnt-find-bw)
-   * [1.4 Elys DS2 Succubus Manager doesn't load](#elys-ds2-succubus-manager-doesnt-load)
+   * [1.2 Elys Succubus Manager cannot run DS2/BW](#elys-succubus-manager-cannot-run-ds2bw)
+   * [1.3 Elys Succubus Manager doesn't find BW](#elys-succubus-manager-doesnt-find-bw)
+   * [1.4 Elys Succubus Manager doesn't load](#elys-succubus-manager-doesnt-load)
    * [1.5 Install the DS2 Tool Kit on the Steam version](#install-the-ds2-tool-kit-on-the-steam-version)
    * [1.6 Make DungeonSiege2Mod work on the Steam version](#make-dungeonsiege2mod-work-on-the-steam-version)
    * [1.7 Tank Creator doesn't work](#tank-creator-doesnt-work)
@@ -224,7 +224,7 @@ Saved games created while using different mods won't be displayed and therefore 
 
 ## Stutters when moving the mouse
 
-This is caused by the NVIDIA drivers for Cyberpunk (460.79). The problem is still not fixed as of 461.40 so the only workaround is to use older drivers.
+This is caused by the NVIDIA drivers for Cyberpunk (460.79). The problem is still not fixed as of 461.72 so the only workaround is to use older drivers. You can use this [link](https://www.nvidia.com/Download/Find.aspx?lang=en-us) to find them.
 
 ## Video initialization failure
 
@@ -241,15 +241,15 @@ The game is using a resolution that is not natively supported by your GPU. The e
 
 If the official DS2TankViewer doesn't start, you can try the unofficial TankViewer2 instead: https://www.siegetheday.org/?q=node/2951
 
-## Elys DS2 Succubus Manager cannot run DS2/BW
+## Elys Succubus Manager cannot run DS2/BW
 
 If you see an error like "Impossible to start DungeonSiege2.exe (Broken World)!", it may be because you're running the game as admin or in compatibility mode. Run Succubus as admin or in compatibility mode instead (try all of them).
 
-## Elys DS2 Succubus Manager doesn't find BW
+## Elys Succubus Manager doesn't find BW
 
 If you see an error like "Dungeon Siege 2 Broken World installation directory was not found in the Windows registry!", download the [reg patch](https://github.com/GenesisFR/DungeonSiegeRegPatches) and run it from \<path-to-game\> (select option 2).
 
-## Elys DS2 Succubus Manager doesn't load
+## Elys Succubus Manager doesn't load
 
 If you don't see the new races (nymph, succubus, vampire, daemon, drow) added by the modlet as well as the Elys loading screen when starting/loading a game, it means it somehow didn't load.
 
