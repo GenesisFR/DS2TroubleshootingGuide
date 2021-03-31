@@ -258,7 +258,7 @@ The game is using a resolution that is not natively supported by your GPU. The e
 
 ## You cannot run Dungeon Siege II in a resolution higher than your desktop
 
-Lower the game's height (see method 2 of [Use unsupported resolutions](https://github.com/GenesisFR/DS1TroubleshootingGuide#use-unsupported-resolutions)) so that it corresponds to your desktop's height minus at least 40 pixels (it can be more) to account for the borders (ex: 1920x1080 -\> 1920x1040).
+Lower the game's height (see [Playing Dungeon Siege 2 with a Custom Resolution](https://www.wsgf.org/dr/dungeon-siege-ii)) so that it corresponds to your desktop's height minus at least 40 pixels (it can be more) to account for the borders (ex: 1920x1080 -\> 1920x1040).
 
 # Modding
 
