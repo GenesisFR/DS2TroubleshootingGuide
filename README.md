@@ -24,6 +24,7 @@
    * [1.9 Saved games are not listed](#saved-games-are-not-listed)
    * [1.10 Stutters when moving the mouse](#stutters-when-moving-the-mouse)
    * [1.11 Video initialization failure](#video-initialization-failure)
+   * [1.12 You cannot run Dungeon Siege II in a resolution higher than your desktop](#you-cannot-run-dungeon-siege-ii-in-a-resolution-higher-than-your-desktop)
 * [4.0 Modding](#modding)
    * [1.1 DS2TankViewer doesn't work](#ds2tankviewer-doesnt-work)
    * [1.2 Elys Succubus Manager cannot run DS2/BW](#elys-succubus-manager-cannot-run-ds2bw)
@@ -254,6 +255,10 @@ The game is using a resolution that is not natively supported by your GPU. The e
 - Use one of the standard resolutions (ex: 1024x768, 1280x720, 1920x1080).
 - Run the game in [windowed](#play-windowed) mode.
 - Use dgVoodoo (check [Increase UI size](#increase-ui-size) for installation instructions).
+
+## You cannot run Dungeon Siege II in a resolution higher than your desktop
+
+Lower the game's height (see method 2 of [Use unsupported resolutions](https://github.com/GenesisFR/DS1TroubleshootingGuide#use-unsupported-resolutions)) so that it corresponds to your desktop's height minus at least 40 pixels (it can be more) to account for the borders (ex: 1920x1080 -\> 1920x1040).
 
 # Modding
 
