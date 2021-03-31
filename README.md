@@ -9,7 +9,9 @@
    * [1.3 Enable BW + Extras](#enable-bw--extras)
    * [1.4 Increase shadow resolution](#increase-shadow-resolution)
    * [1.5 Increase UI size](#increase-ui-size)
-   * [1.6 Play online](#play-online)
+   * [1.6 Play borderless fullscreen](#play-borderless-fullscreen)
+   * [1.7 Play online](#play-online)
+   * [1.8 Play windowed](#play-windowed)
 * [3.0 Issues fixed](#issues-fixed)
    * [1.1 Camera spinning too fast](#camera-spinning-too-fast)
    * [1.2 Crash/exception](#crashexception)
@@ -90,6 +92,18 @@ If you play the game at higher resolutions (like 1080p), the UI won't scale and 
 
 Note: disable third-party overlays and frame limiters if your game crashes at launch or slows down when moving the mouse.
 
+## Play borderless fullscreen
+
+There are multiple programs that allow games to run borderless fullscreen (you can find an exhaustive list [here](https://www.pcgamingwiki.com/wiki/Glossary:Borderless_fullscreen_windowed)), however for the sake of simplicity, we'll only cover one of them here.
+
+1. Download [Fullscreenizer](https://github.com/KasumiL5x/Fullscreenizer/releases/tag/v1.0) and run it.
+2. Run the game in [windowed](#play-windowed) mode.
+3. Switch back to Fullscreenizer.
+4. If the game doesn't appear in the list, click on "Show All", select "Dungeon Siege II" and click on "Add".
+5. Select the game in the list and press the Fullscreenize button (or use your hotkey combination), preferably after loading a game.
+
+Note: the main menu UI has a fixed resolution and will be broken, repeat step 5 again to make the game windowed again.
+
 ## Play online
 
 If you want to play online, there are 2 solutions that I can confirm are working: GameRanger and ZeroTier. Other virtual LAN softwares may work, but I haven't tried them (I never got Hamachi to let you see games though).
@@ -133,6 +147,10 @@ Please note that these steps are for Windows 10. They may be slightly different 
 23. Attempt to host/join via Local Network in Dungeon Siege 2.
 
 Note: if the ZeroTier adapter isn't listed at step 14, go to "C:\ProgramData\ZeroTier\One\tap-windows\x64", right-click "zttap300.inf" and hit Install.
+
+## Play windowed
+
+Add the "fullscreen=false" launch parameter. See the following instructions for [Steam](https://www.pcgamingwiki.com/wiki/Glossary:Command_line_arguments#Steam) and [GOG Galaxy](https://www.pcgamingwiki.com/wiki/Glossary:Command_line_arguments#GOG_Galaxy_2.0).
 
 # Issues fixed
 
@@ -232,7 +250,7 @@ The game is using a resolution that is not natively supported by your GPU. The e
 
 - Add a [custom resolution](https://appuals.com/how-to-create-custom-resolutions-on-windows-7-8-or-10).
 - Use one of the standard resolutions (ex: 1024x768, 1280x720, 1920x1080).
-- Run the game in windowed mode.
+- Run the game in [windowed](#play-windowed) mode.
 - Use dgVoodoo (check [Increase UI size](#increase-ui-size) for installation instructions).
 
 # Modding
