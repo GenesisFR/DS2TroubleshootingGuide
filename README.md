@@ -173,10 +173,12 @@ It can be caused by literally anything. Here are a few common fixes I've gathere
 - Run the game in compatibility mode (try all of them).
 - Run the game from the executable instead of Steam.
 - Run the game on your other GPU (if you have one).
+- Run the game [windowed](#play-windowed).
 - Your latest saved game is corrupted, replace it with a backup.
 - Some mods can conflict with each other. Find and remove conflicting mods.
 - Some mods don't work on BW. Find and remove incompatible mods, then look for similar mods compatible with BW.
 - Make the game recognize your GPU with this [guide](https://steamcommunity.com/sharedfiles/filedetails/?id=780053070).
+- Use [dgVoodoo2](http://dege.freeweb.hu/dgVoodoo2/dgVoodoo2.html).
 
 ## Join button doesn't work
 
