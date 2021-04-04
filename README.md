@@ -151,7 +151,7 @@ Note: if the ZeroTier adapter isn't listed at step 14, go to "C:\ProgramData\Zer
 
 ## Play windowed
 
-Add the "fullscreen=false" launch parameter. See the following instructions for [Steam](https://www.pcgamingwiki.com/wiki/Glossary:Command_line_arguments#Steam) and [GOG Galaxy](https://www.pcgamingwiki.com/wiki/Glossary:Command_line_arguments#GOG_Galaxy_2.0).
+Add the "fullscreen=false" launch parameter. See the following instructions for [shortcuts](https://www.pcgamingwiki.com/wiki/Glossary:Command_line_arguments#Desktop_shortcuts), [Steam](https://www.pcgamingwiki.com/wiki/Glossary:Command_line_arguments#Steam) or [GOG Galaxy](https://www.pcgamingwiki.com/wiki/Glossary:Command_line_arguments#GOG_Galaxy_2.0).
 
 Note: the instructions from [Increase UI size](#increase-ui-size) will not work in windowed mode.
 
