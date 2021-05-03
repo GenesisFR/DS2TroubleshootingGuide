@@ -109,7 +109,7 @@ Note: the main menu UI has a fixed resolution and will be broken, repeat step 5 
 
 If you want to play online, there are 2 solutions that I can confirm are working: GameRanger and ZeroTier. Other virtual LAN softwares may work, but I haven't tried them (I never got Hamachi to let you see games though).
 
-GameRanger is fairly easy to set up, just check [Add the game on GameRanger](#add-the-game-on-gameranger) and the rest will be pretty self-explanatory (you may need to port-forward UDP 16000). However, since the game is not run from Steam but from GameRanger, your hours won't be tracked. You also won't be able to use Elys DS2 Succubus Manager as GameRanger runs the original executable.
+GameRanger is fairly easy to set up, just check [Add the game on GameRanger](#add-the-game-on-gameranger) and the rest will be pretty self-explanatory (you may need to [port-forward](https://portforward.com/router.htm) UDP 16000). However, since the game is not run from Steam but from GameRanger, your hours won't be tracked. You also won't be able to use Elys DS2 Succubus Manager as GameRanger runs the original executable.
 
 That's where ZeroTier comes into play. It's harder to set up but seems to work better and will allow you to use Elys DS2 Succubus Manager. Please follow the steps below to configure it.
 
@@ -136,7 +136,7 @@ Please note that these steps are for Windows 10. They may be slightly different 
 11. Under "Advanced -> IPv6 Auto-Assign", make sure all boxes are unchecked.
 12. Under "Advanced -> Broadcast", check the box labeled "Enable Broadcast (ff:ff:ff:ff:ff:ff)".
 13. In Windows, go to "Control Panel -> Network and Sharing Center".
-14. Double-click on the adapter named "ZeroTier One" followed by the network ID (it's a 16-characters alphanumeric string).
+14. Double-click on the adapter named "ZeroTier One" followed by the network ID (it's a 16-characters alphanumeric string). If it's not in the list, go to "C:\ProgramData\ZeroTier\One\tap-windows\x64", right-click "zttap300.inf" and hit Install.
 15. Click on Configure.
 16. Go to the Advanced tab, set "Non-Admin Access" to Allowed and click on OK.
 17. Make sure "Internet Protocol Version 6 (TCP IPv6)" is unchecked.
@@ -146,8 +146,6 @@ Please note that these steps are for Windows 10. They may be slightly different 
 21. Uncheck "Automatic metric" and set it to 1 (this will ensure the game uses the ZeroTier adapter instead of your main network adapter).
 22. Hit OK until all windows are closed.
 23. Attempt to host/join via Local Network in Dungeon Siege 2.
-
-Note: if the ZeroTier adapter isn't listed at step 14, go to "C:\ProgramData\ZeroTier\One\tap-windows\x64", right-click "zttap300.inf" and hit Install.
 
 ## Play windowed
 
@@ -186,8 +184,8 @@ In the MP lobby, if nothing happens when clicking the Join button, make sure eve
 
 ## LAN games are not visible
 
-1. Go to Control Panel -> Programs and Features -> Turn Windows features on or off -> Legacy Components -> Enable DirectPlay.
-2. Go to Control Panel -> Network and Sharing Centre -> Advanced sharing settings -> Turn on network discovery.
+1. Go to "Control Panel -> Programs and Features -> Turn Windows features on or off -> Legacy Components" and enable DirectPlay.
+2. Go to "Control Panel -> Network and Sharing Centre -> Advanced sharing settings" and turn on network discovery.
 
 Note: this is for physical LAN games (not VPN).
 
@@ -211,21 +209,22 @@ This error occurs when hosting a LAN game because the game is using the wrong ne
 
 Method 1:
 
-1. Go to Control Panel -> Network and Sharing Centre -> Change adapter settings.
+1. Go to "Control Panel -> Network and Sharing Centre -> Change adapter settings".
 2. Double-click on your virtual LAN network adapter (ex: ZeroTier).
 3. Make sure "Internet Protocol Version 6 (TCP IPv6)" is unchecked.
 4. Double-click on "Internet Protocol Version 4 (TCP IPv4)" (make sure it's checked).
 5. Click on Advanced.
-6. Uncheck "Automatic metric" and set it to 1.
+6. Uncheck "Automatic metric" (MTU) and set it to 1.
 
 If it didn't work, revert your changes and try with your main network adapter.
 
 Method 2:
 
-1. Go to Control Panel -> Network and Sharing Centre -> Change adapter settings.
+1. Go to "Control Panel -> Network and Sharing Centre -> Change adapter settings".
 2. Disable your virtual LAN network adapter OR disable your main network adapter.
-3. Go back to your game and click on the "Local Network" button again.
-4. Reenable the network adapter you disabled in step 2.
+3. If you have other network adapters, disable them as well.
+4. Go back to your game and click on the "Local Network" button again.
+5. Reenable the network adapter you disabled in step 2.
 
 Note: only one network adapter must have its MTU set to 1 at any given time!
 
