@@ -62,11 +62,11 @@ Please note that while this document is based on the Steam version (combined wit
 1. Download and run [Symlinker](https://amd989.github.io/Symlinker) (click on "Download Standalone Executable"). It's a front-end for the mklink command.
 2. In Symlinker, make a directory junction to your game directory in Program Files:
 
-   ![](https://cdn.discordapp.com/attachments/354176540960882689/752654319890989176/unknown.png)
+   ![Symlinker](https://user-images.githubusercontent.com/3614449/119590630-1c79df00-bda3-11eb-89a1-e6fe1aa3d7e2.png)
 
 3. In GameRanger, hit "Edit -\> Options -\> Games -\> Dungeon Siege 2 -\> Browse" then select "DungeonSiege2.exe" from Program Files:
 
-   ![](https://cdn.discordapp.com/attachments/354176540960882689/752655137390067872/unknown.png)
+   ![GameRanger](https://user-images.githubusercontent.com/3614449/119590645-269bdd80-bda3-11eb-92b4-857678803ee2.png)
 
 ## Change the FOV
 
