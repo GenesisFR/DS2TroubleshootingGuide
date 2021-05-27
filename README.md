@@ -20,19 +20,25 @@
    * [3.5 Missing/corrupted DLLs](#missingcorrupted-dlls)
    * [3.6 Mouse cursor is missing](#mouse-cursor-is-missing)
    * [3.7 Name is already in use](#name-is-already-in-use)
-   * [3.8 Save failed](#save-failed)
-   * [3.9 Saved games are not listed](#saved-games-are-not-listed)
-   * [3.10 Stutters when moving the mouse](#stutters-when-moving-the-mouse)
-   * [3.11 Video initialization failure](#video-initialization-failure)
-   * [3.12 You cannot run Dungeon Siege II in a resolution higher than your desktop](#you-cannot-run-dungeon-siege-ii-in-a-resolution-higher-than-your-desktop)
+   * [3.8 Runtime Error (R6025 - pure virtual function call)](#runtime-error-R6025---pure-virtual-function-call)
+   * [3.9 Save failed](#save-failed)
+   * [3.10 Saved games are not listed](#saved-games-are-not-listed)
+   * [3.11 Stutters when moving the mouse](#stutters-when-moving-the-mouse)
+   * [3.12 The dragon doesn't land in Snowbrook Haven](#the-dragon-doesnt-land-in-snowbrook-haven)
+   * [3.13 Video initialization failure](#video-initialization-failure)
+   * [3.14 Window is offscreen](#window-is-offscreen)
+   * [3.15 You cannot run Dungeon Siege II in a resolution higher than your desktop](#you-cannot-run-dungeon-siege-ii-in-a-resolution-higher-than-your-desktop)
+   * [3.16 Your hardware configuration is below minimum specification](#your-hardware-configuration-is-below-minimum-specification)
 * [4.0 Modding](#modding)
-   * [4.1 DS2TankViewer doesn't work](#ds2tankviewer-doesnt-work)
-   * [4.2 Elys Succubus Manager cannot run DS2/BW](#elys-succubus-manager-cannot-run-ds2bw)
-   * [4.3 Elys Succubus Manager doesn't find BW](#elys-succubus-manager-doesnt-find-bw)
-   * [4.4 Elys Succubus Manager doesn't load](#elys-succubus-manager-doesnt-load)
-   * [4.5 Install the DS2 Tool Kit on the Steam version](#install-the-ds2-tool-kit-on-the-steam-version)
-   * [4.6 Make DungeonSiege2Mod work on the Steam version](#make-dungeonsiege2mod-work-on-the-steam-version)
-   * [4.7 Tank Creator doesn't work](#tank-creator-doesnt-work)
+   * [4.1 DS2Mod crashes at launch](#ds2mod-crashes-at-launch)
+   * [4.2 DS2TankViewer doesn't work](#ds2tankviewer-doesnt-work)
+   * [4.3 Elys Succubus Manager cannot run DS2/BW](#elys-succubus-manager-cannot-run-ds2bw)
+   * [4.4 Elys Succubus Manager doesn't find BW](#elys-succubus-manager-doesnt-find-bw)
+   * [4.5 Elys Succubus Manager doesn't load](#elys-succubus-manager-doesnt-load)
+   * [4.6 Install the DS2 Tool Kit on the Steam version](#install-the-ds2-tool-kit-on-the-steam-version)
+   * [4.7 Make DungeonSiege2Mod work on the Steam version](#make-dungeonsiege2mod-work-on-the-steam-version)
+   * [4.8 Remove a tank protection](#remove-a-tank-protection)
+   * [4.9 Tank Creator doesn't work](#tank-creator-doesnt-work)
 * [5.0 Links](#links)
 * [6.0 Credits](#credits)
 * [7.0 Disclaimer](#disclaimer)
@@ -166,7 +172,7 @@ This only happens when using middle-click while running the game in windowed mod
 
 It can be caused by literally anything. Here are a few common fixes I've gathered since I started playing this game:
  
-- Run "\<path-to-game\>\DSVideoConfig.exe" and switch your driver to "\<gpu-model\> - Hardware" (or its TnL equivalent).
+- Run "\<path-to-game\>\DS2VideoConfig.exe" and switch your driver to "\<gpu-model\> - Hardware" (or its TnL equivalent).
 - Run the game as administrator.
 - Run the game in compatibility mode (try all of them).
 - Run the game from the executable instead of Steam.
@@ -191,7 +197,7 @@ Note: this is for physical LAN games (not VPN).
 
 ## Missing/corrupted DLLs
 
-If you see an error about a missing/corrupted DLL, copy the following DLLs from "\<path-to-game\>\system\" to "\<path-to-game\>\":
+If you see an error about a missing/corrupted DLL, copy the following DLLs from "\<path-to-game\>\system\" to \<path-to-game\>\:
 
 - binkw32.dll
 - mss32.dll
@@ -228,6 +234,12 @@ Method 2:
 
 Note: only one network adapter must have its MTU set to 1 at any given time!
 
+## Runtime Error (R6025 - pure virtual function call)
+
+Remove the Aranna Legacy mod.
+
+Source: https://discord.com/channels/373223103985090581/400744824593973248/703096876739854397
+
 ## Save failed
 
 When trying to save the game, you may get a message saying "Save failed" and no save is created under \<path-to-docs\>.
@@ -248,6 +260,14 @@ Saved games created while using different mods won't be displayed and therefore 
 
 This is caused by the NVIDIA drivers for Cyberpunk (460.79). The problem was fixed in 466.11. If it's still not fixed for you for some reason, use older drivers. You can use this [link](https://www.nvidia.com/Download/Find.aspx?lang=en-us) to find them.
 
+## The dragon doesn't land in Snowbrook Haven
+
+1. Download this [file](http://ds-old.gemsite.org/download_get.php?get=download/dragfix.zip&id=41).
+2. Extract it to "\<path-to-game\>\Resources".
+3. Talk to the commander and the dragon quest will be completed.
+
+Source: https://steamcommunity.com/app/39200/discussions/0/792924412399466600/#c3005551013347010720
+
 ## Video initialization failure
 
 The game is using a resolution that is not natively supported by your GPU. The error may also happen when alt-tabbing. Several solutions are available:
@@ -257,11 +277,25 @@ The game is using a resolution that is not natively supported by your GPU. The e
 - Run the game in [windowed](#play-windowed) mode.
 - Use dgVoodoo (check [Increase UI size](#increase-ui-size) for installation instructions).
 
+## Window is offscreen
+
+Add "x=0 y=0" to your launch parameters. See the following instructions for [shortcuts](https://www.pcgamingwiki.com/wiki/Glossary:Command_line_arguments#Desktop_shortcuts), [Steam](https://www.pcgamingwiki.com/wiki/Glossary:Command_line_arguments#Steam) or [GOG Galaxy](https://www.pcgamingwiki.com/wiki/Glossary:Command_line_arguments#GOG_Galaxy_2.0).
+
+Source: https://steamcommunity.com/app/39200/discussions/0/846955554677340085/#c1692669912401473624
+
 ## You cannot run Dungeon Siege II in a resolution higher than your desktop
 
 Lower the game's height (see [Playing Dungeon Siege 2 with a Custom Resolution](https://www.wsgf.org/dr/dungeon-siege-ii)) so that it corresponds to your desktop's height minus at least 40 pixels (it can be more) to account for the borders (ex: 1920x1080 -\> 1920x1040).
 
+## Your hardware configuration is below minimum specification
+
+Add your GPU to "\<path-to-game\>\system_detail.gas" with this [guide](https://steamcommunity.com/sharedfiles/filedetails/?id=780053070).
+
 # Modding
+
+## DS2Mod crashes at launch
+
+DS2Mod, just like DS2, doesn't launch when BW is installed. Move "\<path-to-game\>\Resources\xLogic.ds2res" to another folder.
 
 ## DS2TankViewer doesn't work
 
@@ -303,6 +337,14 @@ You may also have a few "ATLCOMHelper Exception" popups. You can safely ignore t
 
 Note: DungeonSiege2Mod isn't compatible with BW so move all files starting with 'x' in "\<path-to-game\>\Resources" somewhere else.
 
+## Remove a tank protection
+
+1. Open your protected tank with an Hex Editor.
+2. Go to offset 38 and replace 04 by 00.
+3. Save the file.
+
+Source: https://www.facebook.com/groups/DungeonSiegeForever/permalink/814904645815105/?comment_id=814930495812520
+
 ## Tank Creator doesn't work
 
 If nothing happens when clicking on the Create button in Tank Creator, make sure it's added to the exclusion list of your antivirus.
@@ -324,9 +366,10 @@ This document wouldn't have been possible without the following people:
 - RandallTVandal#9569 (Discord)
 - shockingboring#0041 (Discord)
 - sadowson#5553 (Discord)
-- Whibbleton#5836 (Discord)
+- Whibbles#5836 (Discord)
 - Wiesshund#1964 (Discord)
 - Zeotile#9063 (Discord)
+- Zhixalom
 
 And the following resources:
  
