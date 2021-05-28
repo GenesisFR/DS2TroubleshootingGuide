@@ -66,6 +66,15 @@ Please note that while this document is based on the Steam version (combined wit
 
 ## Add the game on GameRanger
 
+Method 1:
+
+1. Download the [reg patch](https://github.com/GenesisFR/DungeonSiegeRegPatches) and run it from \<path-to-game\> (select option 3).
+2. In GameRanger, hit "Edit -\> Options -\> Games -\> Dungeon Siege 2 -\> Browse" then select "DungeonSiege2.exe" from Program Files:
+
+   ![GameRanger](https://user-images.githubusercontent.com/3614449/119590645-269bdd80-bda3-11eb-92b4-857678803ee2.png)
+
+Method 2:
+
 1. Download and run [Symlinker](https://amd989.github.io/Symlinker) (click on "Download Standalone Executable"). It's a front-end for the mklink command.
 2. In Symlinker, make a directory junction to your game directory in Program Files:
 
@@ -377,6 +386,7 @@ This document wouldn't have been possible without the following people:
 - sadowson#5553 (Discord)
 - Whibbles#5836 (Discord)
 - Wiesshund#1964 (Discord)
+- [YOU](https://steamcommunity.com/profiles/76561198312562551)
 - Zeotile#9063 (Discord)
 - Zhixalom
 
