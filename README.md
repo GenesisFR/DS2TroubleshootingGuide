@@ -13,23 +13,24 @@
    * [2.7 Play online](#play-online)
    * [2.8 Play windowed](#play-windowed)
 * [3.0 Issues fixed](#issues-fixed)
-   * [3.1 Camera spinning too fast](#camera-spinning-too-fast)
-   * [3.2 Crash/exception](#crashexception)
-   * [3.3 Join button doesn't work](#join-button-doesnt-work)
-   * [3.4 LAN games are not visible](#lan-games-are-not-visible)
-   * [3.5 Missing/corrupted DLLs](#missingcorrupted-dlls)
-   * [3.6 Mouse cursor is missing](#mouse-cursor-is-missing)
-   * [3.7 Name is already in use](#name-is-already-in-use)
-   * [3.8 Runtime Error (R6025 - pure virtual function call)](#runtime-error-R6025---pure-virtual-function-call)
-   * [3.9 Save failed](#save-failed)
-   * [3.10 Saved games are not listed](#saved-games-are-not-listed)
-   * [3.11 Stutters when moving the mouse](#stutters-when-moving-the-mouse)
-   * [3.12 The dragon doesn't land in Snowbrook Haven](#the-dragon-doesnt-land-in-snowbrook-haven)
-   * [3.13 The rebels don't become hostile during The Kalrathian Rebellion](#the-rebels-dont-become-hostile-during-the-kalrathian-rebellion)
-   * [3.14 Video initialization failure](#video-initialization-failure)
-   * [3.15 Window is offscreen](#window-is-offscreen)
-   * [3.16 You cannot run Dungeon Siege II in a resolution higher than your desktop](#you-cannot-run-dungeon-siege-ii-in-a-resolution-higher-than-your-desktop)
-   * [3.17 Your hardware configuration is below minimum specification](#your-hardware-configuration-is-below-minimum-specification)
+   * [3.1 BW doesn't find DS2](#bw-doesnt-find-ds2)
+   * [3.2 Camera spinning too fast](#camera-spinning-too-fast)
+   * [3.3 Crash/exception](#crashexception)
+   * [3.4 Join button doesn't work](#join-button-doesnt-work)
+   * [3.5 LAN games are not visible](#lan-games-are-not-visible)
+   * [3.6 Missing/corrupted DLLs](#missingcorrupted-dlls)
+   * [3.7 Mouse cursor is missing](#mouse-cursor-is-missing)
+   * [3.8 Name is already in use](#name-is-already-in-use)
+   * [3.9 Runtime Error (R6025 - pure virtual function call)](#runtime-error-R6025---pure-virtual-function-call)
+   * [3.10 Save failed](#save-failed)
+   * [3.11 Saved games are not listed](#saved-games-are-not-listed)
+   * [3.12 Stutters when moving the mouse](#stutters-when-moving-the-mouse)
+   * [3.13 The dragon doesn't land in Snowbrook Haven](#the-dragon-doesnt-land-in-snowbrook-haven)
+   * [3.14 The rebels don't become hostile during The Kalrathian Rebellion](#the-rebels-dont-become-hostile-during-the-kalrathian-rebellion)
+   * [3.15 Video initialization failure](#video-initialization-failure)
+   * [3.16 Window is offscreen](#window-is-offscreen)
+   * [3.17 You cannot run Dungeon Siege II in a resolution higher than your desktop](#you-cannot-run-dungeon-siege-ii-in-a-resolution-higher-than-your-desktop)
+   * [3.18 Your hardware configuration is below minimum specification](#your-hardware-configuration-is-below-minimum-specification)
 * [4.0 Modding](#modding)
    * [4.1 DS2Mod crashes at launch](#ds2mod-crashes-at-launch)
    * [4.2 DS2TankViewer doesn't work](#ds2tankviewer-doesnt-work)
@@ -170,6 +171,10 @@ Add the "fullscreen=false" launch parameter. See the following instructions for 
 Note: the instructions from [Increase UI size](#increase-ui-size) will not work in windowed mode.
 
 # Issues fixed
+
+## BW doesn't find DS2
+
+If you see an error saying "A fatal error has occurred and the app must shut down. In order to play Dungeon Siege 2: Broken World, you msut first install the full version Dungeon Siege 2." (it only shows up when running the game in windowed mode), download the [reg patch](https://github.com/GenesisFR/DungeonSiegeRegPatches) and run it from \<path-to-game\> (select option 1).
 
 ## Camera spinning too fast
 
