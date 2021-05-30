@@ -41,9 +41,10 @@
    * [4.7 Make DungeonSiege2Mod work on the Steam version](#make-dungeonsiege2mod-work-on-the-steam-version)
    * [4.8 Remove a tank protection](#remove-a-tank-protection)
    * [4.9 Tank Creator doesn't work](#tank-creator-doesnt-work)
-* [5.0 Links](#links)
-* [6.0 Credits](#credits)
-* [7.0 Disclaimer](#disclaimer)
+* [5.0 Walkthroughs](#walkthroughs)
+* [6.0 Links](#links)
+* [7.0 Credits](#credits)
+* [8.0 Disclaimer](#disclaimer)
 
 # Glossary
 
@@ -372,6 +373,10 @@ Source: https://www.facebook.com/groups/DungeonSiegeForever/permalink/8149046458
 
 If nothing happens when clicking on the Create button in Tank Creator, make sure it's added to the exclusion list of your antivirus.
 
+# Walkthroughs
+
+https://steamcommunity.com/sharedfiles/filedetails/?id=388250453
+
 # Links
 
 - http://ds2.bplaced.net/sysdat/ ("system_detail.gas" configurator)
@@ -393,7 +398,7 @@ This document wouldn't have been possible without the following people:
 - Wiesshund#1964 (Discord)
 - [YOU](https://steamcommunity.com/profiles/76561198312562551)
 - Zeotile#9063 (Discord)
-- Zhixalom
+- [Zhixalom](https://www.zhixalom.com/lair)
 
 And the following resources:
  
