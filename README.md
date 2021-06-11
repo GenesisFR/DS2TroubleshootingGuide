@@ -175,7 +175,7 @@ Note: the instructions from [Increase UI size](#increase-ui-size) will not work 
 
 ## BW doesn't find DS2
 
-If you see an error saying "A fatal error has occurred and the app must shut down. In order to play Dungeon Siege 2: Broken World, you msut first install the full version Dungeon Siege 2." (it only shows up when running the game in windowed mode), download the [reg patch](https://github.com/GenesisFR/DungeonSiegeRegPatches) and run it from \<path-to-game\> (select option 1).
+If you see an error saying "A fatal error has occurred and the app must shut down. In order to play Dungeon Siege 2: Broken World, you must first install the full version Dungeon Siege 2." (it only shows up when running the game in windowed mode), download the [reg patch](https://github.com/GenesisFR/DungeonSiegeRegPatches) and run it from \<path-to-game\> (select option 1).
 
 ## Camera spinning too fast
 
