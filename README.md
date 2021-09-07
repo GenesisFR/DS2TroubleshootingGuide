@@ -198,7 +198,7 @@ It can be caused by literally anything. Here are a few common fixes I've gathere
 - Some mods can conflict with each other. Find and remove conflicting mods.
 - Some mods don't work on BW. Find and remove incompatible mods, then look for similar mods compatible with BW.
 - Make the game recognize your GPU with this [guide](https://steamcommunity.com/sharedfiles/filedetails/?id=780053070).
-- Use [dgVoodoo2](http://dege.freeweb.hu/dgVoodoo2/dgVoodoo2.html).
+- Use [dgVoodoo2](http://dege.freeweb.hu/dgVoodoo2/dgVoodoo2).
 
 ## Join button doesn't work
 
@@ -299,7 +299,7 @@ The game is using a resolution that is not natively supported by your GPU. The e
 - Add a [custom resolution](https://appuals.com/how-to-create-custom-resolutions-on-windows-7-8-or-10).
 - Use one of the standard resolutions (ex: 1024x768, 1280x720, 1920x1080).
 - Run the game in [windowed](#play-windowed) mode.
-- Use dgVoodoo (check [Increase UI size](#increase-ui-size) for installation instructions).
+- Use dgVoodoo2 (check [Increase UI size](#increase-ui-size) for installation instructions).
 
 ## Window is offscreen
 
