@@ -109,7 +109,12 @@ If you play the game at higher resolutions (like 1080p), the UI won't scale and 
 4. From the same tab, select your native resolution from the Resolution drop down list and hit OK.
 5. Set the game at the resolution you want the UI to be scaled to (typically 720p or lower).
 
-Note: disable third-party overlays and frame limiters if your game crashes at launch or slows down when moving the mouse.
+You may encounter two issues when using dgVoodoo2:
+
+- if your game crashes at launch or slows down when moving the mouse, disable third-party overlays and frame limiters.
+- if you see a Windows cursor flicker in the middle of your screen, just tab out and tab back in.
+
+Note: these instructions won't work while running the game in windowed mode.
 
 ## Play borderless fullscreen
 
@@ -168,8 +173,6 @@ Please note that these steps are for Windows 10. They may be slightly different 
 ## Play windowed
 
 Add the "fullscreen=false" launch parameter. See the following instructions for [shortcuts](https://www.pcgamingwiki.com/wiki/Glossary:Command_line_arguments#Desktop_shortcuts), [Steam](https://www.pcgamingwiki.com/wiki/Glossary:Command_line_arguments#Steam) or [GOG Galaxy](https://www.pcgamingwiki.com/wiki/Glossary:Command_line_arguments#GOG_Galaxy_2.0).
-
-Note: the instructions from [Increase UI size](#increase-ui-size) will not work in windowed mode.
 
 # Issues fixed
 
