@@ -382,8 +382,17 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=388250453
 
 # Links
 
+- https://discord.gg/PPsdY3D (unofficial community Discord)
 - http://ds2.bplaced.net/sysdat/ ("system_detail.gas" configurator)
+- https://dungeonsiege.fandom.com/wiki/Dungeon_Siege_II (DS2 wiki)
+- https://dungeonsiege.fandom.com/wiki/Dungeon_Siege_II:_Broken_World (BW wiki)
+- https://www.facebook.com/groups/DungeonSiegeForever (unofficial Facebook page)
+- https://www.moddb.com/games/dungeon-siege-ii-broken-world/mods (BW mods)
+- https://www.nexusmods.com/dungeonsiegeii (mods)
+- https://www.siegetheday.org (unofficial community)
 - https://www.siegetheday.org/?q=node/1290 (Elys DS2 Succubus Manager v10)
+- https://steamcommunity.com/groups/DungeonSiegeOfficialGroup (unofficial Steam group)
+- https://www.zhixalom.com/lair/category/dungeon-siege-2 (DS2 mods)
 
 # Credits
  
