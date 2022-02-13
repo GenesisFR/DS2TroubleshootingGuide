@@ -391,7 +391,7 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=388250453
 - https://www.nexusmods.com/dungeonsiegeii (mods)
 - https://www.siegetheday.org (unofficial community)
 - https://www.siegetheday.org/?q=node/1290 (Elys DS2 Succubus Manager v10)
-- https://steamcommunity.com/groups/DungeonSiegeOfficialGroup (unofficial Steam group)
+- https://steamcommunity.com/groups/TheKingdomOfEhb (Steam group)
 - https://www.zhixalom.com/lair/category/dungeon-siege-2 (DS2 mods)
 
 # Credits
