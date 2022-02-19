@@ -90,6 +90,7 @@ Method 2:
 
 1. Download this [archive](http://www.wsgf.org/f/u/contrib/dr/255/hacks/DS2%20Files.zip).
 2. Place the correct file for your resolution in "\<path-to-game\>\Resources".
+3. Copy the file "\<path-to-game\>\maps\World.ds2map" to the "\<path-to-game\>\Resources" folder and rename it as "World.ds2res".
 
 ## Enable BW + Extras
 
@@ -146,7 +147,7 @@ Please note that these steps are for Windows 10. They may be slightly different 
 
 1. Create an account on https://my.zerotier.com and sign in.
 2. Download, install and run ZeroTier.
-3. Right click ZeroTier in the notification area of your taskbar.  
+3. Right-click ZeroTier in the notification area of your taskbar.  
     3a. (If hosting) Select "Create and Join Network" and hit Yes in the Windows network prompt.  
     3b. (If joining) Select "Join Network...", input the network ID given to you by the user hosting (displayed under "Basics -> Network ID" in Step 7), then skip to Step 13.
 4. Right-click ZeroTier in the bottom right again
