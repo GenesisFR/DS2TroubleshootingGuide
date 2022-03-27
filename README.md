@@ -227,8 +227,8 @@ Somehow the game can't find them on some systems. This makes sure it does.
 ## Mouse cursor is missing
 
 For DS2, see [PCGamingWiki](https://pcgamingwiki.com/wiki/Dungeon_Siege_II#No_mouse_cursor).  
-For BW, use [Killah's fix](#enable-bw--extras).
-You can also use [WineD3D for Windows](https://fdossena.com/?p=wined3d/index.frag), just place d3d9.dll and wined3d.dll in \<path-to-game\>.
+For BW, use [Killah's fix](#enable-bw--extras).  
+You can also use [WineD3D for Windows](https://fdossena.com/?p=wined3d/index.frag), just place d3d9.dll and wined3d.dll in \<path-to-game\>.  
 
 ## Name is already in use
 
@@ -348,7 +348,7 @@ If you don't see the new races (nymph, succubus, vampire, daemon, drow) added by
 ## Install the DS2 Tool Kit on the Steam version
 
 1. Download the [reg patch](https://github.com/GenesisFR/RegPatches) and run it from \<path-to-game\> (select option 1).
-2. If you're not using [Killah's fix](#enable-bw--extras)), you must also place this [file](https://www.mediafire.com/file/90262526a2w34xu/SETUPENU.DLL) in \<path-to-game\> before running the installer.
+2. If you're not using [Killah's fix](#enable-bw--extras), you must also place this [file](https://www.mediafire.com/file/90262526a2w34xu/SETUPENU.DLL) in \<path-to-game\> before running the installer.
 
 ## Make DungeonSiege2Mod work on the Steam version
 
