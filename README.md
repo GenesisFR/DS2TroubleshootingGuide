@@ -32,15 +32,16 @@
    * [3.17 You cannot run Dungeon Siege II in a resolution higher than your desktop](#you-cannot-run-dungeon-siege-ii-in-a-resolution-higher-than-your-desktop)
    * [3.18 Your hardware configuration is below minimum specification](#your-hardware-configuration-is-below-minimum-specification)
 * [4.0 Modding](#modding)
-   * [4.1 DS2Mod crashes at launch](#ds2mod-crashes-at-launch)
-   * [4.2 DS2TankViewer doesn't work](#ds2tankviewer-doesnt-work)
-   * [4.3 Elys Succubus Manager cannot run DS2/BW](#elys-succubus-manager-cannot-run-ds2bw)
-   * [4.4 Elys Succubus Manager doesn't find BW](#elys-succubus-manager-doesnt-find-bw)
-   * [4.5 Elys Succubus Manager doesn't load](#elys-succubus-manager-doesnt-load)
-   * [4.6 Install the DS2 Tool Kit on the Steam version](#install-the-ds2-tool-kit-on-the-steam-version)
-   * [4.7 Make DungeonSiege2Mod work on the Steam version](#make-dungeonsiege2mod-work-on-the-steam-version)
-   * [4.8 Remove a tank protection](#remove-a-tank-protection)
-   * [4.9 Tank Creator doesn't work](#tank-creator-doesnt-work)
+   * [4.1 Cannot apply the All\*Saves fix](#cannot-apply-the-all-*saves-fix)
+   * [4.2 DS2Mod crashes at launch](#ds2mod-crashes-at-launch)
+   * [4.3 DS2TankViewer doesn't work](#ds2tankviewer-doesnt-work)
+   * [4.4 Elys Succubus Manager cannot run DS2/BW](#elys-succubus-manager-cannot-run-ds2bw)
+   * [4.5 Elys Succubus Manager doesn't find BW](#elys-succubus-manager-doesnt-find-bw)
+   * [4.6 Elys Succubus Manager doesn't load](#elys-succubus-manager-doesnt-load)
+   * [4.7 Install the DS2 Tool Kit on the Steam version](#install-the-ds2-tool-kit-on-the-steam-version)
+   * [4.8 Make DungeonSiege2Mod work on the Steam version](#make-dungeonsiege2mod-work-on-the-steam-version)
+   * [4.9 Remove a tank protection](#remove-a-tank-protection)
+   * [4.10 Tank Creator doesn't work](#tank-creator-doesnt-work)
 * [5.0 Walkthroughs](#walkthroughs)
 * [6.0 Links](#links)
 * [7.0 Credits](#credits)
@@ -279,7 +280,7 @@ Saved games created while using different mods won't be displayed and therefore 
 
 ## Stutters when moving the mouse
 
-This is caused by the NVIDIA drivers for Cyberpunk (460.79). The problem was fixed in 466.11. If it's still not fixed for you for some reason, use older drivers. You can use this [link](https://www.nvidia.com/Download/Find.aspx?lang=en-us) to find them.
+This is caused by the NVIDIA drivers for Cyberpunk (460.79). The problem was fixed in 466.11 (and again in 497.29). If it's still not fixed for you for some reason, use older drivers. You can use this [link](https://www.nvidia.com/Download/Find.aspx?lang=en-us) to find them.
 
 ## The dragon doesn't land in Snowbrook Haven
 
@@ -321,6 +322,10 @@ Lower the game's height (see [Playing Dungeon Siege 2 with a Custom Resolution](
 Add your GPU to "\<path-to-game\>\system_detail.gas" with this [guide](https://steamcommunity.com/sharedfiles/filedetails/?id=780053070).
 
 # Modding
+
+## Cannot apply the All\*Saves fix
+
+Make sure you picked the right version of AllSaves for your game version.
 
 ## DS2Mod crashes at launch
 
@@ -385,6 +390,7 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=388250453
 # Links
 
 - https://discord.gg/PPsdY3D (unofficial community Discord)
+- http://ds2.bplaced.net/mods/ (DS2 mods)
 - http://ds2.bplaced.net/sysdat/ ("system_detail.gas" configurator)
 - https://dungeonsiege.fandom.com/wiki/Dungeon_Siege_II (DS2 wiki)
 - https://dungeonsiege.fandom.com/wiki/Dungeon_Siege_II:_Broken_World (BW wiki)
