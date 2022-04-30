@@ -32,7 +32,7 @@
    * [3.17 You cannot run Dungeon Siege II in a resolution higher than your desktop](#you-cannot-run-dungeon-siege-ii-in-a-resolution-higher-than-your-desktop)
    * [3.18 Your hardware configuration is below minimum specification](#your-hardware-configuration-is-below-minimum-specification)
 * [4.0 Modding](#modding)
-   * [4.1 Cannot apply the All\*Saves fix](#cannot-apply-the-all-*saves-fix)
+   * [4.1 Cannot apply the All\*Saves fix](#cannot-apply-the-allsaves-fix)
    * [4.2 DS2Mod crashes at launch](#ds2mod-crashes-at-launch)
    * [4.3 DS2TankViewer doesn't work](#ds2tankviewer-doesnt-work)
    * [4.4 Elys Succubus Manager cannot run DS2/BW](#elys-succubus-manager-cannot-run-ds2bw)
