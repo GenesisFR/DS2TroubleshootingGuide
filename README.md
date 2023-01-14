@@ -231,6 +231,8 @@ For DS2, see [PCGamingWiki](https://pcgamingwiki.com/wiki/Dungeon_Siege_II#No_mo
 For BW, use [Killah's fix](#enable-bw--extras).  
 You can also use [WineD3D for Windows](https://fdossena.com/?p=wined3d/index.frag), just place d3d9.dll and wined3d.dll in \<path-to-game\>.  
 
+Note: using WineD3D makes loadings 50% slower.
+
 ## Name is already in use
 
 This error occurs when hosting a LAN game because the game is using the wrong network adapter. You have to make it use another network adapter (preferably your virtual LAN network adapter) in one of these ways.
