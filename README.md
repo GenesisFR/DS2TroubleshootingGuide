@@ -13,24 +13,25 @@
    * [2.7 Play online](#play-online)
    * [2.8 Play windowed](#play-windowed)
 * [3.0 Issues fixed](#issues-fixed)
-   * [3.1 BW doesn't find DS2](#bw-doesnt-find-ds2)
+   * [3.1 Block name collision. Parent block has a dir and a second dir child block named 'maps'](#block-name-collision-parent-block-has-a-dir-and-a-second-dir-child-block-named-maps)
    * [3.2 Camera spinning too fast](#camera-spinning-too-fast)
    * [3.3 Crash/exception](#crashexception)
-   * [3.4 Join button doesn't work](#join-button-doesnt-work)
-   * [3.5 LAN games are not visible](#lan-games-are-not-visible)
-   * [3.6 Missing/corrupted DLLs](#missingcorrupted-dlls)
-   * [3.7 Mouse cursor is missing](#mouse-cursor-is-missing)
-   * [3.8 Name is already in use](#name-is-already-in-use)
-   * [3.9 Runtime Error (R6025 - pure virtual function call)](#runtime-error-R6025---pure-virtual-function-call)
-   * [3.10 Save failed](#save-failed)
-   * [3.11 Saved games are not listed](#saved-games-are-not-listed)
-   * [3.12 Stutters when moving the mouse](#stutters-when-moving-the-mouse)
-   * [3.13 The dragon doesn't land in Snowbrook Haven](#the-dragon-doesnt-land-in-snowbrook-haven)
-   * [3.14 The rebels don't become hostile during The Kalrathian Rebellion](#the-rebels-dont-become-hostile-during-the-kalrathian-rebellion)
-   * [3.15 Video initialization failure](#video-initialization-failure)
-   * [3.16 Window is offscreen](#window-is-offscreen)
-   * [3.17 You cannot run Dungeon Siege II in a resolution higher than your desktop](#you-cannot-run-dungeon-siege-ii-in-a-resolution-higher-than-your-desktop)
-   * [3.18 Your hardware configuration is below minimum specification](#your-hardware-configuration-is-below-minimum-specification)
+   * [3.4 In order to play Dungeon Siege 2: Broken World, you must first install the full version of Dungeon Siege 2](#in-order-to-play-dungeon-siege-2-broken-world-you-must-first-install-the-full-version-of-dungeon-siege-2)
+   * [3.5 Join button doesn't work](#join-button-doesnt-work)
+   * [3.6 LAN games are not visible](#lan-games-are-not-visible)
+   * [3.7 Missing/corrupted DLLs](#missingcorrupted-dlls)
+   * [3.8 Mouse cursor is missing](#mouse-cursor-is-missing)
+   * [3.9 Name is already in use](#name-is-already-in-use)
+   * [3.10 Runtime Error (R6025 - pure virtual function call)](#runtime-error-R6025---pure-virtual-function-call)
+   * [3.11 Save failed](#save-failed)
+   * [3.12 Saved games are not listed](#saved-games-are-not-listed)
+   * [3.13 Stutters when moving the mouse](#stutters-when-moving-the-mouse)
+   * [3.14 The dragon doesn't land in Snowbrook Haven](#the-dragon-doesnt-land-in-snowbrook-haven)
+   * [3.15 The rebels don't become hostile during The Kalrathian Rebellion](#the-rebels-dont-become-hostile-during-the-kalrathian-rebellion)
+   * [3.16 Video initialization failure](#video-initialization-failure)
+   * [3.17 Window is offscreen](#window-is-offscreen)
+   * [3.18 You cannot run Dungeon Siege II in a resolution higher than your desktop](#you-cannot-run-dungeon-siege-ii-in-a-resolution-higher-than-your-desktop)
+   * [3.19 Your hardware configuration is below minimum specification](#your-hardware-configuration-is-below-minimum-specification)
 * [4.0 Modding](#modding)
    * [4.1 Cannot apply the All\*Saves fix](#cannot-apply-the-allsaves-fix)
    * [4.2 DS2Mod crashes at launch](#ds2mod-crashes-at-launch)
@@ -178,9 +179,9 @@ Add the "fullscreen=false" launch parameter. See the following instructions for 
 
 # Issues fixed
 
-## BW doesn't find DS2
+## Block name collision. Parent block has a dir and a second dir child block named 'maps'
 
-If you see an error saying "A fatal error has occurred and the app must shut down. In order to play Dungeon Siege 2: Broken World, you must first install the full version Dungeon Siege 2." (it only shows up when running the game in [windowed](#play-windowed) mode), download the [reg patch](https://github.com/GenesisFR/RegPatches) and run it from \<path-to-game\> (select option 1).
+This issue only occurs on Linux when using a version of [Killah's fix](#enable-bw--extras) from 2021 or older. You have a "maps" and a "Maps" folder. Copy the content of "maps" into "Maps" then delete "maps".
 
 ## Camera spinning too fast
 
@@ -204,6 +205,10 @@ It can be caused by literally anything. Here are a few common fixes I've gathere
 - Some mods don't work on BW. Find and remove incompatible mods, then look for similar mods compatible with BW.
 - Make the game recognize your GPU with this [guide](https://steamcommunity.com/sharedfiles/filedetails/?id=780053070).
 - Use [dgVoodoo2](http://dege.freeweb.hu/dgVoodoo2/dgVoodoo2).
+
+## In order to play Dungeon Siege 2: Broken World, you must first install the full version of Dungeon Siege 2
+
+This error only shows up when running the game in [windowed](#play-windowed) mode. Download the [reg patch](https://github.com/GenesisFR/RegPatches) and run it from \<path-to-game\> (select option 1).
 
 ## Join button doesn't work
 
@@ -413,6 +418,7 @@ This document wouldn't have been possible without the following people:
 - Eibhleann#3066 (Discord)
 - [loadedpinky137](https://steamcommunity.com/id/Now_Loading247)
 - Killah
+- [PL4typus](https://github.com/PL4typus)
 - RandallTVandal#9569 (Discord)
 - shockingboring#0041 (Discord)
 - sadowson#5553 (Discord)
