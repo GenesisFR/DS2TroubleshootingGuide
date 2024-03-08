@@ -165,13 +165,14 @@ Please note that these steps are for Windows 10. They may be slightly different 
 14. Double-click on the adapter named "ZeroTier One" followed by the network ID (it's a 16-characters alphanumeric string). If it's not in the list, go to "C:\ProgramData\ZeroTier\One\tap-windows\x64", right-click "zttap300.inf" and hit Install.
 15. Click on Configure.
 16. Go to the Advanced tab, set "Non-Admin Access" to Allowed and click on OK.
-17. Make sure "Internet Protocol Version 6 (TCP IPv6)" is unchecked.
-18. Double-click on "Internet Protocol Version 4 (TCP IPv4)".
-19. Make sure both "Obtain an IP address automatically" and "Obtain DNS server address automatically" are selected.
-20. Click on Advanced.
-21. Uncheck "Automatic metric" and set it to 1 (this will ensure the game uses the ZeroTier adapter instead of your main network adapter).
-22. Hit OK until all windows are closed.
-23. Attempt to host/join via Local Network in Dungeon Siege 2.
+17. Click on Properties.
+18. In the list of items, make sure "Internet Protocol Version 6 (TCP IPv6)" is unchecked.
+19. Double-click on "Internet Protocol Version 4 (TCP IPv4)".
+20. Make sure both "Obtain an IP address automatically" and "Obtain DNS server address automatically" are selected.
+21. Click on Advanced.
+22. Uncheck "Automatic metric" and set it to 1 (this will ensure the game uses the ZeroTier adapter instead of your main network adapter).
+23. Hit OK until all windows are closed.
+24. Attempt to host/join via Local Network in Dungeon Siege 2.
 
 ## Play windowed
 
@@ -246,10 +247,11 @@ Method 1:
 
 1. Go to "Control Panel -> Network and Sharing Centre -> Change adapter settings".
 2. Double-click on your virtual LAN network adapter (ex: ZeroTier).
-3. Make sure "Internet Protocol Version 6 (TCP IPv6)" is unchecked.
-4. Double-click on "Internet Protocol Version 4 (TCP IPv4)" (make sure it's checked).
-5. Click on Advanced.
-6. Uncheck "Automatic metric" (MTU) and set it to 1.
+3. Click on Properties.
+4. In the list of items, make sure "Internet Protocol Version 6 (TCP IPv6)" is unchecked.
+5. Double-click on "Internet Protocol Version 4 (TCP IPv4)" (make sure it's checked).
+6. Click on Advanced.
+7. Uncheck "Automatic metric" (MTU) and set it to 1.
 
 If it didn't work, revert your changes and try with your main network adapter.
 
