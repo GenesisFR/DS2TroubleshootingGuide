@@ -72,7 +72,7 @@ Please note that while this document is based on the Steam version (combined wit
 
 Method 1:
 
-1. Download the [reg patch](https://github.com/GenesisFR/RegPatches) and run it from \<path-to-game\> (select option 3).
+1. Download the [reg patch](https://github.com/GenesisFR/RegPatches) and run it from [\<path-to-game\>](#glossary) (select option 3).
 2. In GameRanger, hit "Edit -\> Options -\> Games -\> Dungeon Siege 2 -\> Browse" then select "DungeonSiege2.exe" from Program Files:
 
    ![GameRanger](https://user-images.githubusercontent.com/3614449/119590645-269bdd80-bda3-11eb-92b4-857678803ee2.png)
@@ -91,8 +91,8 @@ Method 2:
 ## Change the FOV
 
 1. Download this [archive](http://www.wsgf.org/f/u/contrib/dr/255/hacks/DS2%20Files.zip).
-2. Place the correct file for your resolution in "\<path-to-game\>\Resources".
-3. Copy the file "\<path-to-game\>\maps\World.ds2map" to the "\<path-to-game\>\Resources" folder and rename it as "World.ds2res".
+2. Place the correct file for your resolution in "[\<path-to-game\>](#glossary)\Resources".
+3. Copy the file "[\<path-to-game\>](#glossary)\maps\World.ds2map" to the "[\<path-to-game\>](#glossary)\Resources" folder and rename it as "World.ds2res".
 
 ## Enable BW + Extras
 
@@ -100,14 +100,14 @@ Follow the instructions from [Killah's guide](https://steamcommunity.com/sharedf
 
 ## Increase shadow resolution
  
-Open "\<path-to-game\>\system_detail.gas" and change the 4 occurrences of "shadow_tex_size = xxx" to something like 512/1024.
+Open "[\<path-to-game\>](#glossary)\system_detail.gas" and change the 4 occurrences of "shadow_tex_size = xxx" to something like 512/1024.
 
 ## Increase UI size
 
 If you play the game at higher resolutions (like 1080p), the UI won't scale and will become tiny. There is a workaround that involves rendering the game at a specific resolution and the UI at a lower resolution (effectively making it bigger):
 
 1. Download the latest version of [dgVoodoo2](http://dege.freeweb.hu/dgVoodoo2/dgVoodoo2).
-2. Open the downloaded archive and extract dgVoodoo.conf, dgVoodooCpl.exe and "MS\x86\D3D9.dll" to \<path-to-game\>.
+2. Open the downloaded archive and extract dgVoodoo.conf, dgVoodooCpl.exe and "MS\x86\D3D9.dll" to [\<path-to-game\>](#glossary).
 3. Run dgVoodooCpl.exe, go to the DirectX tab and select "GeForce FX 5700 Ultra" from the Videocard drop down list (this will get rid of a warning at launch).
 4. From the same tab, select your native resolution from the Resolution drop down list and hit OK.
 5. Set the game at the resolution you want the UI to be scaled to (typically 720p or lower).
@@ -195,7 +195,7 @@ This only happens when using middle-click while running the game in windowed mod
 
 It can be caused by literally anything. Here are a few common fixes I've gathered since I started playing this game:
  
-- Run "\<path-to-game\>\DS2VideoConfig.exe" and switch your driver to "\<gpu-model\> - Hardware" (or its TnL equivalent).
+- Run "[\<path-to-game\>](#glossary)\DS2VideoConfig.exe" and switch your driver to "[\<gpu-model\>](#glossary) - Hardware" (or its TnL equivalent).
 - Run the game as administrator.
 - Run the game in compatibility mode (try all of them).
 - Run the game from the executable instead of Steam.
@@ -209,7 +209,7 @@ It can be caused by literally anything. Here are a few common fixes I've gathere
 
 ## In order to play Dungeon Siege 2: Broken World, you must first install the full version of Dungeon Siege 2
 
-This error only shows up when running the game in [windowed](#play-windowed) mode. Download the [reg patch](https://github.com/GenesisFR/RegPatches) and run it from \<path-to-game\> (select option 1).
+This error only shows up when running the game in [windowed](#play-windowed) mode. Download the [reg patch](https://github.com/GenesisFR/RegPatches) and run it from [\<path-to-game\>](#glossary) (select option 1).
 
 ## Join button doesn't work
 
@@ -224,7 +224,7 @@ Note: this is for physical LAN games (not VPN).
 
 ## Missing/corrupted DLLs
 
-If you see an error about a missing/corrupted DLL, copy the following DLLs from "\<path-to-game\>\system\" to \<path-to-game\>\:
+If you see an error about a missing/corrupted DLL, copy the following DLLs from "[\<path-to-game\>](#glossary)\system\" to [\<path-to-game\>](#glossary)\:
 
 - binkw32.dll
 - mss32.dll
@@ -235,7 +235,7 @@ Somehow the game can't find them on some systems. This makes sure it does.
 
 For DS2, see [PCGamingWiki](https://pcgamingwiki.com/wiki/Dungeon_Siege_II#No_mouse_cursor).  
 For BW, use [Killah's fix](#enable-bw--extras).  
-You can also use [WineD3D for Windows](https://fdossena.com/?p=wined3d/index.frag), just place d3d9.dll and wined3d.dll in \<path-to-game\>.  
+You can also use [WineD3D for Windows](https://fdossena.com/?p=wined3d/index.frag), just place d3d9.dll and wined3d.dll in [\<path-to-game\>](#glossary).  
 
 Note: using WineD3D makes loadings 50% slower.
 
@@ -273,7 +273,7 @@ Source: https://discord.com/channels/373223103985090581/400744824593973248/70309
 
 ## Save failed
 
-When trying to save the game, you may get a message saying "Save failed" and no save is created under \<path-to-docs\>.
+When trying to save the game, you may get a message saying "Save failed" and no save is created under [\<path-to-docs\>](#glossary).
 
 - Your antivirus/antimalware/ransomware protection is at fault. Add the game as an exception or disable it.
 - You have a username with special (non-latin) characters. Change your username so it only uses latin characters.
@@ -294,7 +294,7 @@ This is caused by the NVIDIA drivers for Cyberpunk (460.79). The problem was fix
 ## The dragon doesn't land in Snowbrook Haven
 
 1. Download this [file](http://ds-old.gemsite.org/download_get.php?get=download/dragfix.zip&id=41).
-2. Extract it to "\<path-to-game\>\Resources".
+2. Extract it to "[\<path-to-game\>](#glossary)\Resources".
 3. Talk to the commander and the dragon quest will be completed.
 
 Source: https://steamcommunity.com/app/39200/discussions/0/792924412399466600/#c3005551013347010720
@@ -302,7 +302,7 @@ Source: https://steamcommunity.com/app/39200/discussions/0/792924412399466600/#c
 ## The rebels don't become hostile during The Kalrathian Rebellion
 
 1. Download this [file](https://drive.google.com/file/d/1atgUmtr0Bw5BkuL2RtrLNNxk_cEs8DrQ).
-2. Extract it to "\<path-to-game\>\Resources".
+2. Extract it to "[\<path-to-game\>](#glossary)\Resources".
 3. Kill one morden and the rebellion quest will be completed.
 
 Source: https://steamcommunity.com/app/39200/discussions/0/1660069015245201005/#c3115906960366913670
@@ -328,7 +328,7 @@ Lower the game's height (see [Playing Dungeon Siege 2 with a Custom Resolution](
 
 ## Your hardware configuration is below minimum specification
 
-Add your GPU to "\<path-to-game\>\system_detail.gas" with this [guide](https://steamcommunity.com/sharedfiles/filedetails/?id=780053070).
+Add your GPU to "[\<path-to-game\>](#glossary)\system_detail.gas" with this [guide](https://steamcommunity.com/sharedfiles/filedetails/?id=780053070).
 
 # Modding
 
@@ -338,7 +338,7 @@ Make sure you picked the right version of AllSaves for your game version.
 
 ## DS2Mod crashes at launch
 
-DS2Mod, just like DS2, doesn't launch when BW is installed. Move "\<path-to-game\>\Resources\xLogic.ds2res" to another folder.
+DS2Mod, just like DS2, doesn't launch when BW is installed. Move "[\<path-to-game\>](#glossary)\Resources\xLogic.ds2res" to another folder.
 
 ## DS2TankViewer doesn't work
 
@@ -350,7 +350,7 @@ If you see an error like "Impossible to start DungeonSiege2.exe (Broken World)!"
 
 ## Elys Succubus Manager doesn't find BW
 
-If you see an error like "Dungeon Siege 2 Broken World installation directory was not found in the Windows registry!", download the [reg patch](https://github.com/GenesisFR/RegPatches) and run it from \<path-to-game\> (select option 2).
+If you see an error like "Dungeon Siege 2 Broken World installation directory was not found in the Windows registry!", download the [reg patch](https://github.com/GenesisFR/RegPatches) and run it from [\<path-to-game\>](#glossary) (select option 2).
 
 ## Elys Succubus Manager doesn't load
 
@@ -361,12 +361,12 @@ If you don't see the new races (nymph, succubus, vampire, daemon, drow) added by
 
 ## Install the DS2 Tool Kit on the Steam version
 
-1. Download the [reg patch](https://github.com/GenesisFR/RegPatches) and run it from \<path-to-game\> (select option 1).
-2. If you're not using [Killah's fix](#enable-bw--extras), you must also place this [file](https://www.mediafire.com/file/90262526a2w34xu/SETUPENU.DLL) in \<path-to-game\> before running the installer.
+1. Download the [reg patch](https://github.com/GenesisFR/RegPatches) and run it from [\<path-to-game\>](#glossary) (select option 1).
+2. If you're not using [Killah's fix](#enable-bw--extras), you must also place this [file](https://www.mediafire.com/file/90262526a2w34xu/SETUPENU.DLL) in [\<path-to-game\>](#glossary) before running the installer.
 
 ## Make DungeonSiege2Mod work on the Steam version
 
-Download the [reg patch](https://github.com/GenesisFR/RegPatches) and run it from \<path-to-game\> to make DungeonSiege2Mod find your game.
+Download the [reg patch](https://github.com/GenesisFR/RegPatches) and run it from [\<path-to-game\>](#glossary) to make DungeonSiege2Mod find your game.
  
 DungeonSiege2Mod uses SmarteSecure DRM disc check so you'll need to have disc 1 of DS2 in your disc drive or it'll refuse to run.
 
@@ -376,9 +376,9 @@ Just mount the ISO with Windows 10 File Explorer or with a third party software 
 
 If you have a "Couldn't register file.tmp" popup followed by a SmarteSecure popup, it means the location you're trying to run it from has permission issues. Run DS2Mod as admin or move it elsewhere.
 
-You may also have a few "ATLCOMHelper Exception" popups. You can safely ignore those and DungeonSiege2Mod will run. To get rid of them, either use the DungeonSiege2Mod shortcut in the toolkit installation directory or place DungeonSiege2Mod in \<path-to-game\> and run it from there.
+You may also have a few "ATLCOMHelper Exception" popups. You can safely ignore those and DungeonSiege2Mod will run. To get rid of them, either use the DungeonSiege2Mod shortcut in the toolkit installation directory or place DungeonSiege2Mod in [\<path-to-game\>](#glossary) and run it from there.
 
-Note: DungeonSiege2Mod isn't compatible with BW so move all files starting with 'x' in "\<path-to-game\>\Resources" somewhere else.
+Note: DungeonSiege2Mod isn't compatible with BW so move all files starting with 'x' in "[\<path-to-game\>](#glossary)\Resources" somewhere else.
 
 ## Remove a tank protection
 
