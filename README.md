@@ -26,12 +26,13 @@
    * [3.11 Save failed](#save-failed)
    * [3.12 Saved games are not listed](#saved-games-are-not-listed)
    * [3.13 Stutters when moving the mouse](#stutters-when-moving-the-mouse)
-   * [3.14 The dragon doesn't land in Snowbrook Haven](#the-dragon-doesnt-land-in-snowbrook-haven)
-   * [3.15 The rebels don't become hostile during The Kalrathian Rebellion](#the-rebels-dont-become-hostile-during-the-kalrathian-rebellion)
-   * [3.16 Video initialization failure](#video-initialization-failure)
-   * [3.17 Window is offscreen](#window-is-offscreen)
-   * [3.18 You cannot run Dungeon Siege II in a resolution higher than your desktop](#you-cannot-run-dungeon-siege-ii-in-a-resolution-higher-than-your-desktop)
-   * [3.19 Your hardware configuration is below minimum specification](#your-hardware-configuration-is-below-minimum-specification)
+   * [3.14 The cutscene for Valdis fails to start](#the-cutscene-for-valdis-fails-to-start)
+   * [3.15 The dragon doesn't land in Snowbrook Haven](#the-dragon-doesnt-land-in-snowbrook-haven)
+   * [3.16 The rebels don't become hostile during The Kalrathian Rebellion](#the-rebels-dont-become-hostile-during-the-kalrathian-rebellion)
+   * [3.17 Video initialization failure](#video-initialization-failure)
+   * [3.18 Window is offscreen](#window-is-offscreen)
+   * [3.19 You cannot run Dungeon Siege II in a resolution higher than your desktop](#you-cannot-run-dungeon-siege-ii-in-a-resolution-higher-than-your-desktop)
+   * [3.20 Your hardware configuration is below minimum specification](#your-hardware-configuration-is-below-minimum-specification)
 * [4.0 Modding](#modding)
    * [4.1 Cannot apply the All\*Saves fix](#cannot-apply-the-allsaves-fix)
    * [4.2 DS2Mod crashes at launch](#ds2mod-crashes-at-launch)
@@ -291,6 +292,12 @@ Saved games created while using different mods won't be displayed and therefore 
 
 This is caused by the NVIDIA drivers for Cyberpunk (460.79). The problem was fixed in 466.11 (and again in 497.29). If it's still not fixed for you for some reason, use older drivers. You can use this [link](https://www.nvidia.com/Download/Find.aspx?lang=en-us) to find them.
 
+## The cutscene for Valdis fails to start
+
+This is likely caused by the FOV fix. Undo what you did in [Change the FOV](#change-the-fov) to remove it.
+
+Source: https://steamcommunity.com/app/39200/discussions/0/1649917420751088963
+
 ## The dragon doesn't land in Snowbrook Haven
 
 1. Download this [file](http://ds-old.gemsite.org/download_get.php?get=download/dragfix.zip&id=41).
@@ -416,14 +423,16 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=388250453
 This document wouldn't have been possible without the following people:
  
 - [Antrad2020](https://antonior-software.blogspot.com)
+- [ashepwb](https://steamcommunity.com/profiles/76561198038717282) - Valdis cutscene fix
 - [doa_92](https://steamcommunity.com/id/doa_92)
 - Eibhleann#3066 (Discord)
 - [loadedpinky137](https://steamcommunity.com/id/Now_Loading247)
-- Killah
+- Killah - BW guide and DS community
 - [PL4typus](https://github.com/PL4typus)
 - RandallTVandal#9569 (Discord)
 - shockingboring#0041 (Discord)
-- sadowson#5553 (Discord)
+- sadowson#5553 (Discord) - lots of fixes
+- [Tyler799](https://github.com/Tyler799) - format used for this guide
 - Whibbles#5836 (Discord)
 - Wiesshund#1964 (Discord)
 - [YOU](https://steamcommunity.com/profiles/76561198312562551)
