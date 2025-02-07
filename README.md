@@ -13,29 +13,30 @@
    * [2.7 Play online](#play-online)
    * [2.8 Play windowed](#play-windowed)
 * [3.0 Issues fixed](#issues-fixed)
-   * [3.1 Black screen at startup](#black-screen-at-startup)
-   * [3.2 Block name collision. Parent block has a dir and a second dir child block named 'maps'](#block-name-collision-parent-block-has-a-dir-and-a-second-dir-child-block-named-maps)
-   * [3.3 Camera spinning too fast](#camera-spinning-too-fast)
-   * [3.4 Crash/exception](#crashexception)
-   * [3.5 In order to play Dungeon Siege 2: Broken World, you must first install the full version of Dungeon Siege 2](#in-order-to-play-dungeon-siege-2-broken-world-you-must-first-install-the-full-version-of-dungeon-siege-2)
-   * [3.6 Inn conversion bug](#inn-conversion-bug)
-   * [3.7 Join button doesn't work](#join-button-doesnt-work)
-   * [3.8 LAN games are not visible](#lan-games-are-not-visible)
-   * [3.9 Missing/corrupted DLLs](#missingcorrupted-dlls)
-   * [3.10 Mouse cursor is missing](#mouse-cursor-is-missing)
-   * [3.11 Name is already in use](#name-is-already-in-use)
-   * [3.12 Runtime Error (R6025 - pure virtual function call)](#runtime-error-R6025---pure-virtual-function-call)
-   * [3.13 Save failed](#save-failed)
-   * [3.14 Saved games are not listed](#saved-games-are-not-listed)
-   * [3.15 Stuck on the character selection screen when starting Broken World](#stuck-on-the-character-selection-screen-when-starting-broken-world)
-   * [3.16 Stutters when moving the mouse](#stutters-when-moving-the-mouse)
-   * [3.17 The cutscene for Valdis fails to start](#the-cutscene-for-valdis-fails-to-start)
-   * [3.18 The dragon doesn't land in Snowbrook Haven](#the-dragon-doesnt-land-in-snowbrook-haven)
-   * [3.19 The rebels don't become hostile during The Kalrathian Rebellion](#the-rebels-dont-become-hostile-during-the-kalrathian-rebellion)
-   * [3.20 Video initialization failure](#video-initialization-failure)
-   * [3.21 Window is offscreen](#window-is-offscreen)
-   * [3.22 You cannot run Dungeon Siege II in a resolution higher than your desktop](#you-cannot-run-dungeon-siege-ii-in-a-resolution-higher-than-your-desktop)
-   * [3.23 Your hardware configuration is below minimum specification](#your-hardware-configuration-is-below-minimum-specification)
+   * [3.1 An attempt to delay-load a .dll or get a function address in a delay-loaded .dll failed](#an-attempt-to-delay-load-a-dll-or-get-a-function-address-in-a-delay-loaded-dll-failed)
+   * [3.2 Black screen at startup](#black-screen-at-startup)
+   * [3.3 Block name collision. Parent block has a dir and a second dir child block named 'maps'](#block-name-collision-parent-block-has-a-dir-and-a-second-dir-child-block-named-maps)
+   * [3.4 Camera spinning too fast](#camera-spinning-too-fast)
+   * [3.5 Crash/exception](#crashexception)
+   * [3.6 In order to play Dungeon Siege 2: Broken World, you must first install the full version of Dungeon Siege 2](#in-order-to-play-dungeon-siege-2-broken-world-you-must-first-install-the-full-version-of-dungeon-siege-2)
+   * [3.7 Inn conversion bug](#inn-conversion-bug)
+   * [3.8 Join button doesn't work](#join-button-doesnt-work)
+   * [3.9 LAN games are not visible](#lan-games-are-not-visible)
+   * [3.10 Missing/corrupted DLLs](#missingcorrupted-dlls)
+   * [3.11 Mouse cursor is missing](#mouse-cursor-is-missing)
+   * [3.12 Name is already in use](#name-is-already-in-use)
+   * [3.13 Runtime Error (R6025 - pure virtual function call)](#runtime-error-R6025---pure-virtual-function-call)
+   * [3.14 Save failed](#save-failed)
+   * [3.15 Saved games are not listed](#saved-games-are-not-listed)
+   * [3.16 Stuck on the character selection screen when starting Broken World](#stuck-on-the-character-selection-screen-when-starting-broken-world)
+   * [3.17 Stutters when moving the mouse](#stutters-when-moving-the-mouse)
+   * [3.18 The cutscene for Valdis fails to start](#the-cutscene-for-valdis-fails-to-start)
+   * [3.19 The dragon doesn't land in Snowbrook Haven](#the-dragon-doesnt-land-in-snowbrook-haven)
+   * [3.20 The rebels don't become hostile during The Kalrathian Rebellion](#the-rebels-dont-become-hostile-during-the-kalrathian-rebellion)
+   * [3.21 Video initialization failure](#video-initialization-failure)
+   * [3.22 Window is offscreen](#window-is-offscreen)
+   * [3.23 You cannot run Dungeon Siege II in a resolution higher than your desktop](#you-cannot-run-dungeon-siege-ii-in-a-resolution-higher-than-your-desktop)
+   * [3.24 Your hardware configuration is below minimum specification](#your-hardware-configuration-is-below-minimum-specification)
 * [4.0 Modding](#modding)
    * [4.1 Cannot apply the All\*Saves fix](#cannot-apply-the-allsaves-fix)
    * [4.2 DS2Mod crashes at launch](#ds2mod-crashes-at-launch)
@@ -183,6 +184,10 @@ Please note that these steps are for Windows 10. They may be slightly different 
 Add the "fullscreen=false" launch parameter. See the following instructions for [shortcuts](https://www.pcgamingwiki.com/wiki/Glossary:Command_line_arguments#Desktop_shortcuts), [Steam](https://www.pcgamingwiki.com/wiki/Glossary:Command_line_arguments#Steam) or [GOG Galaxy](https://www.pcgamingwiki.com/wiki/Glossary:Command_line_arguments#GOG_Galaxy_2.0).
 
 # Issues fixed
+
+## An attempt to delay-load a .dll or get a function address in a delay-loaded .dll failed
+
+Copy the file mentioned at the bottom of the pop-up (likely binkw32.dll) from "[\<path-to-game\>](#glossary)\system" to [\<path-to-game\>](#glossary).
 
 ## Black screen at startup
 
@@ -405,9 +410,9 @@ If you don't want to go this route, I created a [mini image](https://www.mediafi
 
 Just mount the ISO with Windows 10 File Explorer or with a third party software (like WinCDEmu) before running DungeonSiege2Mod.
 
-If you have a "Couldn't register file.tmp" popup followed by a SmarteSecure popup, it means the location you're trying to run it from has permission issues. Run DS2Mod as admin or move it elsewhere.
+If you have a "Couldn't register file.tmp" pop-up followed by a SmarteSecure pop-up, it means the location you're trying to run it from has permission issues. Run DS2Mod as admin or move it elsewhere.
 
-You may also have a few "ATLCOMHelper Exception" popups. You can safely ignore those and DungeonSiege2Mod will run. To get rid of them, either use the DungeonSiege2Mod shortcut in the toolkit installation directory or place DungeonSiege2Mod in [\<path-to-game\>](#glossary) and run it from there.
+You may also have a few "ATLCOMHelper Exception" pop-ups. You can safely ignore those and DungeonSiege2Mod will run. To get rid of them, either use the DungeonSiege2Mod shortcut in the toolkit installation directory or place DungeonSiege2Mod in [\<path-to-game\>](#glossary) and run it from there.
 
 Note: DungeonSiege2Mod isn't compatible with BW so move all files starting with 'x' in "[\<path-to-game\>](#glossary)\Resources" somewhere else.
 
