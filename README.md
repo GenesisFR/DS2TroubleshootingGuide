@@ -17,6 +17,7 @@
    * [3.2 Camera spinning too fast](#camera-spinning-too-fast)
    * [3.3 Crash/exception](#crashexception)
    * [3.4 In order to play Dungeon Siege 2: Broken World, you must first install the full version of Dungeon Siege 2](#in-order-to-play-dungeon-siege-2-broken-world-you-must-first-install-the-full-version-of-dungeon-siege-2)
+   * [3.5 Inn conversion bug](#inn-conversion-bug)
    * [3.5 Join button doesn't work](#join-button-doesnt-work)
    * [3.6 LAN games are not visible](#lan-games-are-not-visible)
    * [3.7 Missing/corrupted DLLs](#missingcorrupted-dlls)
@@ -211,6 +212,10 @@ It can be caused by literally anything. Here are a few common fixes I've gathere
 ## In order to play Dungeon Siege 2: Broken World, you must first install the full version of Dungeon Siege 2
 
 This error only shows up when running the game in [windowed](#play-windowed) mode. Download the [reg patch](https://github.com/GenesisFR/RegPatches) and run it from [\<path-to-game\>](#glossary) (select option 1).
+
+## Inn conversion bug
+
+Follow the instructions in this [guide](https://web.archive.org/web/20221225052034/http://ds2.bplaced.net/convert).
 
 ## Join button doesn't work
 
@@ -428,6 +433,7 @@ This document wouldn't have been possible without the following people:
 - Eibhleann#3066 (Discord)
 - [loadedpinky137](https://steamcommunity.com/id/Now_Loading247)
 - Killah - BW guide and DS community
+- KillerGremal - inn conversion fix
 - [PL4typus](https://github.com/PL4typus)
 - RandallTVandal#9569 (Discord)
 - shockingboring#0041 (Discord)
