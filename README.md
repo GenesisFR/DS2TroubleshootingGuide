@@ -406,7 +406,8 @@ If nothing happens when clicking on the Create button in Tank Creator, make sure
 
 # Walkthroughs
 
-https://steamcommunity.com/sharedfiles/filedetails/?id=388250453
+[A complete and full walkthrough of all the lore maps available to the game](https://steamcommunity.com/sharedfiles/filedetails/?id=388250453) by Killah (text)
+[Dungeon Siege 2 Guides & Walkthroughs](https://www.almarsguides.com/Computer/Games/DungeonSiege2) by Almar (graphical)
 
 # Links
 
@@ -426,13 +427,14 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=388250453
 # Credits
  
 This document wouldn't have been possible without the following people:
- 
+
+- Almar - DS2 guides
 - [Antrad2020](https://antonior-software.blogspot.com)
 - [ashepwb](https://steamcommunity.com/profiles/76561198038717282) - Valdis cutscene fix
 - [doa_92](https://steamcommunity.com/id/doa_92)
 - Eibhleann#3066 (Discord)
 - [loadedpinky137](https://steamcommunity.com/id/Now_Loading247)
-- Killah - BW guide and DS community
+- Killah - BW guides and DS community
 - KillerGremal - inn conversion fix
 - [PL4typus](https://github.com/PL4typus)
 - RandallTVandal#9569 (Discord)
