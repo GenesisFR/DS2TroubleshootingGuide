@@ -27,14 +27,15 @@
    * [3.12 Runtime Error (R6025 - pure virtual function call)](#runtime-error-R6025---pure-virtual-function-call)
    * [3.13 Save failed](#save-failed)
    * [3.14 Saved games are not listed](#saved-games-are-not-listed)
-   * [3.15 Stutters when moving the mouse](#stutters-when-moving-the-mouse)
-   * [3.16 The cutscene for Valdis fails to start](#the-cutscene-for-valdis-fails-to-start)
-   * [3.17 The dragon doesn't land in Snowbrook Haven](#the-dragon-doesnt-land-in-snowbrook-haven)
-   * [3.18 The rebels don't become hostile during The Kalrathian Rebellion](#the-rebels-dont-become-hostile-during-the-kalrathian-rebellion)
-   * [3.19 Video initialization failure](#video-initialization-failure)
-   * [3.20 Window is offscreen](#window-is-offscreen)
-   * [3.21 You cannot run Dungeon Siege II in a resolution higher than your desktop](#you-cannot-run-dungeon-siege-ii-in-a-resolution-higher-than-your-desktop)
-   * [3.22 Your hardware configuration is below minimum specification](#your-hardware-configuration-is-below-minimum-specification)
+   * [3.15 Stuck on the character selection screen when starting Broken World](#stuck-on-the-character-selection-screen-when-starting-broken-world)
+   * [3.16 Stutters when moving the mouse](#stutters-when-moving-the-mouse)
+   * [3.17 The cutscene for Valdis fails to start](#the-cutscene-for-valdis-fails-to-start)
+   * [3.18 The dragon doesn't land in Snowbrook Haven](#the-dragon-doesnt-land-in-snowbrook-haven)
+   * [3.19 The rebels don't become hostile during The Kalrathian Rebellion](#the-rebels-dont-become-hostile-during-the-kalrathian-rebellion)
+   * [3.20 Video initialization failure](#video-initialization-failure)
+   * [3.21 Window is offscreen](#window-is-offscreen)
+   * [3.22 You cannot run Dungeon Siege II in a resolution higher than your desktop](#you-cannot-run-dungeon-siege-ii-in-a-resolution-higher-than-your-desktop)
+   * [3.23 Your hardware configuration is below minimum specification](#your-hardware-configuration-is-below-minimum-specification)
 * [4.0 Modding](#modding)
    * [4.1 Cannot apply the All\*Saves fix](#cannot-apply-the-allsaves-fix)
    * [4.2 DS2Mod crashes at launch](#ds2mod-crashes-at-launch)
@@ -298,6 +299,19 @@ Source: https://steamcommunity.com/app/39200/discussions/0/2619339453457265287
 
 Saved games created while using different mods won't be displayed and therefore cannot be loaded. Run the game through Elys DS2 Succubus Manager to load them.
 
+## Stuck on the character selection screen when starting Broken World
+
+This happens when starting the Broken World campaign with a character that was made before installing Broken World. The introduction cutscene plays but then the game gets stuck on the character selection screen with the fire bowls on the sides.
+
+Follow these steps:
+
+1. Run Elys Succubus Manager (optional).
+2. Convert your DS2 hero (optional).
+3. Load your DS2 campaign.
+4. Save the game.
+5. Go back to the main menu.
+6. Start Broken World.
+
 ## Stutters when moving the mouse
 
 This is caused by the NVIDIA drivers for Cyberpunk (460.79). The problem was fixed in 466.11 (and again in 497.29). If it's still not fixed for you for some reason, use older drivers. You can use this [link](https://www.nvidia.com/Download/Find.aspx?lang=en-us) to find them.
@@ -411,7 +425,7 @@ If nothing happens when clicking on the Create button in Tank Creator, make sure
 
 # Walkthroughs
 
-[A complete and full walkthrough of all the lore maps available to the game](https://steamcommunity.com/sharedfiles/filedetails/?id=388250453) by Killah (text)
+[A complete and full walkthrough of all the lore maps available to the game](https://steamcommunity.com/sharedfiles/filedetails/?id=388250453) by Killah (text)  
 [Dungeon Siege 2 Guides & Walkthroughs](https://www.almarsguides.com/Computer/Games/DungeonSiege2) by Almar (graphical)
 
 # Links
@@ -464,4 +478,4 @@ Thanks a lot for your help!
  
 I won't be held responsible if you mess up your game or saved game after using one of these fixes. You do it at your own risk!
  
-You're not allowed to put this document in raw form anywhere, out of respect (it took me 2 years to compile it). Just share the GitHub link.
+You're not allowed to put this document in raw form anywhere, out of respect (it took me over 5 years to compile it). Just share the GitHub link or redirect users to this [thread](https://steamcommunity.com/app/39200/discussions/0/2800629075205408338).
