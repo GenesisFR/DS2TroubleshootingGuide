@@ -143,7 +143,7 @@ That's where ZeroTier comes into play. It's harder to set up but seems to work b
 
 Graphical version:
 
-https://support.parsecgaming.com/hc/en-us/articles/115002766652-Setting-Up-A-VPN-To-Play-Games-On-A-Virtual-Local-Network (ignore the last steps about Parsec)
+Follow this [guide](https://web.archive.org/web/20210811132018/https://support.parsec.app/hc/en-us/articles/115002766652-Setting-Up-A-VPN-To-Play-Games-On-A-Virtual-Local-Network).
 
 Text version:
 
