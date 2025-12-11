@@ -319,7 +319,9 @@ Follow these steps:
 
 ## Stutters when moving the mouse
 
-This is caused by the NVIDIA drivers for Cyberpunk (460.79). The problem was fixed in 466.11 (and again in 497.29). If it's still not fixed for you for some reason, use older drivers. You can use this [link](https://www.nvidia.com/Download/Find.aspx?lang=en-us) to find them.
+This is caused by the NVIDIA drivers for Cyberpunk (460.79). The problem was fixed in 466.11 (and again in 497.29). If it's still not fixed for you for some reason, use another driver version. You can find them [here](https://www.nvidia.com/Download/Find.aspx).
+
+It can also be caused by your mouse polling rate being too high. Try lowering it in your mouse software until the issue is gone.
 
 ## The cutscene for Valdis fails to start
 
