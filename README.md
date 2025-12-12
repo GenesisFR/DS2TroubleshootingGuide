@@ -209,17 +209,19 @@ This only happens when using middle-click while running the game in windowed mod
 
 It can be caused by literally anything. Here are a few common fixes I've gathered since I started playing this game:
  
-- Run "[\<path-to-game\>](#glossary)\DS2VideoConfig.exe" and switch your driver to "[\<gpu-model\>](#glossary) - Hardware" (or its TnL equivalent).
+- Use [dgVoodoo2](https://www.pcgamingwiki.com/wiki/DgVoodoo_2#DirectX_9).
 - Run the game as administrator.
 - Run the game in compatibility mode (try all of them).
 - Run the game from the executable instead of Steam.
 - Run the game on your other GPU (if you have one).
 - Run the game [windowed](#play-windowed).
-- Your latest saved game is corrupted, replace it with a backup.
+- One of your saved games is corrupted, replace it with a backup or remove it.
 - Some mods can conflict with each other. Find and remove conflicting mods.
-- Some mods don't work on BW. Find and remove incompatible mods, then look for similar mods compatible with BW.
+- Some mods don't work with BW. Find and remove incompatible mods, then look for similar mods compatible with BW.
 - Make the game recognize your GPU with this [guide](https://steamcommunity.com/sharedfiles/filedetails/?id=780053070).
-- Use [dgVoodoo2](https://www.pcgamingwiki.com/wiki/DgVoodoo_2#DirectX_9).
+- Run "[\<path-to-game\>](#glossary)\DS2VideoConfig.exe" and switch your driver to "[\<gpu-model\>](#glossary) - Hardware" (or its TnL equivalent).
+
+Note: DS2VideoConfig only edits \<config-file\> so make sure to copy its content to \<config-file-BW\> if you're using BW.
 
 ## In order to play Dungeon Siege 2: Broken World, you must first install the full version of Dungeon Siege 2
 
@@ -361,7 +363,7 @@ The game is using a resolution that is not natively supported by your GPU. The e
 - Add a [custom resolution](https://appuals.com/how-to-create-custom-resolutions-on-windows-7-8-or-10).
 - Use one of the standard resolutions (ex: 1024x768, 1280x720, 1920x1080).
 - Run the game in [windowed](#play-windowed) mode.
-- Use dgVoodoo2 (check [Increase UI size](#increase-ui-size) for installation instructions).
+- Use [dgVoodoo2](https://www.pcgamingwiki.com/wiki/DgVoodoo_2#DirectX_9).
 
 ## Window is offscreen
 
