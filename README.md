@@ -381,13 +381,13 @@ Lower the game's height (see [Playing Dungeon Siege 2 with a Custom Resolution](
 
 Add your GPU to "[\<path-to-game\>](#glossary)\system_detail.gas" with this [guide](https://steamcommunity.com/sharedfiles/filedetails/?id=780053070).
 
-# Issues unresolved]
+# Issues unresolved
 
 ## Low framerate when installing BW or a language pack
 
 This issue affects a minority of users and there's no definitive fix for it. You can try disabling virtualization in your BIOS settings. If that doesn't work, you're sadly out of luck.
 
-You can follow this [thread](https://steamcommunity.com/app/39200/discussions/0/405690850601811605) or this [thread](https://steamcommunity.com/app/39200/discussions/0/405690850601811605) to stay up-to-date whether this issue gets solved.
+You can follow this [thread](https://steamcommunity.com/app/39200/discussions/0/405690850601811605) or this [thread](https://steamcommunity.com/app/39200/discussions/0/3809531933812050831) to stay up-to-date whether this issue gets solved.
 
 Note: DS2 works fine when BW is not installed.
 
