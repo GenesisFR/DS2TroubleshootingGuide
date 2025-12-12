@@ -38,21 +38,23 @@
    * [3.23 Window is offscreen](#window-is-offscreen)
    * [3.24 You cannot run Dungeon Siege II in a resolution higher than your desktop](#you-cannot-run-dungeon-siege-ii-in-a-resolution-higher-than-your-desktop)
    * [3.25 Your hardware configuration is below minimum specification](#your-hardware-configuration-is-below-minimum-specification)
-* [4.0 Modding](#modding)
-   * [4.1 Cannot apply the All\*Saves fix](#cannot-apply-the-allsaves-fix)
-   * [4.2 DS2Mod crashes at launch](#ds2mod-crashes-at-launch)
-   * [4.3 DS2TankViewer doesn't work](#ds2tankviewer-doesnt-work)
-   * [4.4 Elys Succubus Manager cannot run DS2/BW](#elys-succubus-manager-cannot-run-ds2bw)
-   * [4.5 Elys Succubus Manager doesn't find BW](#elys-succubus-manager-doesnt-find-bw)
-   * [4.6 Elys Succubus Manager doesn't load](#elys-succubus-manager-doesnt-load)
-   * [4.7 Install the DS2 Tool Kit on the Steam version](#install-the-ds2-tool-kit-on-the-steam-version)
-   * [4.8 Make DungeonSiege2Mod work on the Steam version](#make-dungeonsiege2mod-work-on-the-steam-version)
-   * [4.9 Remove a tank protection](#remove-a-tank-protection)
-   * [4.10 Tank Creator doesn't work](#tank-creator-doesnt-work)
-* [5.0 Walkthroughs](#walkthroughs)
-* [6.0 Links](#links)
-* [7.0 Credits](#credits)
-* [8.0 Disclaimer](#disclaimer)
+* [4.0 Issues unresolved](#issues-unresolved)
+   * [4.1 Low framerate when installing BW or a language pack](#low-framerate-when-installing-bw-or-a-language-pack)
+* [5.0 Modding](#modding)
+   * [5.1 Cannot apply the All\*Saves fix](#cannot-apply-the-allsaves-fix)
+   * [5.2 DS2Mod crashes at launch](#ds2mod-crashes-at-launch)
+   * [5.3 DS2TankViewer doesn't work](#ds2tankviewer-doesnt-work)
+   * [5.4 Elys Succubus Manager cannot run DS2/BW](#elys-succubus-manager-cannot-run-ds2bw)
+   * [5.5 Elys Succubus Manager doesn't find BW](#elys-succubus-manager-doesnt-find-bw)
+   * [5.6 Elys Succubus Manager doesn't load](#elys-succubus-manager-doesnt-load)
+   * [5.7 Install the DS2 Tool Kit on the Steam version](#install-the-ds2-tool-kit-on-the-steam-version)
+   * [5.8 Make DungeonSiege2Mod work on the Steam version](#make-dungeonsiege2mod-work-on-the-steam-version)
+   * [5.9 Remove a tank protection](#remove-a-tank-protection)
+   * [5.10 Tank Creator doesn't work](#tank-creator-doesnt-work)
+* [6.0 Walkthroughs](#walkthroughs)
+* [7.0 Links](#links)
+* [8.0 Credits](#credits)
+* [9.0 Disclaimer](#disclaimer)
 
 # Glossary
 
@@ -221,7 +223,7 @@ It can be caused by literally anything. Here are a few common fixes I've gathere
 - Make the game recognize your GPU with this [guide](https://steamcommunity.com/sharedfiles/filedetails/?id=780053070).
 - Run "[\<path-to-game\>](#glossary)\DS2VideoConfig.exe" and switch your driver to "[\<gpu-model\>](#glossary) - Hardware" (or its TnL equivalent).
 
-Note: DS2VideoConfig only edits \<config-file\> so make sure to copy its content to \<config-file-BW\> if you're using BW.
+Note: DS2VideoConfig only edits [\<config-file\>](#glossary) so make sure to copy its content to [\<config-file-BW\>](#glossary) if you're using BW.
 
 ## In order to play Dungeon Siege 2: Broken World, you must first install the full version of Dungeon Siege 2
 
@@ -379,6 +381,16 @@ Lower the game's height (see [Playing Dungeon Siege 2 with a Custom Resolution](
 
 Add your GPU to "[\<path-to-game\>](#glossary)\system_detail.gas" with this [guide](https://steamcommunity.com/sharedfiles/filedetails/?id=780053070).
 
+# Issues unresolved]
+
+## Low framerate when installing BW or a language pack
+
+This issue affects a minority of users and there's no definitive fix for it. You can try disabling virtualization in your BIOS settings. If that doesn't work, you're sadly out of luck.
+
+You can follow this [thread](https://steamcommunity.com/app/39200/discussions/0/405690850601811605) or this [thread](https://steamcommunity.com/app/39200/discussions/0/405690850601811605) to stay up-to-date whether this issue gets solved.
+
+Note: DS2 works fine when BW is not installed.
+
 # Modding
 
 ## Cannot apply the All\*Saves fix
@@ -459,6 +471,7 @@ If nothing happens when clicking on the Create button in Tank Creator, make sure
 - https://www.siegetheday.org (unofficial community)
 - https://www.siegetheday.org/?q=node/1290 (Elys DS2 Succubus Manager v10)
 - https://steamcommunity.com/groups/TheKingdomOfEhb (Steam group)
+- https://steamcommunity.com/app/39200/discussions/0/2800629075205408338 (Steam thread for this guide)
 - https://www.zhixalom.com/lair/category/dungeon-siege-2 (DS2 mods)
 
 # Credits
