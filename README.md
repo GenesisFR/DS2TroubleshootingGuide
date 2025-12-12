@@ -25,19 +25,20 @@
    * [3.10 Missing/corrupted DLLs](#missingcorrupted-dlls)
    * [3.11 Mouse cursor is missing](#mouse-cursor-is-missing)
    * [3.12 Name is already in use](#name-is-already-in-use)
-   * [3.13 Runtime Error (R6025 - pure virtual function call)](#runtime-error-R6025---pure-virtual-function-call)
-   * [3.14 Save failed](#save-failed)
-   * [3.15 Saved games are not listed](#saved-games-are-not-listed)
-   * [3.16 Stuck on the character selection screen when starting Broken World](#stuck-on-the-character-selection-screen-when-starting-broken-world)
-   * [3.17 Stutters when moving the mouse](#stutters-when-moving-the-mouse)
-   * [3.18 The cutscene for Valdis fails to start](#the-cutscene-for-valdis-fails-to-start)
-   * [3.19 The dragon doesn't land in Snowbrook Haven](#the-dragon-doesnt-land-in-snowbrook-haven)
-   * [3.20 The elven sanctuary door stays locked](#the-elven-sanctuary-door-stays-locked)
-   * [3.21 The rebels don't become hostile during The Kalrathian Rebellion](#the-rebels-dont-become-hostile-during-the-kalrathian-rebellion)
-   * [3.22 Video initialization failure](#video-initialization-failure)
-   * [3.23 Window is offscreen](#window-is-offscreen)
-   * [3.24 You cannot run Dungeon Siege II in a resolution higher than your desktop](#you-cannot-run-dungeon-siege-ii-in-a-resolution-higher-than-your-desktop)
-   * [3.25 Your hardware configuration is below minimum specification](#your-hardware-configuration-is-below-minimum-specification)
+   * [3.13 Physical LAN clients not able to join each other](#physical-lan-clients-not-able-to-join-each-other)
+   * [3.14 Runtime Error (R6025 - pure virtual function call)](#runtime-error-R6025---pure-virtual-function-call)
+   * [3.15 Save failed](#save-failed)
+   * [3.16 Saved games are not listed](#saved-games-are-not-listed)
+   * [3.17 Stuck on the character selection screen when starting Broken World](#stuck-on-the-character-selection-screen-when-starting-broken-world)
+   * [3.18 Stutters when moving the mouse](#stutters-when-moving-the-mouse)
+   * [3.19 The cutscene for Valdis fails to start](#the-cutscene-for-valdis-fails-to-start)
+   * [3.20 The dragon doesn't land in Snowbrook Haven](#the-dragon-doesnt-land-in-snowbrook-haven)
+   * [3.21 The elven sanctuary door stays locked](#the-elven-sanctuary-door-stays-locked)
+   * [3.22 The rebels don't become hostile during The Kalrathian Rebellion](#the-rebels-dont-become-hostile-during-the-kalrathian-rebellion)
+   * [3.23 Video initialization failure](#video-initialization-failure)
+   * [3.24 Window is offscreen](#window-is-offscreen)
+   * [3.25 You cannot run Dungeon Siege II in a resolution higher than your desktop](#you-cannot-run-dungeon-siege-ii-in-a-resolution-higher-than-your-desktop)
+   * [3.26 Your hardware configuration is below minimum specification](#your-hardware-configuration-is-below-minimum-specification)
 * [4.0 Issues unresolved](#issues-unresolved)
    * [4.1 Low framerate when installing BW or a language pack](#low-framerate-when-installing-bw-or-a-language-pack)
 * [5.0 Modding](#modding)
@@ -72,7 +73,7 @@ SP = Singleplayer
 \<path-to-docs-BW\> = "%USERPROFILE%\Documents\My Games\Dungeon Siege 2 Broken World"  
 \<path-to-game\> = the game directory (ex: "%PROGRAMFILES(X86)%\Steam\steamapps\common\Dungeon Siege 2")
 
-Please note that while this document is based on the Steam version (combined with [Killah's fix](#enable-bw--extras)), I did my best to accommodate retail users and those not using BW. Some steps may be different and a few issues may not happen on the retail version.
+Please note that this document is based on the Steam version (combined with [Killah's fix](#enable-bw--extras)) and Windows 10. I did my best to accommodate retail users and those not using BW. Some steps may be different and a few issues may not happen on the retail version or other operating systems.
 
 # Guides
 
@@ -171,9 +172,9 @@ Please note that these steps are for Windows 10. They may be slightly different 
 12. Under "Advanced -> Broadcast", check the box labeled "Enable Broadcast (ff:ff:ff:ff:ff:ff)".
 13. In Windows, go to "Control Panel -> Network and Sharing Center".
 14. Double-click on the adapter named "ZeroTier One" followed by the network ID (it's a 16-characters alphanumeric string). If it's not in the list, go to "C:\ProgramData\ZeroTier\One\tap-windows\x64", right-click "zttap300.inf" and hit Install.
-15. Click on Configure.
-16. Go to the Advanced tab, set "Non-Admin Access" to Allowed and click on OK.
-17. Click on Properties.
+15. Click on Properties.
+16. Click on Configure.
+17. Go to the Advanced tab, set "Non-Admin Access" to Allowed and click on OK.
 18. In the list of items, make sure "Internet Protocol Version 6 (TCP IPv6)" is unchecked.
 19. Double-click on "Internet Protocol Version 4 (TCP IPv4)".
 20. Make sure both "Obtain an IP address automatically" and "Obtain DNS server address automatically" are selected.
@@ -292,6 +293,16 @@ Note: only one network adapter must have its MTU set to 1 at any given time!
 Remove the Aranna Legacy mod.
 
 Source: https://discord.com/channels/373223103985090581/400744824593973248/703096876739854397
+
+## Physical LAN clients not able to join each other
+
+When two computers on physical LAN can see each other in the lobby but the client stays in the lobby or crash once the host starts a game, you must disable IPv6 on both computers:
+
+1. In Windows, go to "Control Panel -> Network and Sharing Center".
+2. Double-click on your network adapter.
+3. Click on Properties.
+4. In the list of items, make sure "Internet Protocol Version 6 (TCP IPv6)" is unchecked.
+5. Hit OK.
 
 ## Save failed
 
