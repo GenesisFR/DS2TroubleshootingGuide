@@ -17,6 +17,7 @@
    * [3.2 Black screen at startup](#black-screen-at-startup)
    * [3.3 Block name collision. Parent block has a dir and a second dir child block named 'maps'](#block-name-collision-parent-block-has-a-dir-and-a-second-dir-child-block-named-maps)
    * [3.4 Camera spinning too fast](#camera-spinning-too-fast)
+   * [3.5 Characters are invisible](#characters-are-invisible)
    * [3.5 Crash/exception](#crashexception)
    * [3.6 In order to play Dungeon Siege 2: Broken World, you must first install the full version of Dungeon Siege 2](#in-order-to-play-dungeon-siege-2-broken-world-you-must-first-install-the-full-version-of-dungeon-siege-2)
    * [3.7 Inn conversion bug](#inn-conversion-bug)
@@ -207,6 +208,10 @@ This only happens when using middle-click while running the game in windowed mod
 
 - For DS2, use the original/Steam executable.
 - For DS2BW ([Killah's fix](#enable-bw--extras)), use this [executable](https://www.mediafire.com/file/9ivessmxpqapi9n/DungeonSiege2BW_windowed.exe).
+
+## Characters are invisible
+
+Open "[\<path-to-game\>](#glossary)\system_detail.gas" and change all occurrences of "simple_render	= true" to "simple_render = false".
 
 ## Crash/exception
 
@@ -492,6 +497,7 @@ This document wouldn't have been possible without the following people:
 - Almar - DS2 guides
 - [Antrad2020](https://antonior-software.blogspot.com)
 - [ashepwb](https://steamcommunity.com/profiles/76561198038717282) - Valdis cutscene fix
+- ChaosCVZ#5072 (Discord)
 - [doa_92](https://steamcommunity.com/id/doa_92)
 - Eibhleann#3066 (Discord)
 - [HelpCute7877](https://www.reddit.com/user/HelpCute7877) - mouse stutter fix
