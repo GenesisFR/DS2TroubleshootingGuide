@@ -32,11 +32,12 @@
    * [3.17 Stutters when moving the mouse](#stutters-when-moving-the-mouse)
    * [3.18 The cutscene for Valdis fails to start](#the-cutscene-for-valdis-fails-to-start)
    * [3.19 The dragon doesn't land in Snowbrook Haven](#the-dragon-doesnt-land-in-snowbrook-haven)
-   * [3.20 The rebels don't become hostile during The Kalrathian Rebellion](#the-rebels-dont-become-hostile-during-the-kalrathian-rebellion)
-   * [3.21 Video initialization failure](#video-initialization-failure)
-   * [3.22 Window is offscreen](#window-is-offscreen)
-   * [3.23 You cannot run Dungeon Siege II in a resolution higher than your desktop](#you-cannot-run-dungeon-siege-ii-in-a-resolution-higher-than-your-desktop)
-   * [3.24 Your hardware configuration is below minimum specification](#your-hardware-configuration-is-below-minimum-specification)
+   * [3.20 The elven sanctuary door stays locked](#the-elven-sanctuary-door-stays-locked)
+   * [3.21 The rebels don't become hostile during The Kalrathian Rebellion](#the-rebels-dont-become-hostile-during-the-kalrathian-rebellion)
+   * [3.22 Video initialization failure](#video-initialization-failure)
+   * [3.23 Window is offscreen](#window-is-offscreen)
+   * [3.24 You cannot run Dungeon Siege II in a resolution higher than your desktop](#you-cannot-run-dungeon-siege-ii-in-a-resolution-higher-than-your-desktop)
+   * [3.25 Your hardware configuration is below minimum specification](#your-hardware-configuration-is-below-minimum-specification)
 * [4.0 Modding](#modding)
    * [4.1 Cannot apply the All\*Saves fix](#cannot-apply-the-allsaves-fix)
    * [4.2 DS2Mod crashes at launch](#ds2mod-crashes-at-launch)
@@ -336,6 +337,14 @@ Source: https://steamcommunity.com/app/39200/discussions/0/1649917420751088963
 3. Talk to the commander and the dragon quest will be completed.
 
 Source: https://steamcommunity.com/app/39200/discussions/0/792924412399466600/#c3005551013347010720
+
+## The elven sanctuary door stays locked
+
+1. Download this [file](https://www.nexusmods.com/dungeonsiegeii/mods/138).
+2. Extract it to "[\<path-to-game\>](#glossary)\Resources".
+3. Buy the elven door key from Eirulan's reagent vendor.
+
+Note: you may need to use AllSaves or Elys Succubus Manager on an existing character.
 
 ## The rebels don't become hostile during The Kalrathian Rebellion
 
