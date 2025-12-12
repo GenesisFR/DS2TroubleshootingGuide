@@ -111,7 +111,7 @@ Open "[\<path-to-game\>](#glossary)\system_detail.gas" and change the 4 occurren
 
 If you play the game at higher resolutions (like 1080p), the UI won't scale and will become tiny. There is a workaround that involves rendering the game at a specific resolution and the UI at a lower resolution (effectively making it bigger):
 
-1. Download the latest version of [dgVoodoo2](http://dege.freeweb.hu/dgVoodoo2/dgVoodoo2).
+1. Download the latest version of [dgVoodoo2](https://www.pcgamingwiki.com/wiki/DgVoodoo_2#DirectX_9).
 2. Open the downloaded archive and extract dgVoodoo.conf, dgVoodooCpl.exe and "MS\x86\D3D9.dll" to [\<path-to-game\>](#glossary).
 3. Run dgVoodooCpl.exe, go to the DirectX tab and select "GeForce FX 5700 Ultra" from the Videocard drop down list (this will get rid of a warning at launch).
 4. From the same tab, select your native resolution from the Resolution drop down list and hit OK.
@@ -218,7 +218,7 @@ It can be caused by literally anything. Here are a few common fixes I've gathere
 - Some mods can conflict with each other. Find and remove conflicting mods.
 - Some mods don't work on BW. Find and remove incompatible mods, then look for similar mods compatible with BW.
 - Make the game recognize your GPU with this [guide](https://steamcommunity.com/sharedfiles/filedetails/?id=780053070).
-- Use [dgVoodoo2](http://dege.freeweb.hu/dgVoodoo2/dgVoodoo2).
+- Use [dgVoodoo2](https://www.pcgamingwiki.com/wiki/DgVoodoo_2#DirectX_9).
 
 ## In order to play Dungeon Siege 2: Broken World, you must first install the full version of Dungeon Siege 2
 
@@ -459,6 +459,7 @@ This document wouldn't have been possible without the following people:
 - [ashepwb](https://steamcommunity.com/profiles/76561198038717282) - Valdis cutscene fix
 - [doa_92](https://steamcommunity.com/id/doa_92)
 - Eibhleann#3066 (Discord)
+- [HelpCute7877](https://www.reddit.com/user/HelpCute7877) - mouse stutter fix
 - [loadedpinky137](https://steamcommunity.com/id/Now_Loading247)
 - Killah - BW guides and DS community
 - KillerGremal - inn conversion fix
