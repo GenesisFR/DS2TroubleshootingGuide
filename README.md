@@ -419,7 +419,7 @@ DS2Mod, just like DS2, doesn't launch when BW is installed. Move "[\<path-to-gam
 
 ## DS2TankViewer doesn't work
 
-If the official DS2TankViewer doesn't start, you can try the [unofficial TankViewer2](https://www.siegetheday.org/?q=node/2951) instead.
+If the official DS2TankViewer doesn't start, you can try the [unofficial TankViewer2](https://www.siegetheday.org/?q=node/2951) instead or [Siege Control](https://github.com/kaiytech/siege-control), a more modern application.
 
 ## Elys Succubus Manager cannot run DS2/BW
 
