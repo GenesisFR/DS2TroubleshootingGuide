@@ -9,7 +9,7 @@
    * [2.3 Enable BW + Extras](#enable-bw--extras)
    * [2.4 Increase shadow resolution](#increase-shadow-resolution)
    * [2.5 Increase UI size](#increase-ui-size)
-   * [2.6 Play borderless fullscreen](#play-borderless-fullscreen)
+   * [2.6 Play in borderless fullscreen](#play-in-borderless-fullscreen)
    * [2.7 Play online](#play-online)
    * [2.8 Play windowed](#play-windowed)
 * [3.0 Issues fixed](#issues-fixed)
@@ -19,27 +19,28 @@
    * [3.4 Camera spinning too fast](#camera-spinning-too-fast)
    * [3.5 Characters are invisible](#characters-are-invisible)
    * [3.6 Crash/exception](#crashexception)
-   * [3.7 In order to play Dungeon Siege 2: Broken World, you must first install the full version of Dungeon Siege 2](#in-order-to-play-dungeon-siege-2-broken-world-you-must-first-install-the-full-version-of-dungeon-siege-2)
-   * [3.8 Inn conversion bug](#inn-conversion-bug)
-   * [3.9 Join button doesn't work](#join-button-doesnt-work)
-   * [3.10 LAN games are not visible](#lan-games-are-not-visible)
-   * [3.11 Missing/corrupted DLLs](#missingcorrupted-dlls)
-   * [3.12 Mouse cursor is missing](#mouse-cursor-is-missing)
-   * [3.13 Name is already in use](#name-is-already-in-use)
-   * [3.14 Physical LAN clients not able to join each other](#physical-lan-clients-not-able-to-join-each-other)
-   * [3.15 Runtime Error (R6025 - pure virtual function call)](#runtime-error-R6025---pure-virtual-function-call)
-   * [3.16 Save failed](#save-failed)
-   * [3.17 Saved games are not listed](#saved-games-are-not-listed)
-   * [3.18 Stuck on the character selection screen when starting Broken World](#stuck-on-the-character-selection-screen-when-starting-broken-world)
-   * [3.19 Stutters when moving the mouse](#stutters-when-moving-the-mouse)
-   * [3.20 The cutscene for Valdis fails to start](#the-cutscene-for-valdis-fails-to-start)
-   * [3.21 The dragon doesn't land in Snowbrook Haven](#the-dragon-doesnt-land-in-snowbrook-haven)
-   * [3.22 The elven sanctuary door stays locked](#the-elven-sanctuary-door-stays-locked)
-   * [3.23 The rebels don't become hostile during The Kalrathian Rebellion](#the-rebels-dont-become-hostile-during-the-kalrathian-rebellion)
-   * [3.24 Video initialization failure](#video-initialization-failure)
-   * [3.25 Window is offscreen](#window-is-offscreen)
-   * [3.26 You cannot run Dungeon Siege II in a resolution higher than your desktop](#you-cannot-run-dungeon-siege-ii-in-a-resolution-higher-than-your-desktop)
-   * [3.27 Your hardware configuration is below minimum specification](#your-hardware-configuration-is-below-minimum-specification)
+   * [3.7 Frame rate locked to 75 fps in windowed mode](#frame-rate-locked-to-75-fps-in-windowed-mode)
+   * [3.8 In order to play Dungeon Siege 2: Broken World, you must first install the full version of Dungeon Siege 2](#in-order-to-play-dungeon-siege-2-broken-world-you-must-first-install-the-full-version-of-dungeon-siege-2)
+   * [3.9 Inn conversion bug](#inn-conversion-bug)
+   * [3.10 Join button doesn't work](#join-button-doesnt-work)
+   * [3.11 LAN games are not visible](#lan-games-are-not-visible)
+   * [3.12 Missing/corrupted DLLs](#missingcorrupted-dlls)
+   * [3.13 Mouse cursor is missing](#mouse-cursor-is-missing)
+   * [3.14 Name is already in use](#name-is-already-in-use)
+   * [3.15 Physical LAN clients not able to join each other](#physical-lan-clients-not-able-to-join-each-other)
+   * [3.16 Runtime Error (R6025 - pure virtual function call)](#runtime-error-R6025---pure-virtual-function-call)
+   * [3.17 Save failed](#save-failed)
+   * [3.18 Saved games are not listed](#saved-games-are-not-listed)
+   * [3.19 Stuck on the character selection screen when starting Broken World](#stuck-on-the-character-selection-screen-when-starting-broken-world)
+   * [3.20 Stutters when moving the mouse](#stutters-when-moving-the-mouse)
+   * [3.21 The cutscene for Valdis fails to start](#the-cutscene-for-valdis-fails-to-start)
+   * [3.22 The dragon doesn't land in Snowbrook Haven](#the-dragon-doesnt-land-in-snowbrook-haven)
+   * [3.23 The elven sanctuary door stays locked](#the-elven-sanctuary-door-stays-locked)
+   * [3.24 The rebels don't become hostile during The Kalrathian Rebellion](#the-rebels-dont-become-hostile-during-the-kalrathian-rebellion)
+   * [3.25 Video initialization failure](#video-initialization-failure)
+   * [3.26 Window is offscreen](#window-is-offscreen)
+   * [3.27 You cannot run Dungeon Siege II in a resolution higher than your desktop](#you-cannot-run-dungeon-siege-ii-in-a-resolution-higher-than-your-desktop)
+   * [3.28 Your hardware configuration is below minimum specification](#your-hardware-configuration-is-below-minimum-specification)
 * [4.0 Issues unresolved](#issues-unresolved)
    * [4.1 Low framerate when installing BW or a language pack](#low-framerate-when-installing-bw-or-a-language-pack)
 * [5.0 Modding](#modding)
@@ -67,8 +68,8 @@ DS2 = Dungeon Siege 2
 GPU = Graphics Processing Unit (graphics card)  
 MP = Multiplayer  
 SP = Singleplayer  
-\<config-file\> = "\<path-to-docs\>\DungeonSiege2.ini"  
-\<config-file-BW\> = "\<path-to-docs-BW\>\DungeonSiege2BrokenWorld.ini"  
+\<config-file\> = "%USERPROFILE%\Documents\My Games\Dungeon Siege 2\DungeonSiege2.ini"  
+\<config-file-BW\> = "%USERPROFILE%\Documents\My Games\Dungeon Siege 2 Broken World\DungeonSiege2BrokenWorld.ini"  
 \<gpu-model\> = actual name of your GPU (ex: "NVIDIA GeForce GTX 1070")  
 \<path-to-docs\> = "%USERPROFILE%\Documents\My Games\Dungeon Siege 2"  
 \<path-to-docs-BW\> = "%USERPROFILE%\Documents\My Games\Dungeon Siege 2 Broken World"  
@@ -129,7 +130,7 @@ You may encounter two issues when using dgVoodoo2:
 
 Note: these instructions won't work while running the game in windowed mode.
 
-## Play borderless fullscreen
+## Play in borderless fullscreen
 
 There are multiple programs that allow games to run borderless fullscreen (you can find an exhaustive list [here](https://www.pcgamingwiki.com/wiki/Glossary:Borderless_fullscreen_windowed)), however for the sake of simplicity, we'll only cover one of them here.
 
@@ -230,6 +231,10 @@ It can be caused by literally anything. Here are a few common fixes I've gathere
 - Run "[\<path-to-game\>](#glossary)\DS2VideoConfig.exe" and switch your driver to "[\<gpu-model\>](#glossary) - Hardware" (or its TnL equivalent).
 
 Note: DS2VideoConfig only edits [\<config-file\>](#glossary) so make sure to copy its content to [\<config-file-BW\>](#glossary) if you're using BW.
+
+## Frame rate locked to 75 fps in windowed mode
+
+Add "maxfps = 0" to the top of [\<config-file\>](#glossary) (or [\<config-file-BW\>](#glossary) for BW).
 
 ## In order to play Dungeon Siege 2: Broken World, you must first install the full version of Dungeon Siege 2
 
