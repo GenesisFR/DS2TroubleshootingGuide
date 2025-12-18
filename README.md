@@ -20,27 +20,28 @@
    * [3.5 Characters are invisible](#characters-are-invisible)
    * [3.6 Crash/exception](#crashexception)
    * [3.7 Frame rate locked to 75 fps in windowed mode](#frame-rate-locked-to-75-fps-in-windowed-mode)
-   * [3.8 In order to play Dungeon Siege 2: Broken World, you must first install the full version of Dungeon Siege 2](#in-order-to-play-dungeon-siege-2-broken-world-you-must-first-install-the-full-version-of-dungeon-siege-2)
-   * [3.9 Inn conversion bug](#inn-conversion-bug)
-   * [3.10 Join button doesn't work](#join-button-doesnt-work)
-   * [3.11 LAN games are not visible](#lan-games-are-not-visible)
-   * [3.12 Missing/corrupted DLLs](#missingcorrupted-dlls)
-   * [3.13 Mouse cursor is missing](#mouse-cursor-is-missing)
-   * [3.14 Name is already in use](#name-is-already-in-use)
-   * [3.15 Physical LAN clients not able to join each other](#physical-lan-clients-not-able-to-join-each-other)
-   * [3.16 Runtime Error (R6025 - pure virtual function call)](#runtime-error-R6025---pure-virtual-function-call)
-   * [3.17 Save failed](#save-failed)
-   * [3.18 Saved games are not listed](#saved-games-are-not-listed)
-   * [3.19 Stuck on the character selection screen when starting Broken World](#stuck-on-the-character-selection-screen-when-starting-broken-world)
-   * [3.20 Stutters when moving the mouse](#stutters-when-moving-the-mouse)
-   * [3.21 The cutscene for Valdis fails to start](#the-cutscene-for-valdis-fails-to-start)
-   * [3.22 The dragon doesn't land in Snowbrook Haven](#the-dragon-doesnt-land-in-snowbrook-haven)
-   * [3.23 The elven sanctuary door stays locked](#the-elven-sanctuary-door-stays-locked)
-   * [3.24 The rebels don't become hostile during The Kalrathian Rebellion](#the-rebels-dont-become-hostile-during-the-kalrathian-rebellion)
-   * [3.25 Video initialization failure](#video-initialization-failure)
-   * [3.26 Window is offscreen](#window-is-offscreen)
-   * [3.27 You cannot run Dungeon Siege II in a resolution higher than your desktop](#you-cannot-run-dungeon-siege-ii-in-a-resolution-higher-than-your-desktop)
-   * [3.28 Your hardware configuration is below minimum specification](#your-hardware-configuration-is-below-minimum-specification)
+   * [3.8 Game freezes after creating a character](#game-freezes-after-creating-a-character)
+   * [3.9 In order to play Dungeon Siege 2: Broken World, you must first install the full version of Dungeon Siege 2](#in-order-to-play-dungeon-siege-2-broken-world-you-must-first-install-the-full-version-of-dungeon-siege-2)
+   * [3.10 Inn conversion bug](#inn-conversion-bug)
+   * [3.11 Join button doesn't work](#join-button-doesnt-work)
+   * [3.12 LAN games are not visible](#lan-games-are-not-visible)
+   * [3.13 Missing/corrupted DLLs](#missingcorrupted-dlls)
+   * [3.14 Mouse cursor is missing](#mouse-cursor-is-missing)
+   * [3.15 Name is already in use](#name-is-already-in-use)
+   * [3.16 Physical LAN clients not able to join each other](#physical-lan-clients-not-able-to-join-each-other)
+   * [3.17 Runtime Error (R6025 - pure virtual function call)](#runtime-error-R6025---pure-virtual-function-call)
+   * [3.18 Save failed](#save-failed)
+   * [3.19 Saved games are not listed](#saved-games-are-not-listed)
+   * [3.20 Stuck on the character selection screen when starting the Broken World campaign](#stuck-on-the-character-selection-screen-when-starting-the-broken-world-campaign)
+   * [3.21 Stutters when moving the mouse](#stutters-when-moving-the-mouse)
+   * [3.22 The cutscene for Valdis fails to start](#the-cutscene-for-valdis-fails-to-start)
+   * [3.23 The dragon doesn't land in Snowbrook Haven](#the-dragon-doesnt-land-in-snowbrook-haven)
+   * [3.24 The elven sanctuary door stays locked](#the-elven-sanctuary-door-stays-locked)
+   * [3.25 The rebels don't become hostile during The Kalrathian Rebellion](#the-rebels-dont-become-hostile-during-the-kalrathian-rebellion)
+   * [3.26 Video initialization failure](#video-initialization-failure)
+   * [3.27 Window is offscreen](#window-is-offscreen)
+   * [3.28 You cannot run Dungeon Siege II in a resolution higher than your desktop](#you-cannot-run-dungeon-siege-ii-in-a-resolution-higher-than-your-desktop)
+   * [3.29 Your hardware configuration is below minimum specification](#your-hardware-configuration-is-below-minimum-specification)
 * [4.0 Issues unresolved](#issues-unresolved)
    * [4.1 Low framerate when installing BW or a language pack](#low-framerate-when-installing-bw-or-a-language-pack)
 * [5.0 Modding](#modding)
@@ -238,6 +239,10 @@ Note: DS2VideoConfig only edits [\<config-file\>](#glossary) so make sure to cop
 
 Add "maxfps = 0" to the top of [\<config-file\>](#glossary) (or [\<config-file-BW\>](#glossary) for BW).
 
+## Game freezes after creating a character
+
+Make sure you installed the correct version of the mods you're using, for instance if you're on BW, use the BW version of your mods.
+
 ## In order to play Dungeon Siege 2: Broken World, you must first install the full version of Dungeon Siege 2
 
 This error can only be seen and interacted with when running the game in [windowed](#play-windowed) mode. Download the [reg patch](https://github.com/GenesisFR/RegPatches) and run it from [\<path-to-game\>](#glossary) (select option 1).
@@ -332,7 +337,7 @@ Source: https://steamcommunity.com/app/39200/discussions/0/2619339453457265287
 
 Saved games created while using different mods won't be displayed and therefore cannot be loaded. Run the game through Elys DS2 Succubus Manager to load them.
 
-## Stuck on the character selection screen when starting Broken World
+## Stuck on the character selection screen when starting the Broken World campaign
 
 This happens when starting the Broken World campaign with a character that was made before installing Broken World. The introduction cutscene plays but then the game gets stuck on the character selection screen with the fire bowls on the sides.
 
@@ -514,6 +519,7 @@ This document wouldn't have been possible without the following people:
 - [loadedpinky137](https://steamcommunity.com/id/Now_Loading247)
 - Killah - BW guides and DS community
 - KillerGremal - inn conversion fix
+- Kyrnn#1175 (Discord) - character creation fix
 - [PL4typus](https://github.com/PL4typus)
 - RandallTVandal#9569 (Discord)
 - shockingboring#0041 (Discord)
