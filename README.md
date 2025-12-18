@@ -197,7 +197,9 @@ Copy the file mentioned at the bottom of the pop-up (likely binkw32.dll) from "[
 
 ## Black screen at startup
 
-Apply the fixes from [Crash/exception](#crashexception) and [In order to play Dungeon Siege 2: Broken World, you must first install the full version of Dungeon Siege 2](#in-order-to-play-dungeon-siege-2-broken-world-you-must-first-install-the-full-version-of-dungeon-siege-2).
+If you hear a system beep and get stuck on a black screen with no way to close the game, you can try running the game in [windowed](#play-windowed) mode to see what the error is.
+
+Depending on the error you're getting, you should apply the fixes from [Crash/exception](#crashexception), [In order to play Dungeon Siege 2: Broken World, you must first install the full version of Dungeon Siege 2](#in-order-to-play-dungeon-siege-2-broken-world-you-must-first-install-the-full-version-of-dungeon-siege-2) or [Your hardware configuration is below minimum specification](#your-hardware-configuration-is-below-minimum-specification).
 
 ## Block name collision. Parent block has a dir and a second dir child block named 'maps'
 
@@ -238,7 +240,7 @@ Add "maxfps = 0" to the top of [\<config-file\>](#glossary) (or [\<config-file-B
 
 ## In order to play Dungeon Siege 2: Broken World, you must first install the full version of Dungeon Siege 2
 
-This error only shows up when running the game in [windowed](#play-windowed) mode. Download the [reg patch](https://github.com/GenesisFR/RegPatches) and run it from [\<path-to-game\>](#glossary) (select option 1).
+This error can only be seen and interacted with when running the game in [windowed](#play-windowed) mode. Download the [reg patch](https://github.com/GenesisFR/RegPatches) and run it from [\<path-to-game\>](#glossary) (select option 1).
 
 ## Inn conversion bug
 
@@ -400,7 +402,9 @@ Lower the game's height (see [Playing Dungeon Siege 2 with a Custom Resolution](
 
 ## Your hardware configuration is below minimum specification
 
-Add your GPU to "[\<path-to-game\>](#glossary)\system_detail.gas" with this [guide](https://steamcommunity.com/sharedfiles/filedetails/?id=780053070).
+This error can only be seen and interacted with when running the game in [windowed](#play-windowed) mode.
+
+If you can see the pop-up, just click OK and it should no longer show up. If it still does, you can add "min_spec_warning = true" to the top of [\<config-file\>](#glossary) (or [\<config-file-BW\>](#glossary) for BW).
 
 # Issues unresolved
 
