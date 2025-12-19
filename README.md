@@ -68,8 +68,8 @@
 
 Shortcuts used throughout this document:
 
-BW = Broken World  
-DS2 = Dungeon Siege 2  
+BW = Broken World (expansion)  
+DS2 = Dungeon Siege 2 (base game)  
 GPU = Graphics Processing Unit (graphics card)  
 MP = Multiplayer  
 SP = Singleplayer  
@@ -149,11 +149,13 @@ Note: the main menu UI has a fixed resolution and will be broken, repeat step 5 
 
 ## Play in other languages
 
-The game on Steam is available in various languages, however these do not cover cutscenes, voices or LOA. Besides, the retail version featured all of that however language packs are hard to find and some fan translations have been done over time.
+The game on Steam is available in various languages, however these do not localize cutscenes, voices or BW. The retail version localizes everything, however language packs are hard to find and some fan translations have been made since the game released.
 
-Killah and I collected most of these language packs and put them in a single location so that they're easily accessible. You'll find them on [Killah's pastebin](https://pastebin.com/Gcg9qLLp) under "Language Packs".
+Killah and I collected most of these language packs and put them in a single location so that they're easily accessible. You'll find them on Killah's [pastebin](https://pastebin.com/Gcg9qLLp) under "Language Packs".
 
 Installing them is a simple as drag-and-dropping their content to [\<path-to-game\>](#glossary).
+
+Please note that the DS2 packs do not cover BW so if you're playing BW, pick the corresponding BW pack instead. Some of them also do not localize cutscenes and voices (you can guess by the file size).
 
 ## Play online (OpenSpy)
 
