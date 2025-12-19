@@ -202,7 +202,7 @@ Please note that these steps are for Windows 10. They may be slightly different 
 
 ## Play windowed
 
-Add the "fullscreen=false" launch parameter. See the following instructions for [shortcuts](https://www.pcgamingwiki.com/wiki/Glossary:Command_line_arguments#Desktop_shortcuts), [Steam](https://www.pcgamingwiki.com/wiki/Glossary:Command_line_arguments#Steam) or [GOG Galaxy](https://www.pcgamingwiki.com/wiki/Glossary:Command_line_arguments#GOG_Galaxy_2.0).
+Add "fullscreen = false" to the top of [\<config-file\>](#glossary) (or [\<config-file-BW\>](#glossary) for BW).
 
 # Issues fixed
 
@@ -411,7 +411,7 @@ The game is using a resolution that is not natively supported by your GPU. The e
 
 ## Window is offscreen
 
-Add "x=0 y=0" to your launch parameters. See the following instructions for [shortcuts](https://www.pcgamingwiki.com/wiki/Glossary:Command_line_arguments#Desktop_shortcuts), [Steam](https://www.pcgamingwiki.com/wiki/Glossary:Command_line_arguments#Steam) or [GOG Galaxy](https://www.pcgamingwiki.com/wiki/Glossary:Command_line_arguments#GOG_Galaxy_2.0).
+Add "x=0" and "y=0" (each on a separate line) to the top of [\<config-file\>](#glossary) (or [\<config-file-BW\>](#glossary) for BW).
 
 Source: https://steamcommunity.com/app/39200/discussions/0/846955554677340085/#c1692669912401473624
 
