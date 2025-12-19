@@ -10,8 +10,9 @@
    * [2.4 Increase shadow resolution](#increase-shadow-resolution)
    * [2.5 Increase UI size](#increase-ui-size)
    * [2.6 Play in borderless fullscreen](#play-in-borderless-fullscreen)
-   * [2.7 Play online](#play-online)
-   * [2.8 Play windowed](#play-windowed)
+   * [2.7 Play online (OpenSpy)](#play-online-openspy)
+   * [2.8 Play online (virtual LAN)](#play-online-virtual-lan)
+   * [2.9 Play windowed](#play-windowed)
 * [3.0 Issues fixed](#issues-fixed)
    * [3.1 An attempt to delay-load a .dll or get a function address in a delay-loaded .dll failed](#an-attempt-to-delay-load-a-dll-or-get-a-function-address-in-a-delay-loaded-dll-failed)
    * [3.2 Black screen at startup](#black-screen-at-startup)
@@ -135,7 +136,7 @@ Note: these instructions won't work while running the game in windowed mode.
 
 There are multiple programs that allow games to run borderless fullscreen (you can find an exhaustive list [here](https://www.pcgamingwiki.com/wiki/Glossary:Borderless_fullscreen_windowed)), however for the sake of simplicity, we'll only cover one of them here.
 
-1. Download [Fullscreenizer](https://github.com/KasumiL5x/Fullscreenizer/releases/tag/v1.0) and run it.
+1. Download [Fullscreenizer](https://github.com/KasumiL5x/Fullscreenizer/releases/latest) and run it.
 2. Run the game in [windowed](#play-windowed) mode.
 3. Switch back to Fullscreenizer.
 4. If the game doesn't appear in the list, click on "Show All", select "Dungeon Siege II" and click on "Add".
@@ -143,9 +144,22 @@ There are multiple programs that allow games to run borderless fullscreen (you c
 
 Note: the main menu UI has a fixed resolution and will be broken, repeat step 5 again to make the game windowed again.
 
-## Play online
+## Play online (OpenSpy)
 
-If you want to play online, there are 2 solutions that I can confirm are working: GameRanger and ZeroTier. Other virtual LAN softwares may work, but I haven't tried them (I never got Hamachi to let you see games though).
+If you downloaded Killah's fix after September 2025, you can skip the first 3 steps.
+
+1. Download the [latest](https://github.com/anzz1/openspy-client/releases/latest) version of OpenSpy 
+2. Extract openspy.x86.dll to \<path-to-game\>.
+3. Rename it as version.dll.
+4. Run the game.
+5. The Internet and GameSpy buttons should now work properly and let you join others.
+6. If hosting a game, you'll have to [port-forward](https://portforward.com/router.htm) UDP 2300-2400 and 6073.
+
+Note: OpenSpy currently has a [bug](https://github.com/anzz1/openspy-client/issues/9) when trying to sign in again.
+
+## Play online (virtual LAN)
+
+If you want to play online using virtual LAN softwares, there are 2 solutions that I can confirm are working: GameRanger and ZeroTier. Other virtual LAN softwares may work, but I haven't tried them (I never got Hamachi to let you see games though).
 
 GameRanger is fairly easy to set up, just check [Add the game on GameRanger](#add-the-game-on-gameranger) and the rest will be pretty self-explanatory (you may need to [port-forward](https://portforward.com/router.htm) UDP 16000). However, since the game is not run from Steam but from GameRanger, your hours won't be tracked. You also won't be able to use Elys DS2 Succubus Manager as GameRanger runs the original executable.
 
@@ -510,6 +524,7 @@ If nothing happens when clicking on the Create button in Tank Creator, make sure
 This document wouldn't have been possible without the following people:
 
 - Almar - DS2 guides
+- [anzz1](https://github.com/anzz1) and [Ligushka](https://github.com/Ligushka) - OpenSpy
 - [Antrad2020](https://antonior-software.blogspot.com)
 - [ashepwb](https://steamcommunity.com/profiles/76561198038717282) - Valdis cutscene fix
 - ChaosCVZ#5072 (Discord) - character invisibility fix
