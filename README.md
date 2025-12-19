@@ -10,10 +10,11 @@
    * [2.4 Increase shadow resolution](#increase-shadow-resolution)
    * [2.5 Increase UI size](#increase-ui-size)
    * [2.6 Play in borderless fullscreen](#play-in-borderless-fullscreen)
-   * [2.7 Play online (OpenSpy)](#play-online-openspy)
-   * [2.8 Play online (virtual LAN)](#play-online-virtual-lan)
-   * [2.9 Play windowed](#play-windowed)
-   * [2.10 Run Elys Succubus Manager as Dungeon Siege 2 through Steam](#run-elys-succubus-manager-as-dungeon-siege-2-through-steam)
+   * [2.7 Play in other languages](#play-in-other-languages)
+   * [2.8 Play online (OpenSpy)](#play-online-openspy)
+   * [2.9 Play online (virtual LAN)](#play-online-virtual-lan)
+   * [2.10 Play windowed](#play-windowed)
+   * [2.11 Run Elys Succubus Manager as Dungeon Siege 2 through Steam](#run-elys-succubus-manager-as-dungeon-siege-2-through-steam)
 * [3.0 Issues fixed](#issues-fixed)
    * [3.1 An attempt to delay-load a .dll or get a function address in a delay-loaded .dll failed](#an-attempt-to-delay-load-a-dll-or-get-a-function-address-in-a-delay-loaded-dll-failed)
    * [3.2 Black screen at startup](#black-screen-at-startup)
@@ -145,6 +146,14 @@ There are multiple programs that allow games to run borderless fullscreen (you c
 5. Select the game in the list and press the Fullscreenize button (or use your hotkey combination), preferably after loading a game.
 
 Note: the main menu UI has a fixed resolution and will be broken, repeat step 5 again to make the game windowed again.
+
+## Play in other languages
+
+The game on Steam is available in various languages, however these do not cover cutscenes, voices or LOA. Besides, the retail version featured all of that however language packs are hard to find and some fan translations have been done over time.
+
+Killah and I collected most of these language packs and put them in a single location so that they're easily accessible. You'll find them on [Killah's pastebin](https://pastebin.com/Gcg9qLLp) under "Language Packs".
+
+Installing them is a simple as drag-and-dropping their content to [\<path-to-game\>](#glossary).
 
 ## Play online (OpenSpy)
 
