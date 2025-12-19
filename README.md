@@ -13,6 +13,7 @@
    * [2.7 Play online (OpenSpy)](#play-online-openspy)
    * [2.8 Play online (virtual LAN)](#play-online-virtual-lan)
    * [2.9 Play windowed](#play-windowed)
+   * [2.10 Run Elys Succubus Manager as Dungeon Siege 2 through Steam](#run-elys-succubus-manager-as-dungeon-siege-2-through-steam)
 * [3.0 Issues fixed](#issues-fixed)
    * [3.1 An attempt to delay-load a .dll or get a function address in a delay-loaded .dll failed](#an-attempt-to-delay-load-a-dll-or-get-a-function-address-in-a-delay-loaded-dll-failed)
    * [3.2 Black screen at startup](#black-screen-at-startup)
@@ -162,7 +163,7 @@ Note: OpenSpy currently has a [bug](https://github.com/anzz1/openspy-client/issu
 
 If you want to play online using virtual LAN softwares, there are 2 solutions that I can confirm are working: GameRanger and ZeroTier. Other virtual LAN softwares may work, but I haven't tried them (I never got Hamachi to let you see games though).
 
-GameRanger is fairly easy to set up, just check [Add the game on GameRanger](#add-the-game-on-gameranger) and the rest will be pretty self-explanatory (you may need to [port-forward](https://portforward.com/router.htm) UDP 16000). However, since the game is not run from Steam but from GameRanger, your hours won't be tracked. You also won't be able to use Elys DS2 Succubus Manager as GameRanger runs the original executable.
+GameRanger is fairly easy to set up, just check [Add the game on GameRanger](#add-the-game-on-gameranger) and the rest will be pretty self-explanatory (you may need to [port-forward](https://portforward.com/router.htm) UDP 16000). However, since the game is not run from Steam but from GameRanger, your hours won't be tracked (see [Run Elys Succubus Manager through Steam](#run-elys-succubus-manager-through-steam) for an untested workaround). You also won't be able to use Elys DS2 Succubus Manager as GameRanger runs the DS2 executable.
 
 That's where ZeroTier comes into play. It's harder to set up but seems to work better and will allow you to use Elys DS2 Succubus Manager. Please follow the steps below to configure it.
 
@@ -204,6 +205,15 @@ Please note that these steps are for Windows 10. They may be slightly different 
 ## Play windowed
 
 Add "fullscreen = false" to the top of [\<config-file\>](#glossary) (or [\<config-file-BW\>](#glossary) for BW).
+
+## Run Elys Succubus Manager as Dungeon Siege 2 through Steam
+
+I found a way to run literally anything as a regular Steam game. Therefore, you can run DS2 through Elys, for instance, and have your Steam hours be tracked (with Steam overlay and everything).
+
+It's very easy to set up, you just need to put in the [launch parameters](https://www.pcgamingwiki.com/wiki/Glossary:Command_line_arguments#Steam) the path to the executable you want to run (surrounded with double quotes) followed by a space and %command%.
+
+On Windows, it'd be something like "C:\Program Files (x86)\Elys DS2 Succubus Manager\ElysDS2Succubus.exe" %command%".
+On Linux, it'd look like "PROTON_REMOTE_DEBUG_CMD="/path/to/exe" %command%".
 
 # Issues fixed
 
