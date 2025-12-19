@@ -40,9 +40,10 @@
    * [3.24 The elven sanctuary door stays locked](#the-elven-sanctuary-door-stays-locked)
    * [3.25 The rebels don't become hostile during The Kalrathian Rebellion](#the-rebels-dont-become-hostile-during-the-kalrathian-rebellion)
    * [3.26 Video initialization failure](#video-initialization-failure)
-   * [3.27 Window is offscreen](#window-is-offscreen)
-   * [3.28 You cannot run Dungeon Siege II in a resolution higher than your desktop](#you-cannot-run-dungeon-siege-ii-in-a-resolution-higher-than-your-desktop)
-   * [3.29 Your hardware configuration is below minimum specification](#your-hardware-configuration-is-below-minimum-specification)
+   * [3.27 Virtual alloc failed with error](#virtual-alloc-failed-with-error)
+   * [3.28 Window is offscreen](#window-is-offscreen)
+   * [3.29 You cannot run Dungeon Siege II in a resolution higher than your desktop](#you-cannot-run-dungeon-siege-ii-in-a-resolution-higher-than-your-desktop)
+   * [3.30 Your hardware configuration is below minimum specification](#your-hardware-configuration-is-below-minimum-specification)
 * [4.0 Issues unresolved](#issues-unresolved)
    * [4.1 Low framerate when installing BW or a language pack](#low-framerate-when-installing-bw-or-a-language-pack)
 * [5.0 Modding](#modding)
@@ -408,6 +409,12 @@ The game is using a resolution that is not natively supported by your GPU. The e
 - Use one of the standard resolutions (ex: 1024x768, 1280x720, 1920x1080).
 - Run the game in [windowed](#play-windowed) mode.
 - Use [dgVoodoo2](https://www.pcgamingwiki.com/wiki/DgVoodoo_2#DirectX_9).
+
+## Virtual alloc failed with error
+
+The game is running out of memory. It's usually due to using memory intensive mods such as the HD textures.
+
+Make the game's executable large-address aware using the [LAA enabler](https://www.pcgamingwiki.com/wiki/Windows#Set_older_32-bit_games_to_use_4_GB_RAM_instead_of_2) so it can use more RAM.
 
 ## Window is offscreen
 
