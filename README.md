@@ -558,17 +558,21 @@ This document wouldn't have been possible without the following people:
 - [Antrad2020](https://antonior-software.blogspot.com)
 - [ashepwb](https://steamcommunity.com/profiles/76561198038717282) - Valdis cutscene fix
 - ChaosCVZ#5072 (Discord) - character invisibility fix
-- [doa_92](https://steamcommunity.com/id/doa_92)
+- [doa_92](https://steamcommunity.com/id/doa_92) - German translation for BW
 - Eibhleann#3066 (Discord)
 - [HelpCute7877](https://www.reddit.com/user/HelpCute7877) - mouse stutter fix
 - [loadedpinky137](https://steamcommunity.com/id/Now_Loading247)
 - Killah - BW guides and DS community
 - KillerGremal - inn conversion fix
+- [Kuziem](https://steamcommunity.com/id/Kuziem) - Polish translation for BW
 - Kyrnn#1175 (Discord) - character creation fix
 - [PL4typus](https://github.com/PL4typus)
 - RandallTVandal#9569 (Discord)
+- [rizwfk](https://forumchess.com.tr/members/rizwfk.1/) - Turkish translation for DS2
 - shockingboring#0041 (Discord)
 - sadowson#5553 (Discord) - lots of fixes
+- [Teodar](https://steamcommunity.com/profiles/76561198023836850) - Spanish translation for DS2
+- [TraductionJeux](https://traductionjeux.com) - French translation for BW
 - [Tyler799](https://github.com/Tyler799) - format used for this guide
 - [vorik](https://steamcommunity.com/id/vorik) - launch parameters
 - Whibbles#5836 (Discord)
@@ -579,8 +583,8 @@ This document wouldn't have been possible without the following people:
 
 And the following resources:
  
-- https://pcgamingwiki.com/wiki/Dungeon_Siege_II
-- http://www.wsgf.org/dr/dungeon-siege-ii
+- [PCGamingWiki](https://pcgamingwiki.com/wiki/Dungeon_Siege_II)
+- [WSGF](http://www.wsgf.org/dr/dungeon-siege-ii)
 - Steam Community forums/guides
  
 Thanks a lot for your help!
