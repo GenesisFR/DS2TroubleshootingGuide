@@ -161,8 +161,8 @@ Please note that the DS2 packs do not cover BW so if you're playing BW, pick the
 
 If you downloaded Killah's fix after September 2025, you can skip the first 3 steps.
 
-1. Download the [latest](https://github.com/anzz1/openspy-client/releases/latest) version of OpenSpy 
-2. Extract openspy.x86.dll to \<path-to-game\>.
+1. Download the [latest](https://github.com/anzz1/openspy-client/releases/latest) version of OpenSpy.
+2. Extract openspy.x86.dll to [\<path-to-game\>](#glossary).
 3. Rename it as version.dll.
 4. Run the game.
 5. The Internet and GameSpy buttons should now work properly and let you join others.
@@ -174,7 +174,7 @@ Note: OpenSpy currently has a [bug](https://github.com/anzz1/openspy-client/issu
 
 If you want to play online using virtual LAN softwares, there are 2 solutions that I can confirm are working: GameRanger and ZeroTier. Other virtual LAN softwares may work, but I haven't tried them (I never got Hamachi to let you see games though).
 
-GameRanger is fairly easy to set up, just check [Add the game on GameRanger](#add-the-game-on-gameranger) and the rest will be pretty self-explanatory (you may need to [port-forward](https://portforward.com/router.htm) UDP 16000). However, since the game is not run from Steam but from GameRanger, your hours won't be tracked (see [Run Elys Succubus Manager through Steam](#run-elys-succubus-manager-through-steam) for an untested workaround). You also won't be able to use Elys DS2 Succubus Manager as GameRanger runs the DS2 executable.
+GameRanger is fairly easy to set up, just check [Add the game on GameRanger](#add-the-game-on-gameranger) and the rest will be pretty self-explanatory (you may need to [port-forward](https://portforward.com/router.htm) UDP 16000). However, since the game is not run from Steam but from GameRanger, your hours won't be tracked (see [Run Elys Succubus Manager as Dungeon Siege 2 through Steam](#run-elys-succubus-manager-as-dungeon-siege-2-through-steam) for an untested workaround). You also won't be able to use Elys DS2 Succubus Manager as GameRanger runs the DS2 executable.
 
 That's where ZeroTier comes into play. It's harder to set up but seems to work better and will allow you to use Elys DS2 Succubus Manager. Please follow the steps below to configure it.
 
