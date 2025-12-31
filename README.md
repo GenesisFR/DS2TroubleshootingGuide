@@ -223,8 +223,8 @@ I found a way to run literally anything as a regular Steam game. Therefore, you 
 
 It's very easy to set up, you just need to put in the [launch parameters](https://www.pcgamingwiki.com/wiki/Glossary:Command_line_arguments#Steam) the path to the executable you want to run (surrounded with double quotes) followed by a space and %command%.
 
-On Windows, it'd be something like "C:\Program Files (x86)\Elys DS2 Succubus Manager\ElysDS2Succubus.exe" %command%".
-On Linux, it'd look like "PROTON_REMOTE_DEBUG_CMD="/path/to/exe" %command%".
+On Windows, it'd be something like "C:\Program Files (x86)\Elys DS2 Succubus Manager\ElysDS2Succubus.exe" %command%".  
+On Linux, it'd look like "PROTON_REMOTE_DEBUG_CMD="/home/.steam/steam/steamapps/common/Dungeon\ Siege\ 2/ElysDS2Succubus.exe" %command%".
 
 # Issues fixed
 
