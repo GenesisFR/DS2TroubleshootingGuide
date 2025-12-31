@@ -578,6 +578,7 @@ This document wouldn't have been possible without the following people:
 - Whibbles#5836 (Discord)
 - Wiesshund#1964 (Discord)
 - [YOU](https://steamcommunity.com/profiles/76561198312562551)
+- Youxia/Bahamut localization teams - Chinese translation for BW
 - Zeotile#9063 (Discord)
 - [Zhixalom](https://www.zhixalom.com/lair)
 
