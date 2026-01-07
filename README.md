@@ -7,6 +7,7 @@
    * [2.1 Add the game on GameRanger](#add-the-game-on-gameranger)
    * [2.2 Change the FOV](#change-the-fov)
    * [2.3 Enable BW + Extras](#enable-bw--extras)
+   * [2.4 HD textures](#hd-textures)
    * [2.4 Increase shadow resolution](#increase-shadow-resolution)
    * [2.5 Increase UI size](#increase-ui-size)
    * [2.6 Play in borderless fullscreen](#play-in-borderless-fullscreen)
@@ -117,6 +118,16 @@ Follow the instructions from [Killah's guide](https://steamcommunity.com/sharedf
 ## Increase shadow resolution
  
 Open "[\<path-to-game\>](#glossary)\system_detail.gas" and change the 4 occurrences of "shadow_tex_size = xxx" to something like 512/1024.
+
+## HD textures
+
+The main texture pack [Dungeon Siege 2 HD Edition Textures AI Upscaled](https://www.nexusmods.com/dungeonsiegeii/mods/29) by Flutterhate covers the terrain in the base game, don't forget to combine it with this [DS2 Shrine and AmanLu Texture Fix for Upscaled Mod](https://www.nexusmods.com/dungeonsiegeii/mods/53) as well.
+
+For the rest, you can use [Dungeon Siege 2 HD Objects Weapons Enemies](https://www.nexusmods.com/dungeonsiegeii/mods/51) and [DS2 HD Water](https://www.nexusmods.com/dungeonsiegeii/mods/54) by SonicSyndrome.
+
+If you're going to play BW, you can use [Dungeon Siege 2 Broken World HD Terrain](https://www.nexusmods.com/dungeonsiegeii/mods/55) by SonicSyndrome.
+
+To get slightly sharper UI, you can use [GUI-Textures-Redimized](https://www.nexusmods.com/dungeonsiegeii/mods/148) by Partakith.
 
 ## Increase UI size
 
