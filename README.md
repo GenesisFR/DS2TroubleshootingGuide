@@ -560,12 +560,14 @@ This document wouldn't have been possible without the following people:
 - ChaosCVZ#5072 (Discord) - character invisibility fix
 - [doa_92](https://steamcommunity.com/id/doa_92) - German translation for BW
 - Eibhleann#3066 (Discord)
+- [FRAER04EK](https://steamcommunity.com/id/FRAERMGS5) - Russian translation for BW
 - [HelpCute7877](https://www.reddit.com/user/HelpCute7877) - mouse stutter fix
 - [loadedpinky137](https://steamcommunity.com/id/Now_Loading247)
 - Killah - BW guides and DS community
 - KillerGremal - inn conversion fix
 - [Kuziem](https://steamcommunity.com/id/Kuziem) - Polish translation for BW
 - Kyrnn#1175 (Discord) - character creation fix
+- [m45k](https://steamcommunity.com/id/Mask_RF) - Russian translation for DS2
 - [PL4typus](https://github.com/PL4typus)
 - RandallTVandal#9569 (Discord)
 - [rizwfk](https://forumchess.com.tr/members/rizwfk.1/) - Turkish translation for DS2
