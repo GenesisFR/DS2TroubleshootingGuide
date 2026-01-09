@@ -89,7 +89,7 @@ Please note that this document is based on the Steam version (combined with [Kil
 
 Method 1:
 
-1. Download the [reg patch](https://github.com/GenesisFR/RegPatches) and run it from [\<path-to-game\>](#glossary) (select option 3).
+1. Download the [reg patch](https://github.com/GenesisFR/RegPatches) and run it from [\<path-to-game\>](#glossary) (select option 4).
 2. In GameRanger, hit "Edit -\> Options -\> Games -\> Dungeon Siege 2 -\> Browse" then select "DungeonSiege2.exe" from Program Files:
 
    ![GameRanger](https://user-images.githubusercontent.com/3614449/119590645-269bdd80-bda3-11eb-92b4-857678803ee2.png)
@@ -494,7 +494,7 @@ If you see an error like "Impossible to start DungeonSiege2.exe (Broken World)!"
 
 ## Elys Succubus Manager doesn't find BW
 
-If you see an error like "Dungeon Siege 2 Broken World installation directory was not found in the Windows registry!", download the [reg patch](https://github.com/GenesisFR/RegPatches) and run it from [\<path-to-game\>](#glossary) (select option 2).
+If you see an error like "Dungeon Siege 2 Broken World installation directory was not found in the Windows registry!", download the [reg patch](https://github.com/GenesisFR/RegPatches) and run it from [\<path-to-game\>](#glossary) (select option 1 or 3).
 
 ## Elys Succubus Manager doesn't load
 
