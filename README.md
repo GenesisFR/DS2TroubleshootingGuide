@@ -524,9 +524,9 @@ You may also have a few "ATLCOMHelper Exception" pop-ups. You can safely ignore 
 
 Note: DungeonSiege2Mod isn't compatible with BW so move all files starting with 'x' in "[\<path-to-game\>](#glossary)\Resources" somewhere else.
 
-## [Remove a tank's protection](https://github.com/GenesisFR/DS1TroubleshootingGuide/blob/master/README.md#remove-a-tanks-protection)
+## [Remove a tank's protection](https://github.com/GenesisFR/DS1TroubleshootingGuide?tab=readme-ov-file#remove-a-tanks-protection)
 
-## [Tank Creator doesn't work](https://github.com/GenesisFR/DS1TroubleshootingGuide/blob/master/README.md#tank-creator-doesnt-work)
+## [Tank Creator doesn't work](https://github.com/GenesisFR/DS1TroubleshootingGuide?tab=readme-ov-file#tank-creator-doesnt-work)
 
 # Walkthroughs
 
