@@ -471,7 +471,7 @@ If you can see the pop-up, just click OK and it should no longer show up. If it 
 
 ## Black portraits
 
-It's the same workaround than for [DS1](https://github.com/GenesisFR/DS1TroubleshootingGuide#black-screen-at-gom), except the width above which the issue starts happening is `1280`, so set your resolution to `1280x1024` or lower.
+It's the same workaround than for [DS1](https://github.com/GenesisFR/DS1TroubleshootingGuide#black-portraits), except the width above which the issue starts happening is `1280`, so set your resolution to `1280x1024` or lower.
 
 You can use [Cristi80's resolution fix](https://www.nexusmods.com/dungeonsiegeii/mods/132).
 
@@ -487,13 +487,13 @@ Note: DS2 works fine when BW is not installed.
 
 ## Cannot apply the All*Saves fix
 
-Make sure you're using the right version of All*Saves for your game version.
+Make sure you're using the right version of All\*Saves for your game version.
 
-From my testing, DS2All*Saves v1 works with the GOG/Steam DS2 version while DS2All*Saves v2 only works with the retail DS2 version 2.2. Both DS2BWAll*Saves versions work with any BW version.
+From my testing, DS2All\*Saves v1 works with the GOG/Steam DS2 version while DS2All\*Saves v2 only works with the retail DS2 version 2.2. Both DS2BWAll\*Saves versions work with any BW version.
 
 ## Cannot find or load Dungeon Siege 2
 
-Move the All*Saves files to [\<path-to-game\>](#glossary).
+Move the All\*Saves files to [\<path-to-game\>](#glossary).
 
 ## Cannot load DS2 All*Saves
 
