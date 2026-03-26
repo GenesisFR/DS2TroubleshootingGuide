@@ -48,7 +48,8 @@
    * [3.29 You cannot run Dungeon Siege II in a resolution higher than your desktop](#you-cannot-run-dungeon-siege-ii-in-a-resolution-higher-than-your-desktop)
    * [3.30 Your hardware configuration is below minimum specification](#your-hardware-configuration-is-below-minimum-specification)
 * [4.0 Issues unresolved](#issues-unresolved)
-   * [4.1 Low framerate when installing BW or a language pack](#low-framerate-when-installing-bw-or-a-language-pack)
+   * [4.1 Black portraits](#black-portraits)
+   * [4.2 Low framerate when installing BW or a language pack](#low-framerate-when-installing-bw-or-a-language-pack)
 * [5.0 Modding](#modding)
    * [5.1 Cannot apply the All\*Saves fix](#cannot-apply-the-allsaves-fix)
    * [5.2 DS2Mod crashes at launch](#ds2mod-crashes-at-launch)
@@ -466,6 +467,12 @@ If you can see the pop-up, just click OK and it should no longer show up. If it 
 
 # Issues unresolved
 
+## Black portraits
+
+It's the same workaround than for [DS1](https://github.com/GenesisFR/DS1TroubleshootingGuide#black-screen-at-gom), except the width above which the issue starts happening is `1280`, so set your resolution to `1280x1024` or lower.
+
+You can use [Cristi80's resolution fix](https://www.nexusmods.com/dungeonsiegeii/mods/132).
+
 ## Low framerate when installing BW or a language pack
 
 This issue affects a minority of users and there's no definitive fix for it. You can try disabling virtualization in your BIOS settings. If that doesn't work, you're sadly out of luck.
@@ -524,9 +531,9 @@ You may also have a few "ATLCOMHelper Exception" pop-ups. You can safely ignore 
 
 Note: DungeonSiege2Mod isn't compatible with BW so move all files starting with 'x' in "[\<path-to-game\>](#glossary)\Resources" somewhere else.
 
-## [Remove a tank's protection](https://github.com/GenesisFR/DS1TroubleshootingGuide?tab=readme-ov-file#remove-a-tanks-protection)
+## [Remove a tank's protection](https://github.com/GenesisFR/DS1TroubleshootingGuide#remove-a-tanks-protection)
 
-## [Tank Creator doesn't work](https://github.com/GenesisFR/DS1TroubleshootingGuide?tab=readme-ov-file#tank-creator-doesnt-work)
+## [Tank Creator doesn't work](https://github.com/GenesisFR/DS1TroubleshootingGuide#tank-creator-doesnt-work)
 
 # Walkthroughs
 
