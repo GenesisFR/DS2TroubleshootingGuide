@@ -51,16 +51,18 @@
    * [4.1 Black portraits](#black-portraits)
    * [4.2 Low framerate when installing BW or a language pack](#low-framerate-when-installing-bw-or-a-language-pack)
 * [5.0 Modding](#modding)
-   * [5.1 Cannot apply the All\*Saves fix](#cannot-apply-the-allsaves-fix)
-   * [5.2 DS2Mod crashes at launch](#ds2mod-crashes-at-launch)
-   * [5.3 DS2TankViewer doesn't work](#ds2tankviewer-doesnt-work)
-   * [5.4 Elys Succubus Manager cannot run DS2/BW](#elys-succubus-manager-cannot-run-ds2bw)
-   * [5.5 Elys Succubus Manager doesn't find BW](#elys-succubus-manager-doesnt-find-bw)
-   * [5.6 Elys Succubus Manager doesn't load](#elys-succubus-manager-doesnt-load)
-   * [5.7 Install the DS2 Tool Kit on the Steam version](#install-the-ds2-tool-kit-on-the-steam-version)
-   * [5.8 Make DungeonSiege2Mod work on the Steam version](#make-dungeonsiege2mod-work-on-the-steam-version)
-   * [5.9 Remove a tank's protection](#remove-a-tanks-protection)
-   * [5.10 Tank Creator doesn't work](#tank-creator-doesnt-work)
+   * [5.1 Cannot apply the All*Saves fix](#cannot-apply-the-allsaves-fix)
+   * [5.2 Cannot find or load Dungeon Siege 2](#cannot-find-or-load-dungeon-siege-2)
+   * [5.3 Cannot load DS2 All*Saves](#cannot-load-ds2-allsaves)
+   * [5.4 DS2Mod crashes at launch](#ds2mod-crashes-at-launch)
+   * [5.5 DS2TankViewer doesn't work](#ds2tankviewer-doesnt-work)
+   * [5.6 Elys Succubus Manager cannot run DS2/BW](#elys-succubus-manager-cannot-run-ds2bw)
+   * [5.7 Elys Succubus Manager doesn't find BW](#elys-succubus-manager-doesnt-find-bw)
+   * [5.8 Elys Succubus Manager doesn't load](#elys-succubus-manager-doesnt-load)
+   * [5.9 Install the DS2 Tool Kit on the Steam version](#install-the-ds2-tool-kit-on-the-steam-version)
+   * [5.10 Make DungeonSiege2Mod work on the Steam version](#make-dungeonsiege2mod-work-on-the-steam-version)
+   * [5.11 Remove a tank's protection](#remove-a-tanks-protection)
+   * [5.12 Tank Creator doesn't work](#tank-creator-doesnt-work)
 * [6.0 Walkthroughs](#walkthroughs)
 * [7.0 Links](#links)
 * [8.0 Credits](#credits)
@@ -424,7 +426,7 @@ Source: https://steamcommunity.com/app/39200/discussions/0/792924412399466600/#c
 2. Extract it to "[\<path-to-game\>](#glossary)\Resources".
 3. Buy the elven door key from Eirulan's reagent vendor.
 
-Note: you may need to use AllSaves or Elys Succubus Manager on an existing character.
+Note: you may need to use All*Saves or Elys Succubus Manager on an existing character.
 
 ## The rebels don't become hostile during The Kalrathian Rebellion
 
@@ -483,9 +485,19 @@ Note: DS2 works fine when BW is not installed.
 
 # Modding
 
-## Cannot apply the All\*Saves fix
+## Cannot apply the All*Saves fix
 
-Make sure you picked the right version of AllSaves for your game version.
+Make sure you're using the right version of All*Saves for your game version.
+
+From my testing, DS2All*Saves v1 works with the GOG/Steam DS2 version while DS2All*Saves v2 only works with the retail DS2 version 2.2. Both DS2BWAll*Saves versions work with any BW version.
+
+## Cannot find or load Dungeon Siege 2
+
+Move the All*Saves files to [\<path-to-game\>](#glossary).
+
+## Cannot load DS2 All*Saves
+
+See [Cannot apply the All*Saves fix](#cannot-apply-the-allsaves-fix).
 
 ## DS2Mod crashes at launch
 
