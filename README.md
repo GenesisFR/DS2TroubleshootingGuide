@@ -258,10 +258,9 @@ This issue only occurs on Linux when using a version of [Killah's fix](#enable-b
 
 ## Camera spinning too fast
 
-This only happens when using middle-click while running the game in windowed mode through an executable that was hex-edited to show the mouse cursor while playing fullscreen.
+This only happens when using middle-click to rotate the camera in windowed mode, while using an executable that was hex-edited to show the mouse cursor in fullscreen mode.
 
-- For DS2, use the original executable.
-- For DS2BW ([Killah's fix](#enable-bw--extras)), use this [executable](https://www.mediafire.com/file/9ivessmxpqapi9n/DungeonSiege2BW_windowed.exe).
+Use one of these [fixed executables](https://community.pcgamingwiki.com/files/file/1321-dungeon-siege-2-mouse-cursor-fix). They both have the mouse cursor without the camera spinning bug.
 
 ## Characters are invisible
 
@@ -307,8 +306,8 @@ In the MP lobby, if nothing happens when clicking the `Join` button, make sure e
 
 ## LAN games are not visible
 
-1. Go to `Control Panel -> Programs and Features -> Turn Windows features on or off -> Legacy Components` and enable `DirectPlay`.
-2. Go to `Control Panel -> Network and Sharing Centre -> Advanced sharing settings` and turn on network discovery.
+1. [Enable DirectPlay](https://github.com/GenesisFR/DS1TroubleshootingGuide?#enable-directplay).
+2. Go to `Control Panel -> Network and Sharing Centre -> Advanced sharing settings` and turn on `Network discovery`.
 
 Note: this is for physical LAN games (not VPN).
 
