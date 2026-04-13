@@ -411,7 +411,7 @@ Source: https://steamcommunity.com/app/39200/discussions/0/1649917420751088963
 
 ## The dragon doesn't land in Snowbrook Haven
 
-1. Download this [file](http://ds-old.gemsite.org/download_get.php?get=download/dragfix.zip&id=41).
+1. Download this [file](http://ds-old.gemsite.org/download_get.php?get=download/dragfix.zip&id=41) ([alternate link](https://web.archive.org/web/20060217005250/https://www.htheking.de/dragfix.zip)).
 2. Extract it to "[\<path-to-game\>](#glossary)\Resources".
 3. Talk to the commander and the dragon quest will be completed.
 
