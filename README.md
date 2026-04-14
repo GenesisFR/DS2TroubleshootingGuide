@@ -439,7 +439,7 @@ Source: https://steamcommunity.com/app/39200/discussions/0/1660069015245201005/#
 
 ## Unable to access or create a critical path that is required to operate
 
-See the same [section](https://github.com/GenesisFR/DS1TroubleshootingGuide?#unable-to-access-or-create-a-critical-path-that-is-required-to-operate) with the following differences.
+See [Unable to access or create a critical path that is required to operate](https://github.com/GenesisFR/DS1TroubleshootingGuide?#unable-to-access-or-create-a-critical-path-that-is-required-to-operate) with the following differences.
 
 Method 1 (recommended):
 
@@ -447,7 +447,7 @@ Download and run the [DS2 reg patch](https://github.com/GenesisFR/RegPatches) fr
 
 Method 2:
 
-7. Click on Add an allowed app then Browse all apps and select <path-to-game>\DungeonSiege2.exe.
+7. Click on `Add an allowed app` then `Browse all apps` and select [\<path-to-game\>](#glossary)`\DungeonSiege2.exe`.
 
 ## Video initialization failure
 
