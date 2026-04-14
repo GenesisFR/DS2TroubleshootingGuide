@@ -42,11 +42,12 @@
    * [3.23 The dragon doesn't land in Snowbrook Haven](#the-dragon-doesnt-land-in-snowbrook-haven)
    * [3.24 The elven sanctuary door stays locked](#the-elven-sanctuary-door-stays-locked)
    * [3.25 The rebels don't become hostile during The Kalrathian Rebellion](#the-rebels-dont-become-hostile-during-the-kalrathian-rebellion)
-   * [3.26 Video initialization failure](#video-initialization-failure)
-   * [3.27 Virtual alloc failed with error](#virtual-alloc-failed-with-error)
-   * [3.28 Window is offscreen](#window-is-offscreen)
-   * [3.29 You cannot run Dungeon Siege II in a resolution higher than your desktop](#you-cannot-run-dungeon-siege-ii-in-a-resolution-higher-than-your-desktop)
-   * [3.30 Your hardware configuration is below minimum specification](#your-hardware-configuration-is-below-minimum-specification)
+   * [3.26 Unable to access or create a critical path that is required to operate](#unable-to-access-or-create-a-critical-path-that-is-required-to-operate)
+   * [3.27 Video initialization failure](#video-initialization-failure)
+   * [3.28 Virtual alloc failed with error](#virtual-alloc-failed-with-error)
+   * [3.29 Window is offscreen](#window-is-offscreen)
+   * [3.30 You cannot run Dungeon Siege II in a resolution higher than your desktop](#you-cannot-run-dungeon-siege-ii-in-a-resolution-higher-than-your-desktop)
+   * [3.31 Your hardware configuration is below minimum specification](#your-hardware-configuration-is-below-minimum-specification)
 * [4.0 Issues unresolved](#issues-unresolved)
    * [4.1 Black portraits](#black-portraits)
    * [4.2 Low framerate when installing BW or a language pack](#low-framerate-when-installing-bw-or-a-language-pack)
@@ -82,7 +83,7 @@ SP = Singleplayer
 \<gpu-model\> = actual name of your GPU (ex: `NVIDIA GeForce GTX 1070`)  
 \<path-to-docs\> = `%USERPROFILE%\Documents\My Games\Dungeon Siege 2`  
 \<path-to-docs-BW\> = `%USERPROFILE%\Documents\My Games\Dungeon Siege 2 Broken World`  
-\<path-to-game\> = the game directory (ex: `%PROGRAMFILES(X86)%\Steam\steamapps\common\Dungeon Siege 2`)
+\<path-to-game\> = your installation directory (ex: `%ProgramFiles(x86)%\Steam\steamapps\common\Dungeon Siege 2`)  
 
 Please note that this document is based on the Steam version (combined with [Killah's fix](#enable-bw--extras)) and Windows 10. I did my best to accommodate retail users and those not using BW. Some steps may be different and a few issues may not happen on the retail version or other operating systems.
 
@@ -435,6 +436,18 @@ Note: you may need to use `All*Saves` or `Elys Succubus Manager` to see your sav
 3. Kill one morden and the rebellion quest will be completed.
 
 Source: https://steamcommunity.com/app/39200/discussions/0/1660069015245201005/#c3115906960366913670
+
+## Unable to access or create a critical path that is required to operate
+
+See the same [section](https://github.com/GenesisFR/DS1TroubleshootingGuide?#unable-to-access-or-create-a-critical-path-that-is-required-to-operate) with the following differences.
+
+Method 1 (recommended):
+
+Download and run the [DS2 reg patch](https://github.com/GenesisFR/RegPatches) from [\<path-to-game\>](#glossary) (select option 7).
+
+Method 2:
+
+7. Click on Add an allowed app then Browse all apps and select <path-to-game>\DungeonSiege2.exe.
 
 ## Video initialization failure
 
