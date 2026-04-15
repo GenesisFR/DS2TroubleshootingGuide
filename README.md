@@ -140,8 +140,9 @@ If you play the game at higher resolutions (like 1080p), the UI won't scale and 
 1. Download the latest version of [dgVoodoo2](https://www.pcgamingwiki.com/wiki/DgVoodoo_2#DirectX_9).
 2. Open the downloaded archive and extract `dgVoodoo.conf`, `dgVoodooCpl.exe` and `MS\x86\D3D9.dll` to [\<path-to-game\>](#glossary).
 3. Run `dgVoodooCpl.exe`, go to the `DirectX` tab and select `GeForce FX 5700 Ultra` from the `Videocard` drop down list (this will get rid of a warning at launch).
-4. From the same tab, select your native resolution from the `Resolution` drop down list and hit OK.
-5. Set the game at the resolution you want the UI to be scaled to (typically 720p or lower).
+4. From the same tab, select your native resolution from the `Resolution` drop down list.
+5. Hit `OK`.
+6. Set the game at the resolution you want the UI to be scaled to (typically 720p or lower).
 
 You may encounter two issues when using dgVoodoo2:
 
@@ -204,28 +205,28 @@ Please note that these steps are for Windows 10 with a version of ZeroTier from 
 1. Create an account on https://my.zerotier.com and sign in.
 2. Download, install and run `ZeroTier`.
 3. Right-click `ZeroTier` in the notification area of your taskbar.  
-    3a. (If hosting) Select `Create and Join Network` and hit Yes in the Windows network prompt.  
+    3a. (If hosting) Select `Create and Join Network` and hit `Yes` in the Windows network prompt.  
     3b. (If joining) Select `Join Network...`, input the network ID given to you by the user hosting (displayed under `Basics -> Network ID` in Step 7), then skip to Step 13.
 4. Right-click `ZeroTier` in the bottom right again
 5. Select `ZeroTier Central`.
 6. Go to the `Networks` tab.
 7. Click on the network listed.
 8. Under `Basics -> Name`, give a familiar name to your network.
-9. Under `Basics -> Access Control`, select `Private` if you want to manually authorize anyone who attempts to join (you can do this by scrolling down to the `Members` section and checking the box under `Auth?`).
+9. Under `Basics -> Access Control`, select `Private` if you want to manually authorize anyone who attempts to join (you can do this by scrolling down to the `Members` section and ticking the box under `Auth?`).
 10. Under `Advanced -> IPv4 Auto-Assign`, select `Easy` then one of the IP formats in the list.
-11. Under `Advanced -> IPv6 Auto-Assign`, make sure all boxes are unchecked.
-12. Under `Advanced -> Broadcast`, check the box labeled `Enable Broadcast (ff:ff:ff:ff:ff:ff)`.
+11. Under `Advanced -> IPv6 Auto-Assign`, make sure all boxes are unticked.
+12. Under `Advanced -> Broadcast`, tick the box labeled `Enable Broadcast (ff:ff:ff:ff:ff:ff)`.
 13. In Windows, go to `Control Panel -> Network and Sharing Center`.
-14. Double-click on the adapter named `ZeroTier One` followed by the network ID (it's a 16-characters alphanumeric string). If it's not in the list, go to `C:\ProgramData\ZeroTier\One\tap-windows\x64`, right-click `zttap300.inf` and hit Install.
+14. Double-click on the adapter named `ZeroTier One` followed by the network ID (it's a 16-characters alphanumeric string). If it's not in the list, go to `C:\ProgramData\ZeroTier\One\tap-windows\x64`, right-click `zttap300.inf` and hit `Install`.
 15. Click on `Properties`.
 16. Click on `Configure`.
 17. Go to the `Advanced` tab, set `Non-Admin Access` to `Allowed` and click on OK.
-18. In the list of items, make sure `Internet Protocol Version 6 (TCP IPv6)` is unchecked.
+18. In the list of items, make sure `Internet Protocol Version 6 (TCP IPv6)` is unticked.
 19. Double-click on `Internet Protocol Version 4 (TCP IPv4)`.
 20. Make sure both `Obtain an IP address automatically` and `Obtain DNS server address automatically` are selected.
 21. Click on `Advanced`.
-22. Uncheck `Automatic metric` and set it to `1` (this will ensure the game uses the ZeroTier adapter instead of your main network adapter).
-23. Hit OK until all windows are closed.
+22. Untick `Automatic metric` and set it to `1` (this will ensure the game uses the ZeroTier adapter instead of your main network adapter).
+23. Hit `OK` until all windows are closed.
 24. Attempt to host/join via `Local Network` in DS2.
 
 ## Play windowed
@@ -340,10 +341,10 @@ Method 1:
 1. Go to `Control Panel -> Network and Sharing Centre -> Change adapter settings`.
 2. Double-click on your virtual LAN network adapter (ex: ZeroTier).
 3. Click on `Properties`.
-4. In the list of items, make sure `Internet Protocol Version 6 (TCP IPv6)` is unchecked.
-5. Double-click on `Internet Protocol Version 4 (TCP IPv4)` (make sure it's checked).
+4. In the list of items, make sure `Internet Protocol Version 6 (TCP IPv6)` is unticked.
+5. Double-click on `Internet Protocol Version 4 (TCP IPv4)` (make sure it's ticked).
 6. Click on `Advanced`.
-7. Uncheck `Automatic metric` (MTU) and set it to `1`.
+7. Untick `Automatic metric` (MTU) and set it to `1`.
 
 If it didn't work, revert your changes and try with your main network adapter.
 
@@ -370,8 +371,8 @@ When two computers on physical LAN can see each other in the lobby but the clien
 1. In Windows, go to `Control Panel -> Network and Sharing Center`.
 2. Double-click on your network adapter.
 3. Click on `Properties`.
-4. In the list of items, make sure `Internet Protocol Version 6 (TCP IPv6)` is unchecked.
-5. Hit OK.
+4. In the list of items, make sure `Internet Protocol Version 6 (TCP IPv6)` is unticked.
+5. Hit `OK`.
 
 ## Save failed
 
@@ -483,7 +484,7 @@ Lower the game's height (see [Playing Dungeon Siege 2 with a Custom Resolution](
 
 This error can only be seen and interacted with when running the game in [windowed](#play-windowed) mode.
 
-If you can see the pop-up, just click OK and it should no longer show up. If it still does, you can add `min_spec_warning = true` to the top of [\<config-file\>](#glossary) (or [\<config-file-BW\>](#glossary) for BW).
+If you can see the pop-up, just hit `OK` and it should no longer show up. If it still does, you can add `min_spec_warning = true` to the top of [\<config-file\>](#glossary) (or [\<config-file-BW\>](#glossary) for BW).
 
 # Issues unresolved
 
@@ -548,7 +549,7 @@ If you see an error like "Dungeon Siege 2 Broken World installation directory wa
 
 If you don't see the new races (nymph, succubus, vampire, daemon, drow) added by the modlet as well as the Elys loading screen when starting/loading a game, it means it somehow didn't load.
 
-- In `Elys Succubus Manager`, make sure `Load Succubus Modlet` is checked.
+- In `Elys Succubus Manager`, make sure `Load Succubus Modlet` is ticked.
 - If that didn't solve the problem, uninstall and reinstall it.
 
 ## Install the DS2 Tool Kit on the Steam version
