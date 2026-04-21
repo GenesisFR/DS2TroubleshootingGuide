@@ -85,7 +85,7 @@ SP = Singleplayer
 \<path-to-docs-BW\> = `%USERPROFILE%\Documents\My Games\Dungeon Siege 2 Broken World`  
 \<path-to-game\> = your installation directory (ex: `%ProgramFiles(x86)%\Steam\steamapps\common\Dungeon Siege 2`)  
 
-Please note that this document is based on the Steam version (combined with [Killah's fix](#enable-bw--extras)) and Windows 10. I did my best to accommodate retail users and those not using BW. Some steps may be different and a few issues may not happen on the retail version or other operating systems.
+Please note that this document is based on the Steam version (combined with the [BW fix](#enable-bw--extras)) and Windows 10. I did my best to accommodate retail users and those not using BW. Some steps may be different and a few issues may not happen on the retail version or other operating systems.
 
 # Guides
 
@@ -117,7 +117,7 @@ Method 2:
 
 ## Enable BW + Extras
 
-Follow the instructions from [Killah's guide](https://steamcommunity.com/sharedfiles/filedetails/?id=1165078098).
+Follow the instructions from the [BW fix guide](https://steamcommunity.com/sharedfiles/filedetails/?id=1165078098).
 
 ## Increase shadow resolution
 
@@ -167,7 +167,7 @@ Note: the main menu UI has a fixed resolution and will be broken, repeat step 5 
 
 The game on Steam is available in various languages, however these do not localize cutscenes, voices or BW. The retail version localizes everything, however language packs are hard to find and some fan translations have been made since the game released.
 
-Killah and I collected most of these language packs and put them in a single location so that they're easily accessible. You'll find them on Killah's [pastebin](https://pastebin.com/Gcg9qLLp) under `Language Packs`.
+Killah and I collected most of these language packs and put them in a single location so that they're easily accessible. You'll find them on the [BW fix rentry](https://rentry.co/dungeonsiegefixes) under `Language Packs`.
 
 Installing them is a simple as drag-and-dropping their content to [\<path-to-game\>](#glossary).
 
@@ -175,7 +175,7 @@ Please note that the DS2 packs do not cover BW so if you're playing BW, pick the
 
 ## Play online (OpenSpy)
 
-If you downloaded Killah's fix after September 2025, you can skip the first 3 steps.
+If you downloaded the BW fix after September 2025, you can skip the first 3 steps.
 
 1. Download the [latest](https://github.com/anzz1/openspy-client/releases/latest) version of OpenSpy.
 2. Extract `openspy.x86.dll` to [\<path-to-game\>](#glossary).
@@ -256,13 +256,13 @@ Depending on the error you're getting, you should apply the fixes from [Crash/ex
 
 ## Block name collision. Parent block has a dir and a second dir child block named 'maps'
 
-This issue only occurs on Linux when using a version of [Killah's fix](#enable-bw--extras) from 2021 or older. You have a `maps` and a `Maps` folder. Copy the content of `maps` into `Maps` then delete `maps`.
+This issue only occurs on Linux when using a version of the [BW fix](#enable-bw--extras) from 2021 or older. You have a `maps` and a `Maps` folder. Copy the content of `maps` into `Maps` then delete `maps`.
 
 ## Camera spinning too fast
 
-This only happens when using middle-click to rotate the camera in windowed mode, while using an executable that was hex-edited to show the mouse cursor in fullscreen mode.
+This only happens when using middle-click to rotate the camera in windowed mode, while using a version of the executables below from 2025 or older.
 
-Use one of these [fixed executables](https://community.pcgamingwiki.com/files/file/1321-dungeon-siege-2-mouse-cursor-fix). They both have the mouse cursor without the camera spinning bug.
+Use one of the updated [fixed executables](https://community.pcgamingwiki.com/files/file/1321-dungeon-siege-2-mouse-cursor-fix). They both have the mouse cursor without the camera spinning bug.
 
 ## Characters are invisible
 
@@ -327,7 +327,7 @@ For some reason, the game can't find them on some systems. This makes sure it do
 ## Mouse cursor is missing
 
 For DS2, see [PCGamingWiki](https://pcgamingwiki.com/wiki/Dungeon_Siege_II#No_mouse_cursor).  
-For BW, use [Killah's fix](#enable-bw--extras).  
+For BW, use the [BW fix](#enable-bw--extras).  
 You can also use [WineD3D for Windows](https://fdossena.com/?p=wined3d/index.frag), just place `d3d9.dll` and `wined3d.dll` in [\<path-to-game\>](#glossary).  
 
 Note: using WineD3D makes loadings 50% slower.
@@ -555,7 +555,7 @@ If you don't see the new races (nymph, succubus, vampire, daemon, drow) added by
 ## Install the DS2 Tool Kit on the Steam version
 
 1. Download and run the [DS2 reg patch](https://github.com/GenesisFR/RegPatches) from [\<path-to-game\>](#glossary) (select option 1).
-2. If you're not using [Killah's fix](#enable-bw--extras), you must also place this [file](https://www.mediafire.com/file/90262526a2w34xu/SETUPENU.DLL) in [\<path-to-game\>](#glossary) before running the installer.
+2. If you're not using the [BW fix](#enable-bw--extras), you must also place this [file](https://www.mediafire.com/file/90262526a2w34xu/SETUPENU.DLL) in [\<path-to-game\>](#glossary) before running the installer.
 
 ## Make DungeonSiege2Mod work on the Steam version
 
@@ -615,7 +615,7 @@ This document wouldn't have been possible without the following people:
 - [FRAER04EK](https://steamcommunity.com/id/FRAERMGS5) - Russian translation for BW
 - [HelpCute7877](https://www.reddit.com/user/HelpCute7877) - mouse stutter fix
 - [loadedpinky137](https://steamcommunity.com/id/Now_Loading247)
-- Killah - BW guides and DS community
+- Killah - DS2 guides and community
 - KillerGremal - inn conversion fix
 - [Kuziem](https://steamcommunity.com/id/Kuziem) - Polish translation for BW
 - Kyrnn#1175 (Discord) - character creation fix
