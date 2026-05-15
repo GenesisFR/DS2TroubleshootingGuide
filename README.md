@@ -579,17 +579,17 @@ Note: DungeonSiege2Mod isn't compatible with BW so move all files starting with 
 
 # Walkthroughs
 
-[A complete and full walkthrough of all the lore maps available to the game](https://steamcommunity.com/sharedfiles/filedetails/?id=388250453) by Killah (text)  
 [Dungeon Siege 2 Guides & Walkthroughs](https://www.almarsguides.com/Computer/Games/DungeonSiege2) by Almar (graphical)
 
 # Links
 
-- [DS2 launch parameters](https://steamcommunity.com/app/39200/discussions/0/846955554677340085/#c540739861420011713)
+- [Cheat codes](https://almarsguides.com/Computer/Games/DungeonSiege2/Misc/Cheats)
 - [DS2 wiki](https://dungeonsiege.fandom.com/wiki/Dungeon_Siege_II)
 - [DS2 BW wiki](https://dungeonsiege.fandom.com/wiki/Dungeon_Siege_II:_Broken_World)
 - [Elys DS2 Succubus Manager v10](https://www.siegetheday.org/?q=node/1290)
 - [KillerGremal's DS2 mods](http://ds2.bplaced.net/mods/)
 - [KillerGremal's system_detail.gas configurator](http://ds2.bplaced.net/sysdat/)
+- [Launch parameters](https://steamcommunity.com/app/39200/discussions/0/846955554677340085/#c540739861420011713)
 - [Nexus Mods](https://www.nexusmods.com/dungeonsiegeii) (DS2/BW mods)
 - [Official DS2 FAQ](https://web.archive.org/web/20070625183237/http://garage.gaspowered.com/?q=ds2faq)
 - [Official DS2 BW FAQ](https://web.archive.org/web/20230610111300/https://support.2k.com/hc/en-us/articles/201334323-Dungeon-Siege-II-Broken-World-FAQ-and-Troubleshooting)
@@ -605,42 +605,46 @@ Note: DungeonSiege2Mod isn't compatible with BW so move all files starting with 
 
 This document wouldn't have been possible without the following people:
 
-- Almar - DS2 guides
+- [Almar](https://almarsguides.com) - DS2 guides
 - [anzz1](https://github.com/anzz1) and [Ligushka](https://github.com/Ligushka) - OpenSpy
 - [Antrad2020](https://antonior-software.blogspot.com)
 - [ashepwb](https://steamcommunity.com/profiles/76561198038717282) - Valdis cutscene fix
 - ChaosCVZ#5072 (Discord) - character invisibility fix
-- [doa_92](https://steamcommunity.com/id/doa_92) - German translation for BW
 - Eibhleann#3066 (Discord)
-- [FRAER04EK](https://steamcommunity.com/id/FRAERMGS5) - Russian translation for BW
 - [HelpCute7877](https://www.reddit.com/user/HelpCute7877) - mouse stutter fix
 - [loadedpinky137](https://steamcommunity.com/id/Now_Loading247)
 - Killah - DS2 guides and community
 - KillerGremal - inn conversion fix
-- [Kuziem](https://steamcommunity.com/id/Kuziem) - Polish translation for BW
 - Kyrnn#1175 (Discord) - character creation fix
-- [m45k](https://steamcommunity.com/id/Mask_RF) - Russian translation for DS2
 - [PL4typus](https://github.com/PL4typus)
 - RandallTVandal#9569 (Discord)
-- [rizwfk](https://forumchess.com.tr/members/rizwfk.1/) - Turkish translation for DS2
 - shockingboring#0041 (Discord)
 - sadowson#5553 (Discord) - lots of fixes
-- [Teodar](https://steamcommunity.com/profiles/76561198023836850) - Spanish translation for DS2
-- [TraductionJeux](https://traductionjeux.com) - French translation for BW
 - [Tyler799](https://github.com/Tyler799) - format used for this guide
 - [vorik](https://steamcommunity.com/id/vorik) - launch parameters
 - Whibbles#5836 (Discord)
 - Wiesshund#1964 (Discord)
 - [YOU](https://steamcommunity.com/profiles/76561198312562551)
-- Youxia/Bahamut localization teams - Chinese translation for BW
 - Zeotile#9063 (Discord)
 - [Zhixalom](https://www.zhixalom.com/lair)
 
 And the following resources:
 
 - [PCGamingWiki](https://pcgamingwiki.com/wiki/Dungeon_Siege_II)
+- [Steam Community forums](https://steamcommunity.com/app/39200/discussions)
+- [Steam Community guides](https://steamcommunity.com/app/39200/guides)
 - [WSGF](http://www.wsgf.org/dr/dungeon-siege-ii)
-- Steam Community forums/guides
+
+The language packs were made possible thanks to:
+
+- [doa_92](https://steamcommunity.com/id/doa_92) - German translation for BW
+- [FRAER04EK](https://steamcommunity.com/id/FRAERMGS5) - Russian translation for BW
+- [Kuziem](https://steamcommunity.com/id/Kuziem) - Polish translation for BW
+- [m45k](https://steamcommunity.com/id/Mask_RF) - Russian translation for DS2
+- [rizwfk](https://forumchess.com.tr/members/rizwfk.1/) - Turkish translation for DS2
+- [Teodar](https://steamcommunity.com/profiles/76561198023836850) - Spanish translation for DS2
+- [TraductionJeux](https://traductionjeux.com) - French translation for BW
+- Youxia/Bahamut localization teams - Chinese translation for BW
 
 Thanks a lot for your help!
 
@@ -648,4 +652,4 @@ Thanks a lot for your help!
 
 I won't be held responsible if you mess up your game or saved game after using one of these fixes. You do it at your own risk!
 
-You're not allowed to put this document in raw form anywhere, out of respect (it took me over 5 years to compile it). Just share the GitHub link or redirect users to this [thread](https://steamcommunity.com/app/39200/discussions/0/2800629075205408338).
+You're not allowed to put this document in raw form anywhere, out of respect (I've been working on it since 2019). Just share the GitHub link or redirect users to this [thread](https://steamcommunity.com/app/39200/discussions/0/2800629075205408338).
