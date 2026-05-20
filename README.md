@@ -117,7 +117,7 @@ Method 2:
 
 ## Enable BW + Extras
 
-Follow the instructions from the [BW fix guide](https://steamcommunity.com/sharedfiles/filedetails/?id=1165078098).
+Follow the instructions from the [BW fix guide](https://gist.github.com/GenesisFR/f3df7f092db17dd63d85eb1f19da7153).
 
 ## Increase shadow resolution
 
