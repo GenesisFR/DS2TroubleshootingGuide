@@ -496,11 +496,16 @@ You can use [Cristi80's resolution fix](https://www.nexusmods.com/dungeonsiegeii
 
 ## Low framerate when installing BW or a language pack
 
-This issue affects a minority of users and there's no definitive fix for it. You can try disabling virtualization in your BIOS settings. If that doesn't work, you're sadly out of luck.
+This issue affects a minority of users and there's no definitive fix for it. You can first try disabling virtualization in your BIOS settings.
+
+If that doesn't work, you can try removing BW (see [DS2Mod crashes at launch](#ds2mod-crashes-at-launch)) or removing your language pack, if you're using any. To do that, remove the following files in [\<path-to-game\>](#glossary):
+
+```
+Resources\language.ds2res
+language.dll
+```
 
 You can follow this [thread](https://steamcommunity.com/app/39200/discussions/0/405690850601811605) or this [thread](https://steamcommunity.com/app/39200/discussions/0/3809531933812050831) to stay up-to-date whether this issue gets solved.
-
-Note: DS2 works fine when BW is not installed.
 
 # Modding
 
