@@ -648,6 +648,8 @@ The language packs were made possible thanks to:
 
 - [doa_92](https://steamcommunity.com/id/doa_92) - German translation for BW
 - [FRAER04EK](https://steamcommunity.com/id/FRAERMGS5) - Russian translation for BW
+- [Hans Dracow, CUE](https://web.archive.org/web/20071027040016/http://academia.clandlan.net/?page=academia/view&id=134) and [Garyus](https://steamcommunity.com/profiles/76561198969168270) - Spanish translation for BW
+- [Kramla](https://www.abcgames.cz/?p=uzivatel-autor&id=10914) - Czech translation for BW
 - [Kuziem](https://steamcommunity.com/id/Kuziem) - Polish translation for BW
 - [m45k](https://steamcommunity.com/id/Mask_RF) - Russian translation for DS2
 - [rizwfk](https://forumchess.com.tr/members/rizwfk.1/) - Turkish translation for DS2
