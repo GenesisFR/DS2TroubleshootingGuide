@@ -614,6 +614,7 @@ Note: DungeonSiege2Mod isn't compatible with BW so move all files starting with 
 
 This document wouldn't have been possible without the following people:
 
+- [0xff](https://www.twitch.tv/0xff2) - found a Czech copy of BW
 - [Almar](https://almarsguides.com) - DS2 guides
 - [anzz1](https://github.com/anzz1) and [Ligushka](https://github.com/Ligushka) - OpenSpy
 - [Antrad2020](https://antonior-software.blogspot.com)
