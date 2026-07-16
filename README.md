@@ -1,5 +1,7 @@
 # Dungeon Siege 2 Troubleshooting Guide
 
+> **Just want to play?** [ds2fix](https://github.com/twhalley/ds2fix) is a one-click patch that applies many of the fixes in this guide automatically — 16:9 `1920x1080` menus, scaled-up UI, fullscreen and automatic save backups — then launches the game, from a GUI **Play** button or a single `python3 ds2fix.py play`. Tested on **Linux (GOG via Wine)**; a **Windows** build exists but **hasn't been tested yet**. See [Play on Linux and Windows (ds2fix)](#play-on-linux-and-windows-ds2fix).
+
 ## Table of Contents
 
 * [1.0 Glossary](#glossary)
@@ -12,10 +14,11 @@
    * [2.5 Increase UI size](#increase-ui-size)
    * [2.6 Play in borderless fullscreen](#play-in-borderless-fullscreen)
    * [2.7 Play in other languages](#play-in-other-languages)
-   * [2.8 Play online (OpenSpy)](#play-online-openspy)
-   * [2.9 Play online (virtual LAN)](#play-online-virtual-lan)
-   * [2.10 Play windowed](#play-windowed)
-   * [2.11 Run Elys Succubus Manager as Dungeon Siege 2 through Steam](#run-elys-succubus-manager-as-dungeon-siege-2-through-steam)
+   * [2.8 Play on Linux and Windows (ds2fix)](#play-on-linux-and-windows-ds2fix)
+   * [2.9 Play online (OpenSpy)](#play-online-openspy)
+   * [2.10 Play online (virtual LAN)](#play-online-virtual-lan)
+   * [2.11 Play windowed](#play-windowed)
+   * [2.12 Run Elys Succubus Manager as Dungeon Siege 2 through Steam](#run-elys-succubus-manager-as-dungeon-siege-2-through-steam)
 * [3.0 Issues fixed](#issues-fixed)
    * [3.1 An attempt to delay-load a .dll or get a function address in a delay-loaded .dll failed](#an-attempt-to-delay-load-a-dll-or-get-a-function-address-in-a-delay-loaded-dll-failed)
    * [3.2 Black screen at startup](#black-screen-at-startup)
@@ -172,6 +175,37 @@ Killah and I collected most of these language packs and put them in a single loc
 Installing them is a simple as drag-and-dropping their content to [\<path-to-game\>](#glossary).
 
 Please note that the DS2 packs do not cover BW so if you're playing BW, pick the corresponding BW pack instead. Some of them also do not localize cutscenes and voices (you can guess by the file size).
+
+## Play on Linux and Windows (ds2fix)
+
+[ds2fix](https://github.com/twhalley/ds2fix) is a one-command (or one-click GUI) patcher and launcher for the GOG version of Dungeon Siege 2 on Linux (via Wine) and Windows. On every run it rebuilds the patched executable and `Logic.ds2res` from a pristine backup (so it never double-patches and is always safe to re-run), then launches the game fullscreen.
+
+It rolls several of the fixes on this page into a single step:
+
+- Renders the menus/frontend at 16:9 `1920x1080` instead of the fixed `800x600`.
+- Scales the menu and dialog UI up so it isn't tiny at high resolutions (done by editing the UI tank directly, so it needs no dgVoodoo2 unlike [Increase UI size](#increase-ui-size)).
+- Runs fullscreen — via [gamescope](https://github.com/ValveSoftware/gamescope) + FSR on Linux (1:1 mouse input, which avoids the cursor offset you get from stretched fullscreen under Wayland), or native fullscreen on Windows.
+- Backs up your `Save/` folder before every patch and pins the chosen install, so a game update can't silently switch prefixes and "lose" your saves.
+- Disables the executable's content-integrity CRC checks (needed for the UI tank edits to load) and can revert everything to pristine with `ds2fix restore`.
+
+Usage (Linux needs Python 3, Wine and gamescope; Windows needs Python 3):
+
+```
+git clone https://github.com/twhalley/ds2fix
+cd ds2fix
+python3 ds2fix.py play                    # patch from pristine, then launch fullscreen
+python3 ds2fix.py play --res 1440x1080    # 4:3 render (pillarboxed)
+python3 ds2fix.py restore                 # revert exe + tank to pristine
+python3 ds2fix.py info                    # show patch / save / install state
+```
+
+There's also a GUI with a **Play** button if you'd rather not use the command line. It auto-detects GOG, Steam and Heroic installs, or you can point it at one with `--gamedir <path>`.
+
+Notes:
+
+- Tested on Linux (GOG under Wine) so far. The Windows launch path exists in the code but hasn't been tested yet.
+- The high-resolution UI scaling is the newest part and can currently stop existing single-player parties from showing in the load-game list; this is still being worked on.
+- Re-enabling in-game multiplayer is a work in progress.
 
 ## Play online (OpenSpy)
 
@@ -596,6 +630,7 @@ Note: DungeonSiege2Mod isn't compatible with BW so move all files starting with 
 - [Cheat codes](https://almarsguides.com/Computer/Games/DungeonSiege2/Misc/Cheats)
 - [DS2 wiki](https://dungeonsiege.fandom.com/wiki/Dungeon_Siege_II)
 - [DS2 BW wiki](https://dungeonsiege.fandom.com/wiki/Dungeon_Siege_II:_Broken_World)
+- [ds2fix](https://github.com/twhalley/ds2fix) (Linux one-command patcher/launcher)
 - [Elys DS2 Succubus Manager v10](https://www.siegetheday.org/?q=node/1290)
 - [KillerGremal's DS2 mods](http://ds2.bplaced.net/mods/)
 - [KillerGremal's system_detail.gas configurator](http://ds2.bplaced.net/sysdat/)
@@ -631,6 +666,7 @@ This document wouldn't have been possible without the following people:
 - RandallTVandal#9569 (Discord)
 - shockingboring#0041 (Discord)
 - sadowson#5553 (Discord) - lots of fixes
+- [twhalley](https://github.com/twhalley) - ds2fix (Linux patcher/launcher)
 - [Tyler799](https://github.com/Tyler799) - format used for this guide
 - [vorik](https://steamcommunity.com/id/vorik) - launch parameters
 - Whibbles#5836 (Discord)
