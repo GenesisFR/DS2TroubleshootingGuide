@@ -16,6 +16,7 @@
    * [2.9 Play online (virtual LAN)](#play-online-virtual-lan)
    * [2.10 Play windowed](#play-windowed)
    * [2.11 Run Elys Succubus Manager as Dungeon Siege 2 through Steam](#run-elys-succubus-manager-as-dungeon-siege-2-through-steam)
+   * [2.12 Use dgVoodoo2, Elys Succubus Manager and OpenSpy on Linux](#use-dgVoodoo2-elys-succubus-manager-and-openspy-on-Linux)
 * [3.0 Issues fixed](#issues-fixed)
    * [3.1 An attempt to delay-load a .dll or get a function address in a delay-loaded .dll failed](#an-attempt-to-delay-load-a-dll-or-get-a-function-address-in-a-delay-loaded-dll-failed)
    * [3.2 Black screen at startup](#black-screen-at-startup)
@@ -247,6 +248,11 @@ It's very easy to set up, you just need to put in the [launch parameters](https:
 
 On Windows, it'd be something like `"C:\Program Files (x86)\Elys DS2 Succubus Manager\ElysDS2Succubus.exe" %command%`.  
 On Linux, it'd look like `PROTON_REMOTE_DEBUG_CMD="/home/.steam/steam/steamapps/common/Dungeon\ Siege\ 2/ElysDS2Succubus.exe" %command%`.
+
+## [Use dgVoodoo2, Elys Succubus Manager and OpenSpy on Linux](https://github.com/GenesisFR/DS1TroubleshootingGuide#use-dgVoodoo2-on-Linux)
+
+> [!NOTE]
+The game's ID is `39200` and the DLLs to override are `D3D9.dll` for dgVoodoo2, `shfolder.dll` for Elys Succubus Manager and `version.dll` for OpenSpy.
 
 # Issues fixed
 
