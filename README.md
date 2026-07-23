@@ -83,7 +83,7 @@ SP = Singleplayer
 \<gpu-model\> = actual name of your GPU (ex: `NVIDIA GeForce GTX 1070`)  
 \<path-to-docs\> = `%USERPROFILE%\Documents\My Games\Dungeon Siege 2`  
 \<path-to-docs-BW\> = `%USERPROFILE%\Documents\My Games\Dungeon Siege 2 Broken World`  
-\<path-to-game\> = your installation directory (ex: `%ProgramFiles(x86)%\Steam\steamapps\common\Dungeon Siege 2`)  
+\<path-to-game\> = your [installation directory](https://www.pcgamingwiki.com/wiki/Glossary:Game_data#Windows) (ex: `%ProgramFiles(x86)%\Steam\steamapps\common\Dungeon Siege 2`)  
 
 Please note that this document is based on the Steam version (combined with the [BW fix](#add-bw)) and Windows 10. I did my best to accommodate retail users and those not using BW. Some steps may be different and a few issues may not happen on the retail version or other operating systems.
 
@@ -97,7 +97,7 @@ Follow the instructions from the [BW fix guide](https://gist.github.com/GenesisF
 
 Method 1 (Windows 2000 or later):
 
-1. Download and run the [DS2 reg patch](https://github.com/GenesisFR/RegPatches) from [\<path-to-game\>](#glossary) (select option 6).
+1. Download and run the [DS2 reg patch](https://github.com/GenesisFR/RegPatches) from [`<path-to-game>`](#glossary) (select option 6).
 2. In `GameRanger`, hit `Edit -> Options -> Games -> Dungeon Siege 2 -> Browse` then select `DungeonSiege2.exe` from `Program Files`:
 
    ![GameRanger](https://user-images.githubusercontent.com/3614449/119590645-269bdd80-bda3-11eb-92b4-857678803ee2.png)
@@ -119,12 +119,12 @@ Method 2 (Windows Vista or later):
 ## Change the FOV
 
 1. Download this [archive](http://www.wsgf.org/f/u/contrib/dr/255/hacks/DS2%20Files.zip).
-2. Place the correct file for your resolution in [\<path-to-game\>](#glossary)`\Resources`.
-3. Copy the file [\<path-to-game\>](#glossary)`\maps\World.ds2map` to the [\<path-to-game\>](#glossary)`\Resources` folder and rename it as `World.ds2res`.
+2. Place the correct file for your resolution in [`<path-to-game>\Resources`](#glossary).
+3. Copy the file [`<path-to-game>\maps\World.ds2map`](#glossary) to the [`<path-to-game>\Resources`](#glossary) folder and rename it as `World.ds2res`.
 
 ## Increase shadow resolution
 
-Open [\<path-to-game\>](#glossary)`\system_detail.gas` and change the 4 occurrences of `shadow_tex_size = xxx` to something like `512` or `1024`.
+Open [`<path-to-game>\system_detail.gas`](#glossary) and change the 4 occurrences of `shadow_tex_size = xxx` to something like `512` or `1024`.
 
 ## HD textures
 
@@ -141,7 +141,7 @@ To get slightly sharper UI, you can use [GUI-Textures-Redimized](https://www.nex
 If you play the game at higher resolutions (like 1080p), the UI won't scale and will become tiny. There is a workaround that involves rendering the game at a specific resolution and the UI at a lower resolution (effectively making it bigger):
 
 1. Download the latest version of [dgVoodoo2](https://www.pcgamingwiki.com/wiki/DgVoodoo_2#DirectX_9).
-2. Open the downloaded archive and extract `dgVoodoo.conf`, `dgVoodooCpl.exe` and `MS\x86\D3D9.dll` to [\<path-to-game\>](#glossary).
+2. Open the downloaded archive and extract `dgVoodoo.conf`, `dgVoodooCpl.exe` and `MS\x86\D3D9.dll` to [`<path-to-game>`](#glossary).
 3. Run `dgVoodooCpl.exe`, go to the `DirectX` tab and select `GeForce FX 5700 Ultra` from the `Videocard` drop down list (this will get rid of a warning at launch).
 4. From the same tab, select your native resolution from the `Resolution` drop down list.
 5. Hit `OK`.
@@ -172,7 +172,7 @@ The game on Steam is available in various languages, however these do not locali
 
 Killah and I collected most of these language packs and put them in a single location so that they're easily accessible. You'll find them [here](https://gist.github.com/GenesisFR/f3df7f092db17dd63d85eb1f19da7153), under `Language Packs`.
 
-Installing them is a simple as drag-and-dropping their content to [\<path-to-game\>](#glossary).
+Installing them is a simple as drag-and-dropping their content to [`<path-to-game>`](#glossary).
 
 Please note that the DS2 packs do not cover BW so if you're playing BW, pick the corresponding BW pack instead. Some of them also do not localize cutscenes and voices (you can guess by the file size).
 
@@ -181,7 +181,7 @@ Please note that the DS2 packs do not cover BW so if you're playing BW, pick the
 If you downloaded the [BW fix](#add-bw) after September 2025, you can skip the first 3 steps.
 
 1. Download the [latest](https://github.com/anzz1/openspy-client/releases/latest) version of OpenSpy.
-2. Extract `openspy.x86.dll` to [\<path-to-game\>](#glossary).
+2. Extract `openspy.x86.dll` to [`<path-to-game>`](#glossary).
 3. Rename it as `version.dll`.
 4. Run the game.
 5. The `Internet` and `GameSpy` buttons should now work properly and let you join others.
@@ -234,7 +234,7 @@ Please note that these steps are for Windows 10 with a version of ZeroTier from 
 
 ## Play windowed
 
-Add `fullscreen = false` to the top of [\<config-file\>](#glossary) (or [\<config-file-BW\>](#glossary) for BW).
+Add `fullscreen = false` to the top of [`<config-file>`](#glossary) (or [`<config-file-BW>`](#glossary) for BW).
 
 ## Run Elys Succubus Manager as Dungeon Siege 2 through Steam
 
@@ -249,7 +249,7 @@ On Linux, it'd look like `PROTON_REMOTE_DEBUG_CMD="/home/.steam/steam/steamapps/
 
 ## An attempt to delay-load a .dll or get a function address in a delay-loaded .dll failed
 
-Copy the file mentioned at the bottom of the pop-up (likely `binkw32.dll`) from [\<path-to-game\>](#glossary)`\system` to [\<path-to-game\>](#glossary).
+Copy the file mentioned at the bottom of the pop-up (likely `binkw32.dll`) from [`<path-to-game>\system`](#glossary) to [`<path-to-game>`](#glossary).
 
 ## Black screen at startup
 
@@ -269,7 +269,7 @@ Use one of the updated [fixed executables](https://community.pcgamingwiki.com/fi
 
 ## Characters are invisible
 
-Open [\<path-to-game\>](#glossary)`\system_detail.gas` and change all occurrences of `simple_render = true` to `simple_render = false`.
+Open [`<path-to-game>\system_detail.gas`](#glossary) and change all occurrences of `simple_render = true` to `simple_render = false`.
 
 ## Crash/exception
 
@@ -285,13 +285,13 @@ It can be caused by literally anything. Here are a few common fixes I've gathere
 - Some mods can conflict with each other. Find and remove conflicting mods.
 - Some mods don't work with BW. Find and remove incompatible mods, then look for similar mods compatible with BW.
 - Make the game recognize your GPU with this [guide](https://steamcommunity.com/sharedfiles/filedetails/?id=780053070).
-- Run [\<path-to-game\>](#glossary)`\DS2VideoConfig.exe` and switch your driver to "[\<gpu-model\>](#glossary) - Hardware" (or its TnL equivalent).
+- Run [`<path-to-game>\DS2VideoConfig.exe`](#glossary) and switch your driver to [`<gpu-model> - Hardware`](#glossary) (or its TnL equivalent).
 
-Note: DS2VideoConfig only edits [\<config-file\>](#glossary) so make sure to copy its content to [\<config-file-BW\>](#glossary) if you're using BW.
+Note: DS2VideoConfig only edits [`<config-file>`](#glossary) so make sure to copy it to [`<path-to-docs-BW>`](#glossary) if you're using BW.
 
 ## Frame rate locked to 75 fps in windowed mode
 
-Add `maxfps = 0` to the top of [\<config-file\>](#glossary) (or [\<config-file-BW\>](#glossary) for BW).
+Add `maxfps = 0` to the top of [`<config-file>`](#glossary) (or [`<config-file-BW>`](#glossary) for BW).
 
 ## Game freezes after creating a character
 
@@ -299,7 +299,7 @@ Make sure you installed the correct version of the mods you're using, for instan
 
 ## In order to play Dungeon Siege 2: Broken World, you must first install the full version of Dungeon Siege 2
 
-This error can only be seen and interacted with when running the game in [windowed](#play-windowed) mode. download and run the [DS2 reg patch](https://github.com/GenesisFR/RegPatches) from [\<path-to-game\>](#glossary) (select option 1).
+This error can only be seen and interacted with when running the game in [windowed](#play-windowed) mode. download and run the [DS2 reg patch](https://github.com/GenesisFR/RegPatches) from [`<path-to-game>`](#glossary) (select option 1).
 
 ## Inn conversion bug
 
@@ -318,7 +318,7 @@ Note: this is for physical LAN games (not VPN).
 
 ## Missing/corrupted DLLs
 
-If you see an error about a missing/corrupted DLL, copy the following DLLs from [\<path-to-game\>](#glossary)`\system\` to [\<path-to-game\>](#glossary):
+If you see an error about a missing/corrupted DLL, copy the following DLLs from [`<path-to-game>\system\`](#glossary) to [`<path-to-game>`](#glossary):
 
 ```
 binkw32.dll
@@ -331,7 +331,7 @@ For some reason, the game can't find them on some systems. This makes sure it do
 
 For DS2, see [PCGamingWiki](https://pcgamingwiki.com/wiki/Dungeon_Siege_II#No_mouse_cursor).  
 For BW, use the [BW fix](#add-bw).  
-You can also use [WineD3D for Windows](https://fdossena.com/?p=wined3d/index.frag), just place `d3d9.dll` and `wined3d.dll` in [\<path-to-game\>](#glossary).  
+You can also use [WineD3D for Windows](https://fdossena.com/?p=wined3d/index.frag), just place `d3d9.dll` and `wined3d.dll` in [`<path-to-game>`](#glossary).  
 
 Note: using WineD3D makes loadings 50% slower.
 
@@ -379,7 +379,7 @@ When two computers on physical LAN can see each other in the lobby but the clien
 
 ## Save failed
 
-When trying to save the game, you may get a message saying "Save failed" and no save is created under [\<path-to-docs\>](#glossary).
+When trying to save the game, you may get a message saying "Save failed" and no save is created under [`<path-to-docs>`](#glossary).
 
 - Your antivirus/antimalware/ransomware protection is at fault. Add the game as an exception or disable it.
 - You have a username with special (non-latin) characters. Change your username so it only uses latin characters.
@@ -421,7 +421,7 @@ Source: https://steamcommunity.com/app/39200/discussions/0/1649917420751088963
 ## The dragon doesn't land in Snowbrook Haven
 
 1. Download this [file](http://ds-old.gemsite.org/download_get.php?get=download/dragfix.zip&id=41) ([alternate link](https://web.archive.org/web/20060217005250/https://www.htheking.de/dragfix.zip)).
-2. Extract it to [\<path-to-game\>](#glossary)`\Resources`.
+2. Extract it to [`<path-to-game>\Resources`](#glossary).
 3. Talk to the commander and the dragon quest will be completed.
 
 Source: https://steamcommunity.com/app/39200/discussions/0/792924412399466600/#c3005551013347010720
@@ -429,7 +429,7 @@ Source: https://steamcommunity.com/app/39200/discussions/0/792924412399466600/#c
 ## The elven sanctuary door stays locked
 
 1. Download this [file](https://www.nexusmods.com/dungeonsiegeii/mods/138).
-2. Extract it to [\<path-to-game\>](#glossary)`\Resources`.
+2. Extract it to [`<path-to-game>\Resources`](#glossary).
 3. Buy the elven door key from Eirulan's reagent vendor.
 
 Note: you may need to use `All*Saves` or `Elys Succubus Manager` to see your saved game.
@@ -437,7 +437,7 @@ Note: you may need to use `All*Saves` or `Elys Succubus Manager` to see your sav
 ## The rebels don't become hostile during The Kalrathian Rebellion
 
 1. Download this [file](https://drive.google.com/file/d/1atgUmtr0Bw5BkuL2RtrLNNxk_cEs8DrQ).
-2. Extract it to [\<path-to-game\>](#glossary)`\Resources`.
+2. Extract it to [`<path-to-game>\Resources`](#glossary).
 3. Kill one morden and the rebellion quest will be completed.
 
 Source: https://steamcommunity.com/app/39200/discussions/0/1660069015245201005/#c3115906960366913670
@@ -448,11 +448,11 @@ See [Unable to access or create a critical path that is required to operate](htt
 
 Method 1 (recommended):
 
-Download and run the [DS2 reg patch](https://github.com/GenesisFR/RegPatches) from [\<path-to-game\>](#glossary) (select option 7).
+Download and run the [DS2 reg patch](https://github.com/GenesisFR/RegPatches) from [`<path-to-game>`](#glossary) (select option 7).
 
 Method 2:
 
-7. Click on `Add an allowed app` then `Browse all apps` and select [\<path-to-game\>](#glossary)`\DungeonSiege2.exe`.
+7. Click on `Add an allowed app` then `Browse all apps` and select [`<path-to-game>\DungeonSiege2.exe`](#glossary).
 
 ## Video initialization failure
 
@@ -471,7 +471,7 @@ Make the game's executable large-address aware using the [LAA enabler](https://w
 
 ## Window is offscreen
 
-Add these lines to the top of [\<config-file\>](#glossary) (or [\<config-file-BW\>](#glossary) for BW):
+Add these lines to the top of [`<config-file>`](#glossary) (or [`<config-file-BW>`](#glossary) for BW):
 
 ```
 x=0
@@ -488,7 +488,7 @@ Lower the game's height (see [Playing Dungeon Siege 2 with a Custom Resolution](
 
 This error can only be seen and interacted with when running the game in [windowed](#play-windowed) mode.
 
-If you can see the pop-up, just hit `OK` and it should no longer show up. If it still does, you can add `min_spec_warning = true` to the top of [\<config-file\>](#glossary) (or [\<config-file-BW\>](#glossary) for BW).
+If you can see the pop-up, just hit `OK` and it should no longer show up. If it still does, you can add `min_spec_warning = true` to the top of [`<config-file>`](#glossary) (or [`<config-file-BW>`](#glossary) for BW).
 
 # Issues unresolved
 
@@ -506,7 +506,7 @@ You can try disabling virtualization in your BIOS settings.
 
 If that doesn't work, you can try removing BW (see [DS2Mod crashes at launch](#ds2mod-crashes-at-launch)) and use the original DS2 executable your game version shipped with.
 
-If that still doesn't work, remove your language pack, if you're using any. To do that, remove the following files in [\<path-to-game\>](#glossary):
+If that still doesn't work, remove your language pack, if you're using any. To do that, remove the following files in [`<path-to-game>`](#glossary):
 
 ```
 Resources\language.ds2res
@@ -525,7 +525,7 @@ From my testing, `DS2All*Saves v1` works with the GOG/Steam DS2 version while `D
 
 ## Cannot find or load Dungeon Siege 2
 
-Move the `All*Saves` files to [\<path-to-game\>](#glossary).
+Move the `All*Saves` files to [`<path-to-game>`](#glossary).
 
 ## Cannot load DS2 All*Saves
 
@@ -533,7 +533,7 @@ See [Cannot apply the All*Saves fix](#cannot-apply-the-allsaves-fix).
 
 ## DS2Mod crashes at launch
 
-DS2Mod, just like DS2, doesn't launch when BW is installed. Move the following files out of the [\<path-to-game\>](#glossary)`\Resources\` folder:
+DS2Mod, just like DS2, doesn't launch when BW is installed. Move the following files out of the [`<path-to-game>\Resources\`](#glossary) folder:
 
 ```
 xLogic.ds2res
@@ -556,7 +556,7 @@ If you see an error like "Impossible to start DungeonSiege2.exe (Broken World)!"
 
 ## Elys Succubus Manager doesn't find BW
 
-If you see an error like "Dungeon Siege 2 Broken World installation directory was not found in the Windows registry!", download and run the [DS2 reg patch](https://github.com/GenesisFR/RegPatches) from [\<path-to-game\>](#glossary) (select option 1 or 3).
+If you see an error like "Dungeon Siege 2 Broken World installation directory was not found in the Windows registry!", download and run the [DS2 reg patch](https://github.com/GenesisFR/RegPatches) from [`<path-to-game>`](#glossary) (select option 1 or 3).
 
 ## Elys Succubus Manager doesn't load
 
@@ -567,12 +567,12 @@ If you don't see the new races (nymph, succubus, vampire, daemon, drow) added by
 
 ## Install the DS2 Tool Kit on the Steam version
 
-1. Download and run the [DS2 reg patch](https://github.com/GenesisFR/RegPatches) from [\<path-to-game\>](#glossary) (select option 1).
-2. If you're not using the [BW fix](#add-bw), you must also place this [file](https://www.mediafire.com/file/90262526a2w34xu/SETUPENU.DLL) in [\<path-to-game\>](#glossary) before running the installer.
+1. Download and run the [DS2 reg patch](https://github.com/GenesisFR/RegPatches) from [`<path-to-game>`](#glossary) (select option 1).
+2. If you're not using the [BW fix](#add-bw), you must also place this [file](https://www.mediafire.com/file/90262526a2w34xu/SETUPENU.DLL) in [`<path-to-game>`](#glossary) before running the installer.
 
 ## Make DungeonSiege2Mod work on the Steam version
 
-Download and run the [DS2 reg patch](https://github.com/GenesisFR/RegPatches) from [\<path-to-game\>](#glossary) (select option 1).
+Download and run the [DS2 reg patch](https://github.com/GenesisFR/RegPatches) from [`<path-to-game>`](#glossary) (select option 1).
 
 DungeonSiege2Mod uses SmarteSecure DRM disc check so you'll need to have disc 1 of DS2 in your disc drive or it'll refuse to run.
 
@@ -582,9 +582,9 @@ Just mount the ISO with Windows 10 File Explorer or with a third party software 
 
 If you have a "Couldn't register file.tmp" pop-up followed by a SmarteSecure pop-up, it means the location you're trying to run it from has permission issues. Run DS2Mod as admin or move it elsewhere.
 
-You may also have a few "ATLCOMHelper Exception" pop-ups. You can safely ignore those and DungeonSiege2Mod will run. To get rid of them, either use the DungeonSiege2Mod shortcut in the toolkit installation directory or place DungeonSiege2Mod in [\<path-to-game\>](#glossary) and run it from there.
+You may also have a few "ATLCOMHelper Exception" pop-ups. You can safely ignore those and DungeonSiege2Mod will run. To get rid of them, either use the DungeonSiege2Mod shortcut in the toolkit installation directory or place DungeonSiege2Mod in [`<path-to-game>`](#glossary) and run it from there.
 
-Note: DungeonSiege2Mod isn't compatible with BW so move all files starting with `x` in [\<path-to-game\>](#glossary)`\Resources`somewhere else.
+Note: DungeonSiege2Mod isn't compatible with BW so move all files starting with `x` in [`<path-to-game>\Resources`](#glossary) somewhere else.
 
 ## [Remove a tank's protection](https://github.com/GenesisFR/DS1TroubleshootingGuide#remove-a-tanks-protection)
 
