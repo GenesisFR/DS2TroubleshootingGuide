@@ -152,7 +152,8 @@ You may encounter two issues when using dgVoodoo2:
 - if your game crashes at launch or slows down when moving the mouse, disable third-party overlays and frame limiters.
 - if you see a Windows cursor flicker in the middle of your screen, just tab out and tab back in.
 
-Note: these instructions won't work while running the game in windowed mode.
+> [!NOTE]
+These instructions won't work while running the game in windowed mode.
 
 ## Play in borderless fullscreen
 
@@ -164,7 +165,8 @@ There are multiple programs that allow games to run borderless fullscreen (you c
 4. If the game doesn't appear in the list, click on `Show All`, select `Dungeon Siege II` and click on `Add`.
 5. Select the game in the list and press the `Fullscreenize` button (or use your hotkey combination), preferably after loading a game.
 
-Note: the main menu UI has a fixed resolution and will be broken, repeat step 5 again to make the game windowed again.
+> [!NOTE]
+The main menu UI has a fixed resolution and will be broken, repeat step 5 again to make the game windowed again.
 
 ## Play in other languages
 
@@ -187,7 +189,8 @@ If you downloaded the [BW fix](#add-bw) after September 2025, you can skip the f
 5. The `Internet` and `GameSpy` buttons should now work properly and let you join others.
 6. If hosting a game, you'll have to [port-forward](https://portforward.com/router.htm) `UDP 2300-2400` and `UDP 6073`.
 
-Note: OpenSpy currently has a [bug](https://github.com/anzz1/openspy-client/issues/9) when trying to sign in again.
+> [!NOTE]
+OpenSpy currently has a [bug](https://github.com/anzz1/openspy-client/issues/9) when trying to sign in again.
 
 ## Play online (virtual LAN)
 
@@ -287,7 +290,8 @@ It can be caused by literally anything. Here are a few common fixes I've gathere
 - Make the game recognize your GPU with this [guide](https://steamcommunity.com/sharedfiles/filedetails/?id=780053070).
 - Run [`<path-to-game>\DS2VideoConfig.exe`](#glossary) and switch your driver to [`<gpu-model> - Hardware`](#glossary) (or its TnL equivalent).
 
-Note: DS2VideoConfig only edits [`<config-file>`](#glossary) so make sure to copy it to [`<path-to-docs-BW>`](#glossary) if you're using BW.
+> [!NOTE]
+DS2VideoConfig only edits [`<config-file>`](#glossary) so make sure to copy it to [`<path-to-docs-BW>`](#glossary) if you're using BW.
 
 ## Frame rate locked to 75 fps in windowed mode
 
@@ -314,7 +318,8 @@ In the MP lobby, if nothing happens when clicking the `Join` button, make sure e
 1. [Enable DirectPlay](https://github.com/GenesisFR/DS1TroubleshootingGuide?#enable-directplay).
 2. Go to `Control Panel -> Network and Sharing Centre -> Advanced sharing settings` and turn on `Network discovery`.
 
-Note: this is for physical LAN games (not VPN).
+> [!NOTE]
+This is for physical LAN games (not VPN).
 
 ## Missing/corrupted DLLs
 
@@ -333,7 +338,8 @@ For DS2, see [PCGamingWiki](https://pcgamingwiki.com/wiki/Dungeon_Siege_II#No_mo
 For BW, use the [BW fix](#add-bw).  
 You can also use [WineD3D for Windows](https://fdossena.com/?p=wined3d/index.frag), just place `d3d9.dll` and `wined3d.dll` in [`<path-to-game>`](#glossary).  
 
-Note: using WineD3D makes loadings 50% slower.
+> [!NOTE]
+Using WineD3D makes loadings (up to 50%) slower.
 
 ## Name is already in use
 
@@ -359,7 +365,8 @@ Method 2:
 4. Go back to your game and click on the `Local Network` button again.
 5. Reenable the network adapter you disabled in step 2.
 
-Note: only one network adapter must have its `MTU` set to `1` at any given time!
+> [!NOTE]
+Only one network adapter must have its `MTU` set to `1` at any given time!
 
 ## Runtime Error (R6025 - pure virtual function call)
 
@@ -385,7 +392,8 @@ When trying to save the game, you may get a message saying "Save failed" and no 
 - You have a username with special (non-latin) characters. Change your username so it only uses latin characters.
 - Run the game as admin.
 
-Note: it happens in a few other games too.
+> [!NOTE]
+It happens in a few other games too.
 
 Source: https://steamcommunity.com/app/39200/discussions/0/2619339453457265287
 
@@ -432,7 +440,8 @@ Source: https://steamcommunity.com/app/39200/discussions/0/792924412399466600/#c
 2. Extract it to [`<path-to-game>\Resources`](#glossary).
 3. Buy the elven door key from Eirulan's reagent vendor.
 
-Note: you may need to use `All*Saves` or `Elys Succubus Manager` to see your saved game.
+> [!NOTE]
+You may need to use `All*Saves` or `Elys Succubus Manager` to see your saved game.
 
 ## The rebels don't become hostile during The Kalrathian Rebellion
 
@@ -584,7 +593,8 @@ If you have a "Couldn't register file.tmp" pop-up followed by a SmarteSecure pop
 
 You may also have a few "ATLCOMHelper Exception" pop-ups. You can safely ignore those and DungeonSiege2Mod will run. To get rid of them, either use the DungeonSiege2Mod shortcut in the toolkit installation directory or place DungeonSiege2Mod in [`<path-to-game>`](#glossary) and run it from there.
 
-Note: DungeonSiege2Mod isn't compatible with BW so move all files starting with `x` in [`<path-to-game>\Resources`](#glossary) somewhere else.
+> [!NOTE]
+DungeonSiege2Mod isn't compatible with BW so move all files starting with `x` in [`<path-to-game>\Resources`](#glossary) somewhere else.
 
 ## [Remove a tank's protection](https://github.com/GenesisFR/DS1TroubleshootingGuide#remove-a-tanks-protection)
 
