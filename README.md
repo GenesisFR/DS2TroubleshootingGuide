@@ -262,7 +262,7 @@ Depending on the error you're getting, you should apply the fixes from [Crash/ex
 
 ## Block name collision. Parent block has a dir and a second dir child block named 'maps'
 
-This issue only occurs on Linux when using a version of the [BW fix](#add-bw) from 2021 or older. You have a `maps` and a `Maps` folder. Copy the content of `maps` into `Maps` then delete `maps`.
+This issue only occurs on Linux when using a version of the [BW fix](#add-bw) from 2021 or older and is caused by the casing of the `Maps` folder. Move the content of `maps` to `Maps`, then delete the `maps` folder.
 
 ## Camera spinning too fast
 
