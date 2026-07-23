@@ -95,7 +95,7 @@ Follow the instructions from the [BW fix guide](https://gist.github.com/GenesisF
 
 ## Add the game on GameRanger
 
-Method 1 (Windows 2000 or later):
+**Method 1 (Windows 2000 or later):**
 
 1. Download and run the [DS2 reg patch](https://github.com/GenesisFR/RegPatches) from [`<path-to-game>`](#glossary) (select option 6).
 2. In `GameRanger`, hit `Edit -> Options -> Games -> Dungeon Siege 2 -> Browse` then select `DungeonSiege2.exe` from `Program Files`:
@@ -105,7 +105,7 @@ Method 1 (Windows 2000 or later):
 > [!NOTE]
 You'll need additional programs on Windows 2000/XP/Server 2003.
 
-Method 2 (Windows Vista or later):
+**Method 2 (Windows Vista or later):**
 
 1. Download and run [Symlinker](https://github.com/amd989/Symlinker/releases/tag/v1.1.2.15) (click on `Symlink.Creator.zip`). It's a front-end for the `mklink` command.
 2. In `Symlinker`, make a directory junction to your game directory in `Program Files`:
@@ -345,7 +345,7 @@ Using WineD3D makes loadings (up to 50%) slower.
 
 This error occurs when hosting a LAN game because the game is using the wrong network adapter. You have to make it use another network adapter (preferably your virtual LAN network adapter) in one of these ways.
 
-Method 1:
+**Method 1:**
 
 1. Go to `Control Panel -> Network and Sharing Centre -> Change adapter settings`.
 2. Double-click on your virtual LAN network adapter (ex: ZeroTier).
@@ -357,7 +357,7 @@ Method 1:
 
 If it didn't work, revert your changes and try with your main network adapter.
 
-Method 2:
+**Method 2:**
 
 1. Go to `Control Panel -> Network and Sharing Centre -> Change adapter settings`.
 2. Disable your virtual LAN network adapter OR disable your main network adapter.
@@ -455,12 +455,18 @@ Source: https://steamcommunity.com/app/39200/discussions/0/1660069015245201005/#
 
 See [Unable to access or create a critical path that is required to operate](https://github.com/GenesisFR/DS1TroubleshootingGuide?#unable-to-access-or-create-a-critical-path-that-is-required-to-operate) with the following differences.
 
-Method 1 (recommended):
+**Method 1 (recommended):**
 
 Download and run the [DS2 reg patch](https://github.com/GenesisFR/RegPatches) from [`<path-to-game>`](#glossary) (select option 7).
 
-Method 2:
+**Method 2:**
 
+1. Open `Windows Security`.
+2. Navigate to `Virus & Threat Protection`.
+3. Click on `Manage Settings`.
+4. Scroll down to `Controlled Folder Access`.
+5. Click on `Manage Controlled Folder Access`.
+6. Click on `Allow an app through Controlled Folder Access`.
 7. Click on `Add an allowed app` then `Browse all apps` and select [`<path-to-game>\DungeonSiege2.exe`](#glossary).
 
 ## Video initialization failure
