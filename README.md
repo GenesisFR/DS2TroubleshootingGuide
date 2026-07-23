@@ -4,9 +4,9 @@
 
 * [1.0 Glossary](#glossary)
 * [2.0 Guides](#guides)
-   * [2.1 Add the game on GameRanger](#add-the-game-on-gameranger)
-   * [2.2 Change the FOV](#change-the-fov)
-   * [2.3 Enable BW + Extras](#enable-bw--extras)
+   * [2.1 Add BW](#add-bw)
+   * [2.2 Add the game on GameRanger](#add-the-game-on-gameranger)
+   * [2.3 Change the FOV](#change-the-fov)
    * [2.4 HD textures](#hd-textures)
    * [2.4 Increase shadow resolution](#increase-shadow-resolution)
    * [2.5 Increase UI size](#increase-ui-size)
@@ -85,9 +85,13 @@ SP = Singleplayer
 \<path-to-docs-BW\> = `%USERPROFILE%\Documents\My Games\Dungeon Siege 2 Broken World`  
 \<path-to-game\> = your installation directory (ex: `%ProgramFiles(x86)%\Steam\steamapps\common\Dungeon Siege 2`)  
 
-Please note that this document is based on the Steam version (combined with the [BW fix](#enable-bw--extras)) and Windows 10. I did my best to accommodate retail users and those not using BW. Some steps may be different and a few issues may not happen on the retail version or other operating systems.
+Please note that this document is based on the Steam version (combined with the [BW fix](#add-bw)) and Windows 10. I did my best to accommodate retail users and those not using BW. Some steps may be different and a few issues may not happen on the retail version or other operating systems.
 
 # Guides
+
+## Add BW
+
+Follow the instructions from the [BW fix guide](https://gist.github.com/GenesisFR/f3df7f092db17dd63d85eb1f19da7153).
 
 ## Add the game on GameRanger
 
@@ -117,10 +121,6 @@ Method 2 (Windows Vista or later):
 1. Download this [archive](http://www.wsgf.org/f/u/contrib/dr/255/hacks/DS2%20Files.zip).
 2. Place the correct file for your resolution in [\<path-to-game\>](#glossary)`\Resources`.
 3. Copy the file [\<path-to-game\>](#glossary)`\maps\World.ds2map` to the [\<path-to-game\>](#glossary)`\Resources` folder and rename it as `World.ds2res`.
-
-## Enable BW + Extras
-
-Follow the instructions from the [BW fix guide](https://gist.github.com/GenesisFR/f3df7f092db17dd63d85eb1f19da7153).
 
 ## Increase shadow resolution
 
@@ -178,7 +178,7 @@ Please note that the DS2 packs do not cover BW so if you're playing BW, pick the
 
 ## Play online (OpenSpy)
 
-If you downloaded the BW fix after September 2025, you can skip the first 3 steps.
+If you downloaded the [BW fix](#add-bw) after September 2025, you can skip the first 3 steps.
 
 1. Download the [latest](https://github.com/anzz1/openspy-client/releases/latest) version of OpenSpy.
 2. Extract `openspy.x86.dll` to [\<path-to-game\>](#glossary).
@@ -259,7 +259,7 @@ Depending on the error you're getting, you should apply the fixes from [Crash/ex
 
 ## Block name collision. Parent block has a dir and a second dir child block named 'maps'
 
-This issue only occurs on Linux when using a version of the [BW fix](#enable-bw--extras) from 2021 or older. You have a `maps` and a `Maps` folder. Copy the content of `maps` into `Maps` then delete `maps`.
+This issue only occurs on Linux when using a version of the [BW fix](#add-bw) from 2021 or older. You have a `maps` and a `Maps` folder. Copy the content of `maps` into `Maps` then delete `maps`.
 
 ## Camera spinning too fast
 
@@ -330,7 +330,7 @@ For some reason, the game can't find them on some systems. This makes sure it do
 ## Mouse cursor is missing
 
 For DS2, see [PCGamingWiki](https://pcgamingwiki.com/wiki/Dungeon_Siege_II#No_mouse_cursor).  
-For BW, use the [BW fix](#enable-bw--extras).  
+For BW, use the [BW fix](#add-bw).  
 You can also use [WineD3D for Windows](https://fdossena.com/?p=wined3d/index.frag), just place `d3d9.dll` and `wined3d.dll` in [\<path-to-game\>](#glossary).  
 
 Note: using WineD3D makes loadings 50% slower.
@@ -568,7 +568,7 @@ If you don't see the new races (nymph, succubus, vampire, daemon, drow) added by
 ## Install the DS2 Tool Kit on the Steam version
 
 1. Download and run the [DS2 reg patch](https://github.com/GenesisFR/RegPatches) from [\<path-to-game\>](#glossary) (select option 1).
-2. If you're not using the [BW fix](#enable-bw--extras), you must also place this [file](https://www.mediafire.com/file/90262526a2w34xu/SETUPENU.DLL) in [\<path-to-game\>](#glossary) before running the installer.
+2. If you're not using the [BW fix](#add-bw), you must also place this [file](https://www.mediafire.com/file/90262526a2w34xu/SETUPENU.DLL) in [\<path-to-game\>](#glossary) before running the installer.
 
 ## Make DungeonSiege2Mod work on the Steam version
 
