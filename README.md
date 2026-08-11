@@ -321,7 +321,7 @@ In the MP lobby, if nothing happens when clicking the `Join` button, make sure e
 
 ## LAN games are not visible
 
-1. [Enable DirectPlay](https://github.com/GenesisFR/DS1TroubleshootingGuide?#enable-directplay).
+1. [Enable DirectPlay](https://github.com/GenesisFR/DS1TroubleshootingGuide#enable-directplay).
 2. Go to `Control Panel -> Network and Sharing Centre -> Advanced sharing settings` and turn on `Network discovery`.
 
 > [!NOTE]
@@ -459,7 +459,7 @@ Source: https://steamcommunity.com/app/39200/discussions/0/1660069015245201005/#
 
 ## Unable to access or create a critical path that is required to operate
 
-See [Unable to access or create a critical path that is required to operate](https://github.com/GenesisFR/DS1TroubleshootingGuide?#unable-to-access-or-create-a-critical-path-that-is-required-to-operate) with the following differences.
+See [Unable to access or create a critical path that is required to operate](https://github.com/GenesisFR/DS1TroubleshootingGuide#unable-to-access-or-create-a-critical-path-that-is-required-to-operate) with the following differences.
 
 **Method 1 (recommended):**
 
